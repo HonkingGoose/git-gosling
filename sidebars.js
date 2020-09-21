@@ -17,6 +17,11 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Advanced topics',
+      items: ['clean_up_your_git_history'],
+    },
+    {
+      type: 'category',
       label: 'Further resources',
       items: ['recommended_reading'],
     },
