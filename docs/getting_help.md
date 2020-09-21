@@ -22,5 +22,5 @@ You can read the manual for the `git config` command by doing any of the followi
 
 ## Read a proper book (ProGit2)
 
-I recommend that you read the [Pro Git 2 book](https://github.com/progit/progit2) online, it does not cost any money.
+I recommend that you read the [Pro Git 2 book](https://git-scm.com/book/en/v2) online, it does not cost any money.
 The ProGit2 book covers everything I talk about in this guide in more depth and more detail.
