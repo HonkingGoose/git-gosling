@@ -18,7 +18,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Advanced topics',
-      items: ['clean_up_your_git_history'],
+      items: ['advanced_git_configuration', 'clean_up_your_git_history'],
     },
     {
       type: 'category',
