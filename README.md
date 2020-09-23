@@ -1,8 +1,14 @@
 ![Node.js CI](https://github.com/RoostingGeese/git-gosling/workflows/Node.js%20CI/badge.svg)
 
-# Website
+# Grow from gosling to goose with Git
 
-This website uses [Docusaurus 2](https://v2.docusaurus.io/) to generate the website.
+This project contains lessons and hands-on exercises, best practices and more.
+If you've read all the material, you should be able to work with others using Git and GitHub.
+
+## How to contribute to this project
+
+We use [Docusaurus 2](https://v2.docusaurus.io/) to generate the website.
+If you want to contribute, you must clone this repository, and follow the steps below.
 
 ### Installation
 
