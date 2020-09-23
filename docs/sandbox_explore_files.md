@@ -1,5 +1,5 @@
 ---
-id: explore_git_sandbox
+id: sandbox_explore_files
 title: Explore your Git sandbox
 ---
 

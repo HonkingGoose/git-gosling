@@ -1,5 +1,5 @@
 ---
-id: setup_git_sandbox
+id: sandbox_setup
 title: Setup your Git sandbox
 ---
 
