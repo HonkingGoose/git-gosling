@@ -13,7 +13,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Git sandbox',
-      items: ['sandbox_setup', 'sandbox_explore_files', 'sandbox_git_status', 'sandbox_first_commit'],
+      items: ['sandbox_setup', 'sandbox_explore_files', 'sandbox_git_status', 'sandbox_first_git_add', 'sandbox_first_commit'],
     },
     {
       type: 'category',
