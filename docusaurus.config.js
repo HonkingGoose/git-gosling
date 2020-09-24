@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Git Gosling',
   tagline: 'Grow from gosling to goose with this Git guide.',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://git-gosling.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
