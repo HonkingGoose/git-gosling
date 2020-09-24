@@ -3,6 +3,17 @@ id: advanced_git_configuration
 title: Advanced Git configuration
 ---
 
+## List all Git settings
+
+You can get a list of all your settings with `git config --list --show-origin`.
+This shows you the current settings, and what file is providing these settings.
+
+```git
+$ git config --list --show-origin
+```
+
+For more on this read [First-Time Git Setup, ProGit2 book](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+
 ## Default branch for new repositories
 
 Starting with Git 2.28 you can set the default branch name.
