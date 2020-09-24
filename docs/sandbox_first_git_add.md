@@ -18,7 +18,7 @@ Now we edit it with our editor of choice, let's say Visual Studio Code:
 code README.md
 ```
 
-In the editor we create the following line, and add a newline at the end:
+Enter the following text and add a newline at the end:
 
 ```
 This is the readme for the sandbox repository.
