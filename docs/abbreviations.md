@@ -6,5 +6,5 @@ title: List of abbreviations
 You'll find the following abbreviations in the guide:
 
 - **CLI** Command line interface
-- **IDE** Integrated Development Editor
+- **IDE** Integrated Development Environment
 - **Bash** Bourne Again SHell
