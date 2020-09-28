@@ -35,7 +35,7 @@ Not integrating frequently leads to:
 To be very clear, integrating your work means pulling **and** pushing to the mainline branch.
 You're not integrating if you're merely pulling the current mainline!
 
-I recommend that you read Martin Fowlers work on [Integration Frequency](https://martinfowler.com/articles/branching-patterns.html#integration-frequency).
+I recommend that you read Martin Fowler's work on [Integration Frequency](https://martinfowler.com/articles/branching-patterns.html#integration-frequency).
 
 ## Write good descriptive commit messages
 
