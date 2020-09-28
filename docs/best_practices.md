@@ -40,7 +40,7 @@ I recommend that you read Martin Fowler's work on [Integration Frequency](https:
 ## Write good descriptive commit messages
 
 A good commit message tells the story of your changes.
-Explain what you did, why you did it.
+Explain what changes you're making, and why you're making them.
 
 I recommend your commit messages follow a template, like this one:
 
