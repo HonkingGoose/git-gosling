@@ -72,14 +72,14 @@ Further paragraphs come after blank lines.
 
 Developers avoid merges/updates, because they are afraid of breaking things.
 If this is you, go write some proper tests!
-Tests provide a safety net and peace of mind.
 
-At the very least you write a *smoke test*, to ensure you can actually create a build.
+At the very least write a *smoke test*, to ensure that you can actually make a build.
 
-Even better is to test the *happy path* of your code with unit tests.
-This ensures that the things you do most often continue to work.
+Even better, test the *happy path* of your code.
+This ensures the most frequently used code continues to work.
 
-If you really want my seal of approval: follow Test Driven Development.
+For even more confidence, learn and follow the **Test Driven Development** (TDD) process.
+Following the TDD process will result in code that has full test coverage.
 
 ## Use GitHub Actions
 
