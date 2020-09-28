@@ -88,6 +88,6 @@ You can use GitHub Actions to run tests on each push and pull to the mainline br
 ## Use Dependabot to check for updates
 
 Keeping your dependencies up to date is essential to keep your code safe and functional.
-Not updating frequently will only increase the headache when you do finally need to update!
+Delaying your updates will only worsen the headache you will get when you must update!
 I recommend that you use Dependabot to check for updates to your (development) dependencies.
 It's free and fully integrated into GitHub.
