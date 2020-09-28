@@ -17,6 +17,11 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Best practices',
+      items: ['best_practices'],
+    },
+    {
+      type: 'category',
       label: 'Advanced topics',
       items: ['advanced_git_configuration', 'clean_up_your_git_history'],
     },
