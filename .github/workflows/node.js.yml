@@ -30,7 +30,7 @@ jobs:
     - name: Install Yarn with npm
       run: npm install -g yarn
 
-    - name: yarn install, build
+    - name: Use Yarn to install dependencies and create a build
       run: |
         yarn install
         yarn build
