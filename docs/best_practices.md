@@ -31,7 +31,6 @@ Not integrating frequently leads to:
 - Long lived branches that nobody ever wants to merge.
 - Nobody gets a heads-up about changes in the code that affect their work.
 - Big messy merges that leave everybody afraid to do a `git merge` ever again.
-- The need to have a "stabilizing branch" like `dev`, `acceptance`.
 
 To be very clear, integrating your work means pulling **and** pushing to the mainline branch.
 You're not integrating if you're merely pulling the current mainline!
