@@ -3,26 +3,56 @@ id: installing
 title: Installing Git
 ---
 
+## Use Git 2.25 or newer
+
+If you use an older version of Git you will not have the `git restore` and `git switch` commands that I use in this guide.
+
+## Checking the Git version
+
+If you've already got Git on your system, use the `git --version` command to check your version.
+
+```git
+$ git --version
+
+git version 2.25
+```
+
 ## Linux
 
 The easiest way to install Git is via the package manager that comes with your distribution.
+Some distributions provide up-to-date versions, others do not.
 
-:::note
-Ubuntu and Debian will probably install an old version of Git.
-If you want the latest and greatest you can use the `git-core/ppa`.
-This is only recommended for advanced users!
-```
-$ sudo add-apt-repository ppa:git-core/ppa
-$ sudo apt update
-$ sudo apt install git
-```
-:::
+Ubuntu and Debian will provide a badly outdated version of Git.
+
+Fedora, OpenSuse and Arch provide more up-to-date versions of Git.
 
 ### Ubuntu/Debian
 
-Install Git with the `apt` package management system:
+#### Install older version of Git via the official repositories
+
+You can install an older version of Git via the official repositories:
 
 ```
+$ sudo apt update
+$ sudo apt install git
+```
+
+:::tip
+If you're on Ubuntu 20.04, you can use the official repositories, and still follow the guide.
+You don't need to use the `git-core/ppa`.
+:::
+
+#### Use an unofficial ppa to get an up-to-date version of Git
+
+Ubuntu 18.04/16.04 and Debian Stable will provide an outdated version of Git via their official package repositories.
+You will not be able to follow the guide unless you use the `git-core/ppa` or build Git from the source files yourself.
+
+:::warning
+When you use a `ppa` you're trusting somebody other than the official Ubuntu/Debian package maintainers!
+:::
+
+```
+$ sudo add-apt-repository ppa:git-core/ppa
 $ sudo apt update
 $ sudo apt install git
 ```
@@ -34,6 +64,10 @@ Install Git with the `dnf` package management system:
 ```
 $ sudo dnf install git
 ```
+
+### Other distributions
+
+You can see a list of installation instructions at [git-scm.com/download/linux](https://git-scm.com/download/linux).
 
 ## MacOS
 
