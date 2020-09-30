@@ -29,6 +29,7 @@ Others can easily get a copy of your work make improvements, and share their imp
 
 This guide will not cover any of the following:
 
+- Any versions of Git older than 2.25.
 - Any graphical interfaces for Git, like Sublime Merge, GitHub Desktop or GitKraken.
 - Git integrations, like those for VSCode, Atom, JetBrains's IDEs or Magit.
 - The GitLab web interface.
