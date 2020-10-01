@@ -17,7 +17,7 @@ Read the [ProGit2 book at git-scm.com](https://git-scm.com/book/en/v2).
 You can clean up messy work, with `git rebase`, before showing it to the world or your co-workers.
 Using `git rebase` without knowing what you're doing is a recipe for disaster.
 
-The [git-rebase.io](https://git-rebase.io/) will get you plenty of hands-on `git rebase` exercise.
+The [git-rebase.io](https://git-rebase.io/) website will get you plenty of hands-on `git rebase` exercise.
 
 ## Learn more Git workflows
 
