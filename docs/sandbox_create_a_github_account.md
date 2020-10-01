@@ -50,7 +50,12 @@ Use this personal access token instead of your GitHub password when you use the 
 
 ## Summary
 
-You have a GitHub account, verified your email address and turned on two-factor authentication.
-That was a lot of work, but you're ready to go now!
+You have:
 
+- Created a GitHub account.
+- Verified your email address.
+- Turned on two-factor authentication.
+- Created a personal access token.
+
+That was a lot of work, but you're ready to go now!
 In the next section you will learn how to create a repository on GitHub.
