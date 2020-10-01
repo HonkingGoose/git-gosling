@@ -156,7 +156,9 @@ Git is telling us that we:
 
 ### Check your repository on GitHub
 
-You can now see your repository in the webinterface of GitHub.
+Go to [GitHub.com](https://github.com/) while logged in, you will see a list of repositories.
+Click on your `sandbox` repository, and go explore.
+Do not edit the file in the GitHub repository, we'll do that together in the next section.
 
 ## Summary
 
