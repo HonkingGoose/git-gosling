@@ -9,3 +9,4 @@ You'll find the following abbreviations in the guide:
 - **IDE** Integrated Development Environment
 - **Bash** Bourne Again SHell
 - **PAT** Personal Access Token
+- **2FA** Two-factor authentication.
