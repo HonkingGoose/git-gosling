@@ -27,7 +27,7 @@ $ pwd
 
 :::tip
 
-If you get lost, and just want to return to your sandbox directory:
+If you get lost, and want to return to your sandbox directory:
 
 ```bash
 $ cd
