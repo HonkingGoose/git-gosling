@@ -36,7 +36,7 @@ In English, Git is telling us:
 1. That we are on the `main` branch, think of a branch as a place to save your work.
 2. That we have zero previous work saved with Git: `No commits yet`
 3. That there are no files in the directory that Git can track: `nothing to commit`.
-4. It offers a good tip to get started: `(create/copy files and use "git add" to track)`.
+4. Git offers a good tip to get started: `(create/copy files and use "git add" to track)`.
 
 Let's go follow Git's advice, and make a commit to save our work.
 Go to the next section to make your first commit.
