@@ -39,7 +39,7 @@ So let Git help you, and read what it's telling you.
 ## Use `git status`
 
 Remember to use `git status` whenever you're stuck or unsure what to do next.
-Usually Git will offer some advice to get going again, or undo things.
+Usually Git will offer some advice to get going again, or tell you how to undo things.
 
 ## Git's built-in manual
 
