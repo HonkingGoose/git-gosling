@@ -51,6 +51,8 @@ $ git <verb> --help
 $ man git <verb>
 ```
 
+### Example: help for `git config`
+
 Say you need more information on the `git config` command.
 You can read the manual for the `git config` command by doing any of the following:
 
