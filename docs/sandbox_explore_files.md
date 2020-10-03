@@ -18,7 +18,7 @@ As an example, the Ubuntu Bash command line prompt looks like this:
 computername@username:~/sandbox$
 ```
 
-If you don't know where you are, use the `pwd` command:
+You can use the "print working directory" command `pwd` to make sure where you are:
 
 ```bash
 $ pwd
