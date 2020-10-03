@@ -70,7 +70,6 @@ You do not need to understand what any of the files/directories in the `.git` di
 
 The key point is: Git needs the `.git` directory to do its work.
 
-
 ## Do not touch the `.git` directory!
 
 :::warning
