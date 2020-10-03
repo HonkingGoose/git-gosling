@@ -45,7 +45,7 @@ $ ls
 
 This is a bit confusing, it looks like nothing has happened at all!
 
-Use `ls` again but with the `--all` flag, this tells `ls` to list all files:
+Use `ls` again but with the `--all` option, this tells `ls` to list all files:
 
 ```bash
 $ ls --all

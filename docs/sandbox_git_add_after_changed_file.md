@@ -22,8 +22,8 @@ Git does not know about this yet.
 When you use `git add <filename>`, Git will just put all changes in that file into the staging area.
 
 Sometimes you want to pick and choose what goes into your commits, so that you can split up your work in logical chunks.
-Git has a flag for `git add`, which is `--patch`.
-When you use this flag, you enter an interactive mode.
+Git has an option for `git add`, which is `--patch`.
+When you use this option, you enter an interactive mode.
 Git will show you the changes you made, and asks you if you want to keep them or not.
 Let's go experiment with `git add --patch`!
 

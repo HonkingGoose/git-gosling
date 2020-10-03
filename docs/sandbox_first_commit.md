@@ -22,7 +22,7 @@ Changes to be committed:
 ## Git commit --verbose
 
 Now we'll make a commit, and save our work with Git.
-The `--verbose` flag tells Git to show us precisely what we're changing.
+The `--verbose` option tells Git to show us precisely what we're changing.
 This way you can check you're committing the wanted changes.
 
 ```git
