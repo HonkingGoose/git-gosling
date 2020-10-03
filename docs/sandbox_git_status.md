@@ -13,7 +13,7 @@ Remember: the `.git` folder is for Git's use only.
 You will not see this folder in the `git status` output.
 
 :::tip
-Use `git status` whenever you're stuck or not sure on what to to next.
+Use `git status` whenever you're stuck or not sure on what to do next.
 Git will try to help you!
 :::
 
