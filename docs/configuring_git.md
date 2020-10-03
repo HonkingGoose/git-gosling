@@ -3,19 +3,20 @@ id: configuring_git
 title: Configuring Git
 ---
 
-Before you can use Git, you'll need to configure it.
+Before you can use Git, you must configure it.
 
 ## Tell Git who you are
 
-Before you can do anything at all, you'll need to tell Git who you are.
-This is important because every time you save your work Git uses this information.
+Git must know your username and email.
+Every time you save your work with a commit, Git puts your username and email in the commit message.
 
-We'll use the `--global` flag so that Git will use this username and email for everything you do on this system.
+We'll use the `--global` option so that Git will use this username and email for everything you do on this system.
+
 If you want to override the global name or email address for a specific project, you can run the command without the `--global` option when you’re in that project.
 
 ### Username
 
-We'll tell Git what username to use when we create a commit.
+Tell Git your username:
 
 ```git
 $ git config --global user.name "Name Lastname"
@@ -34,7 +35,7 @@ Read the [GitHub docs on setting your username](https://docs.github.com/en/githu
 
 ### Email
 
-Next we'll tell Git what email address to use:
+Tell Git your email address:
 
 ```git
 $ git config --global user.email johndoe@example.com
@@ -53,10 +54,11 @@ Alternatively you can use an email alias.
 
 ## Code editor setup
 
-When you create a commit with `git commit`, Git will open a text editor to let you enter a message.
-By default, Git will use whatever your terminal uses, which will probably be `vi`, `vim` or `nano`.
+When you create a commit with `git commit`, Git will open the CLI text editor to let you enter a commit message.
+By default, Git will use whatever your CLI uses, which will probably be the `vi`, `vim` or `nano` editor.
+
 You can tell Git to use another text editor.
-The `--wait` option tells Git to wait until you've saved the message.
+The `--wait` option tells Git to wait until you've saved the message and closed the commit message screen.
 
 ### Visual Studio Code
 
