@@ -5,6 +5,7 @@ title: Setup your Git sandbox
 
 The best way to learn is by doing, so let's dive right in!
 Let's first create a safe place for you to try things out.
+
 Follow the steps listed below.
 
 ## Steps to create your sandbox
