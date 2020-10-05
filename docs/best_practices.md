@@ -42,16 +42,22 @@ I recommend that you read Martin Fowler's work on [Integration Frequency](https:
 A good commit message tells the story of your changes.
 Explain what changes you're making, and why you're making them.
 
-I recommend your commit messages follow a template, like this one:
+## Use a commit message template
 
-```markdown title="Tim Pope's commit message template"
+I recommend you follow a template to keep your commit messages consistent over time.
+
+### Starter template
+
+If you don't know what template to pick, start with this one.
+
+```text title="Tim Pope's commit message template, lightly edited"
 Capitalized, short (50 chars or less) summary
 
 More detailed explanatory text, if necessary.  Wrap it to about 72
 characters or so.  In some contexts, the first line is treated as the
 subject of an email and the rest of the text as the body.  The blank
 line separating the summary from the body is critical (unless you omit
-the body entirely); tools like rebase can get confused if you run the
+the body entirely); tools like rebase will confuse you if you run the
 two together.
 
 Write your commit message in the imperative: "Fix bug" and not "Fixed bug"
@@ -67,6 +73,17 @@ Further paragraphs come after blank lines.
 
 - Use a hanging indent
 ```
+
+:::note
+This commit template is from the [ProGit2 book, section on contributing](https://github.com/progit/progit2/blob/master/book/05-distributed-git/sections/contributing.asc).
+
+Thank you, Tim Pope for making the original template!
+You can find the original at [Tim Pope's blog post, A note about Git commit messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
+:::
+
+### Conventional Commits template
+
+If you want a stricter template, take a look at [Conventional Commits](https://www.conventionalcommits.org/).
 
 ## Write tests
 
