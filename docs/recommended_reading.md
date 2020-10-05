@@ -38,3 +38,21 @@ Then you'll get hands-on and actually send a patch via e-mail, and deal with fee
 You'll also learn handy tips and tricks.
 
 [Git send email lessons at git-send-email.io](https://git-send-email.io/)
+
+## Git Large File Storage (Git LFS)
+
+Git does not deal with large files properly.
+Use the Git Large File Storage extension to work with large files.
+
+Download Git LFS from [git-lfs.github.com](https://git-lfs.github.com/).
+It's available for Linux, Windows and MacOS.
+
+:::tip
+Read the [GitHub docs, Managing large files](https://docs.github.com/en/free-pro-team@latest/github/managing-large-files).
+:::
+
+:::note
+GitHub enforces file/repository size limits when you use Git LFS.
+
+Read more about the limits in the [GitHub docs, About storage and bandwidth usage](https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/about-storage-and-bandwidth-usage).
+:::
