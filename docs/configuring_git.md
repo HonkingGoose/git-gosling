@@ -10,7 +10,7 @@ Before you can use Git, you must configure it.
 Git must know your username and email.
 Every time you save your work with a commit, Git puts your username and email in the commit message.
 
-We'll use the `--global` option so that Git will use this username and email for everything you do on this system.
+We'll use the `--global` option, that way Git uses this username and email for everything you do on this system.
 
 If you want to override the global name or email address for a specific project, you can run the command without the `--global` option when you’re in that project.
 
@@ -56,24 +56,17 @@ Alternatively you can use an email alias.
 
 When you create a commit with `git commit`, Git will open the CLI text editor to let you enter a commit message.
 By default, Git will use whatever your CLI uses, which will probably be the `vi`, `vim` or `nano` editor.
-
 You can tell Git to use another text editor.
+
+See this table for a list of popular editors, and how to configure them for use with Git.
+
+| Editor | Configuration |
+| :---: | --- |
+| Visual Studio Code | `git config --global core.editor "code --wait"`|
+| VSCodium | `git config --global core.editor "codium --wait"` |
+| Atom | `git config --global core.editor "atom --wait"` |
+
+:::note
 The `--wait` option tells Git to wait until you've saved the message and closed the commit message screen.
-
-### Visual Studio Code
-
-```git
-$ git config --global core.editor "code --wait"
-```
-
-### VSCodium
-
-```git
-$ git config --global core.editor "codium --wait"
-```
-
-### Atom
-
-```git
-$ git config --global core.editor "atom --wait"
-```
+This option is not available for all editors.
+:::
