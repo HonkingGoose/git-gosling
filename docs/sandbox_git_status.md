@@ -19,7 +19,7 @@ Git will try to help you!
 
 ## Git status command
 
-Let's see what `git status` will tell us about our `sandbox` repository.
+Let's see what `git status` tells us about our `sandbox` repository.
 
 ```git
 $ git status
