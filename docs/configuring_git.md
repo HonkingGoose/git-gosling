@@ -52,21 +52,32 @@ For more on this read the [GitHub docs: setting your email address](https://docs
 Alternatively you can use an email alias.
 :::
 
-## Code editor setup
+## Telling Git what editor to use
 
 When you create a commit with `git commit`, Git will open the CLI text editor to let you enter a commit message.
 By default, Git will use whatever your CLI uses, which will probably be the `vi`, `vim` or `nano` editor.
-You can tell Git to use another text editor.
+You can tell Git what text editor you want to use.
 
-See this table for a list of popular editors, and how to configure them for use with Git.
-
-| Editor | Configuration |
-| :---: | --- |
-| Visual Studio Code | `git config --global core.editor "code --wait"`|
-| VSCodium | `git config --global core.editor "codium --wait"` |
-| Atom | `git config --global core.editor "atom --wait"` |
+If you want to follow along with the Git sandbox I recommend that you install and use the `nano` editor.
+You can use another text editor if you want, but you might run into problems when you want to save your commit message.
 
 :::note
-The `--wait` option tells Git to wait until you've saved the message and closed the commit message screen.
-This option is not available for all editors.
+If you want to use another text editor, look at the table in the [Advanced Git configuration, code editor setup](advanced_git_configuration.md#Code_editor_setup) part of this guide.
 :::
+
+### Installing the nano text editor
+
+| Operating system | How to install nano |
+| :---: | --- |
+| Ubuntu/Debian | `sudo apt install nano` |
+| Fedora | `sudo dnf install nano` |
+| MacOS with Homebrew | `brew install nano` |
+| Windows | Select `nano` as the default editor when installing Git for Windows |
+
+### Use nano as your default editor with Git
+
+Now you have installed nano, tell Git to use it:
+
+```git
+$ git config --global core.editor "nano -w"
+```

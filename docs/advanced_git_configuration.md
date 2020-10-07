@@ -46,3 +46,19 @@ To rebase when you pull:
 ```git
 $ git config --global pull.rebase "true"
 ```
+
+## Code editor setup
+
+See this table for a list of popular editors, and how to configure them for use with Git.
+
+| Editor | Configuration |
+| :---: | --- |
+| Nano | `git config --global core.editor "nano -w"` |
+| Visual Studio Code | `git config --global core.editor "code --wait"`|
+| VSCodium | `git config --global core.editor "codium --wait"` |
+| Atom | `git config --global core.editor "atom --wait"` |
+
+:::note
+The `--wait` or `-w` option tells Git to wait until you've saved the message and closed the commit message screen.
+This option is not available for all editors.
+:::

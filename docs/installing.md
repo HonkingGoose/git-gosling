@@ -99,6 +99,10 @@ Go to https://git-scm.com/download/mac to download a binary installer.
 Go to https://git-scm.com/download/win to download **Git for Windows**.
 
 :::tip
+If you want to follow along with this guide, tell Git for Windows to use the `nano` text editor.
+:::
+
+:::tip
 When you're installing Git for Windows tick the _check for updates_ checkbox.
 This will let Git for Windows check for updates.
 It's easy to upgrade Git for Windows, as it will do all the work for you.
