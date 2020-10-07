@@ -1,5 +1,5 @@
 ---
-id: installing
+id: installing_git
 title: Installing Git
 ---
 

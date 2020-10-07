@@ -8,7 +8,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Getting started with Git',
-      items: ['installing', 'configuring_git', 'getting_help'],
+      items: ['installing_git', 'configuring_git', 'getting_help'],
     },
     {
       type: 'category',
