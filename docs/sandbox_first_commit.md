@@ -19,9 +19,9 @@ Changes to be committed:
 	new file:   README.md
 ```
 
-## Git commit --verbose
+## Git commit
 
-Now we'll make a commit, and save our work with Git.
+Now we'll commit, and save our work with Git.
 The `--verbose` option tells Git to show us precisely what we're changing.
 This way you can check you're committing the wanted changes.
 
@@ -29,8 +29,17 @@ This way you can check you're committing the wanted changes.
 $ git commit --verbose
 ```
 
-The code editor will open, and show a file like this:
-```git
+## General steps for committing
+
+What follows are the general steps to commit.
+
+If you use the Nano editor, read the section: [Committing with Nano](#committing-with-nano).
+
+### Text editor waiting for input
+
+The text editor will open, and show a file like this.
+
+```git title="Text editor, waiting for input"
 
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
@@ -54,11 +63,11 @@ index 0000000..21652e3
 +This is the readme for the sandbox repository.
 ```
 
-## Add commit message and save file
+### Type in commit message and save
 
-Type in a nice descriptive commit message: `Create README` and save the file:
+Type in a nice descriptive commit message: `Create README` and save.
 
-```git
+```git title="Text editor with commit message"
 Create README
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
@@ -82,7 +91,14 @@ index 0000000..21652e3
 +This is the readme for the sandbox repository.
 ```
 
-After saving the commit message, Git tells us this:
+:::caution
+Do not enter/or change the filename of the commit message file!
+This will confuse Git.
+:::
+
+### After saving the commit message
+
+After saving the commit message, Git tells us:
 
 ```git
 [main (root-commit) d663c4d] Create README
@@ -95,7 +111,7 @@ Because this is the very first commit, it is the `root-commit`.
 Then we get the first 7 characters of the Git hash: `d663c4d`.
 Git tells us that we changed 1 file, and created one new line.
 
-## Git status after committing
+### Git status after committing
 
 After we have committed, all changes we made are tracked with Git.
 Git tells us that we have nothing to commit.
@@ -108,4 +124,36 @@ On branch main
 nothing to commit, working tree clean
 ```
 
-In the next section we will add new lines to the `README.md` file.
+## Committing with Nano
+
+After you've entered `git commit --verbose`, Nano will open.
+
+Type your commit message, and exit Nano with <kbd>CTRL + X</kbd>.
+
+Nano asks if you want to save your work:
+
+```markdown title="Nano save dialog"
+Save modified buffer?
+
+Y Yes
+N No        ^C Cancel
+```
+
+Use <kbd>Y</kbd> to save your work.
+
+Nano then asks about the `File Name to Write`, leave this blank, and just hit <kbd>ENTER</kbd>.
+This saves the commit message.
+
+:::caution
+Do not enter any `File Name to Write` as this will confuse Git.
+:::
+
+:::tip
+You can also just do <kbd>CTRL + S</kbd> to save and use <kbd>CTRL + X</kbd> to exit.
+:::
+
+## Summary
+
+You've learned how to make a commit, and learned how to use Nano to create a commit message.
+
+The next section we will add new lines to the `README.md` file, and save those with Git.
