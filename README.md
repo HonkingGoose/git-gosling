@@ -41,6 +41,12 @@ This command generates static content into the `build` directory and can be serv
 $ yarn smoketest
 ```
 
+### Fix Prettier style issues
+
+```
+$ yarn fix:prettier
+```
+
 ### Deployment
 
 ```
