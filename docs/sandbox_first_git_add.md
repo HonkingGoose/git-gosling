@@ -18,11 +18,10 @@ Now we edit it with our editor of choice, let's say Visual Studio Code:
 code README.md
 ```
 
-Enter the following text and add a newline at the end:
+Enter the following text:
 
 ```markdown title="sandbox/README.md"
 This is the readme for the sandbox repository.
-
 ```
 
 Save the file in the editor.

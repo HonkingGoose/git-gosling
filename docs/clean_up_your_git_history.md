@@ -22,7 +22,7 @@ Don't force push to a **main**, **master** or **trunk** branch, as that will mes
 :::
 
 :::tip
-Some bad changes can be recovered from with the use of the  `git reflog`, and creating a new branch from the "known good" commits.
+Some bad changes can be recovered from with the use of the `git reflog`, and creating a new branch from the "known good" commits.
 :::
 
 ### Re-do the last commit
@@ -66,7 +66,7 @@ $ git log --oneline
 002d4f4 Initial commit
 ```
 
-As you can see, we've *replaced* commit `d476184` with commit `4e1a197`.
+As you can see, we've _replaced_ commit `d476184` with commit `4e1a197`.
 If you need the old commit, you can retrieve it from the `git reflog`.
 
 :::warning
@@ -282,6 +282,7 @@ HEAD is now at 8e285fd Bugfix: validate input better
 
 Now you are in a `detached HEAD` state, but don't worry about that.
 Note how Git tells you how to get back your previous work:
+
 ```
 If you want to create a new branch to retain commits you create, you may
 do so (now or later) by using -c with the switch command. Example:

@@ -30,6 +30,7 @@ The **Files changed** tab shows you the changes this pull request makes.
 Go to the **Files changed** tab.
 
 Here you'll see what changes this pull request makes.
+
 - Green lines with a `+` are new lines of code/text.
 - Red lines with a `-` are lines that are removed.
 

@@ -61,7 +61,7 @@ nothing to commit, working tree clean
 
 ### Add GitHub repository to list of remotes
 
-First you must add the newly created GitHub repository to the list of *remotes*:
+First you must add the newly created GitHub repository to the list of _remotes_:
 
 ```git
 $ git remote add origin https://github.com/your_username/sandbox.git
@@ -70,7 +70,7 @@ $ git remote add origin https://github.com/your_username/sandbox.git
 To use your GitHub repository, it **must** be listed as a remote.
 
 I will cover remotes fully in another section of the guide.
-For now, it's enough to know that a remote is a repository that is *elsewhere*.
+For now, it's enough to know that a remote is a repository that is _elsewhere_.
 For the purposes of this guide, the `origin` remote refers to the repository on GitHub.
 
 :::note
@@ -115,7 +115,7 @@ Search for usages of the old branch name in your code.
 
 ### Push your local repository to GitHub
 
-Now we told Git about our remote, and changed the branch name, we're ready to *push* our work to GitHub.
+Now we told Git about our remote, and changed the branch name, we're ready to _push_ our work to GitHub.
 
 Push your repository to GitHub with `git push --set-upstream origin main`.
 The `--set-upstream` part tells Git that we want to track the `origin/main` remote branch.

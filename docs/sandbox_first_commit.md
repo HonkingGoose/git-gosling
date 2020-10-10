@@ -132,12 +132,14 @@ Type your commit message, and exit Nano with <kbd>CTRL + X</kbd>.
 
 Nano asks if you want to save your work:
 
+<!-- prettier-ignore-start -->
 ```markdown title="Nano save dialog"
 Save modified buffer?
 
 Y Yes
 N No        ^C Cancel
 ```
+<!-- prettier-ignore-end -->
 
 Use <kbd>Y</kbd> to save your work.
 

@@ -14,7 +14,6 @@ This is the readme for the sandbox repository.
 With the help of this project you can build an awesome sandbox.
 
 Snarglebarf snorgleborf.
-
 ```
 
 Oops!
@@ -37,7 +36,8 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-Look at that, `git status` tries to help us: 
+Look at that, `git status` tries to help us:
+
 ```git
 use "git restore <file>..." to discard changes in working directory`
 ```

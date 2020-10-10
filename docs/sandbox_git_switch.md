@@ -87,7 +87,6 @@ This is the readme for the sandbox repository.
 With the help of this project you can build an awesome sandbox.
 
 This change is from the `feature` branch.
-
 ```
 
 ### git status

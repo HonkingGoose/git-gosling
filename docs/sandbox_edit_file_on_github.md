@@ -15,7 +15,7 @@ Click on the pencil icon to go the online editor for the file.
 
 ## Edit the README on GitHub
 
-Add a new line of text and add a blank newline.
+Add a new line of text.
 
 ```markdown title="sandbox/readme.md on GitHub"
 This is the readme for the sandbox repository.
@@ -25,7 +25,6 @@ With the help of this project you can build an awesome sandbox.
 This change is from the `feature` branch.
 
 This change is from an edit within the GitHub interface.
-
 ```
 
 ### Edit the commit message

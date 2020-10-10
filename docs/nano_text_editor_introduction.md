@@ -21,25 +21,25 @@ If the filename does not exist, Nano will create the file when you save.
 You can start typing right away.
 Use the arrow keys to move your cursor.
 
-| Action | Keys to use |
-| --- | :----: |
-| Move cursor | <kbd>arrow keys</kbd> |
-| Saving/write-out | <kbd>CTRL + O</kbd> |
-| Save without confirmation | <kbd>CTRL + S</kbd> |
-| Exit | <kbd>CTRL + X</kbd> |
-| Selecting text | <kbd>SHIFT + arrow keys</kbd> |
-| Cut selected text | <kbd>CTRL + K</kbd> |
-| Paste selected text | <kbd>CTRL + U</kbd> |
-| Undo | <kbd>ALT + U</kbd> |
-| Redo | <kbd>ALT + E</kbd> |
-| Search forward | <kbd>CTRL + W</kbd> |
-| Search backward | <kbd>CTRL + Q</kbd> |
-| Go to matching bracket | <kbd>ALT + ]</kbd> |
-| Toggle help mode | <kbd>ALT + X</kbd> |
+| Action                    |          Keys to use          |
+| ------------------------- | :---------------------------: |
+| Move cursor               |     <kbd>arrow keys</kbd>     |
+| Saving/write-out          |      <kbd>CTRL + O</kbd>      |
+| Save without confirmation |      <kbd>CTRL + S</kbd>      |
+| Exit                      |      <kbd>CTRL + X</kbd>      |
+| Selecting text            | <kbd>SHIFT + arrow keys</kbd> |
+| Cut selected text         |      <kbd>CTRL + K</kbd>      |
+| Paste selected text       |      <kbd>CTRL + U</kbd>      |
+| Undo                      |      <kbd>ALT + U</kbd>       |
+| Redo                      |      <kbd>ALT + E</kbd>       |
+| Search forward            |      <kbd>CTRL + W</kbd>      |
+| Search backward           |      <kbd>CTRL + Q</kbd>      |
+| Go to matching bracket    |      <kbd>ALT + ]</kbd>       |
+| Toggle help mode          |      <kbd>ALT + X</kbd>       |
 
 ## Command list
 
-By default, Nano lists the commands you can use at the bottom of the editor window, this is called *help mode*.
+By default, Nano lists the commands you can use at the bottom of the editor window, this is called _help mode_.
 
 ```
 ^G Get Help ^O Write Out ^W Where Is ^K Cut Text   ^J Justify  ^C Cur Pos
