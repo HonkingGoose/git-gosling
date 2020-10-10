@@ -13,7 +13,7 @@ At the very least write a _smoke test_, to ensure that you can actually make a b
 Even better, test the _happy path_ of your code.
 This ensures the most frequently used code continues to work.
 
-For even more confidence, learn and follow the **Test Driven Development** (TDD) process.
+For even more confidence, learn and follow the _Test Driven Development_ (TDD) process.
 Following the TDD process will result in code that has full test coverage.
 
 ## Use GitHub Actions
