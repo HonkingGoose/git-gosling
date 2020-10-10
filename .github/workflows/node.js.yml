@@ -19,17 +19,16 @@ jobs:
         node-version: [12.x]
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
 
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Setup Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2.1.2
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install Yarn with npm
-        run: npm install -g yarn
+      - name: Install dependencies with Yarn
+        run: yarn install --frozen-lockfile
 
-      - name: Use Yarn to install dependencies and create a build
-        run: |
-          yarn install
-          yarn build
+      - name: Make a build with Yarn
+        run: yarn build
