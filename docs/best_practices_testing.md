@@ -16,6 +16,16 @@ This ensures the most frequently used code continues to work.
 For even more confidence, learn and follow the _Test Driven Development_ (TDD) process.
 Following the TDD process will result in code that has full test coverage.
 
-## Use GitHub Actions
+## GitHub Actions
 
-You can use GitHub Actions to run tests on each push and pull to the mainline branch.
+You can use GitHub Actions to perform actions when a given event happens.
+
+Examples of things you can do with GitHub Actions:
+
+- Check that your program/website builds properly.
+- Run unit tests.
+- Run feature tests.
+- Run a linter like Prettier/ESLint.
+- Make a release of your program.
+
+To create a new GitHub Action, go to your repository, and click on the _Actions_ tab.
