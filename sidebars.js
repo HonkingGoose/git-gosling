@@ -23,7 +23,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Best practices',
-      items: ['best_practices'],
+      items: ['best_practices_write_good_commit_messages', `best_practices_linters`, 'best_practices_merges', 'best_practices_dealing_with_dependencies', 'best_practices_testing_github_actions'],
     },
     {
       type: 'category',
