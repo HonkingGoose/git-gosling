@@ -20,9 +20,10 @@ This will get you banned from this repository.
 
 ## How to create a good pull request
 
-- Fill in the pull request template.
 - Search existing pull requests to see if something similar is already proposed.
-- Ensure the build works, run `yarn build` before opening the pull-request.
+- Run `yarn smoketest`, to ensure you're following the Prettier style and that the build works.
+- Run `yarn fix:prettier` to fix your code.
+- Fill in the pull request template.
 - Give your pull request a descriptive title.
 
 ## How to create a good commit message

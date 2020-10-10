@@ -10,7 +10,8 @@
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
     "lint:prettier": "prettier --check .",
-    "fix:prettier": "prettier --write ."
+    "fix:prettier": "prettier --write .",
+    "smoketest": "prettier --check . && docusaurus build"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.65",
