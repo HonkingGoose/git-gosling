@@ -1,5 +1,4 @@
-# This workflow uses npm to install Yarn.
-# After Yarn is installed, it will use Yarn to install the dependencies and create a build.
+# This workflow uses Yarn to install the dependencies, and then makes a build.
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
 name: Node.js CI
