@@ -20,7 +20,7 @@ After you have created your account, you must verify your email address.
 Read the docs and follow the steps: [Verify your email address](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/verifying-your-email-address).
 
 :::caution
-If you do not verify your email address, GitHub will be *useless*.
+If you do not verify your email address, GitHub will be _useless_.
 You will not be able to create or fork a repository.
 :::
 

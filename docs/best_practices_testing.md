@@ -8,9 +8,9 @@ title: Testing and GitHub Actions
 Developers avoid merges/updates, because they are afraid of breaking things.
 If this is you, go write some proper tests!
 
-At the very least write a *smoke test*, to ensure that you can actually make a build.
+At the very least write a _smoke test_, to ensure that you can actually make a build.
 
-Even better, test the *happy path* of your code.
+Even better, test the _happy path_ of your code.
 This ensures the most frequently used code continues to work.
 
 For even more confidence, learn and follow the **Test Driven Development** (TDD) process.

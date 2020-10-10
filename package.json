@@ -8,7 +8,9 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "serve": "docusaurus serve"
+    "serve": "docusaurus serve",
+    "lint:prettier": "prettier --check .",
+    "fix:prettier": "prettier --write ."
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.65",
@@ -29,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "2.1.2"
   }
 }

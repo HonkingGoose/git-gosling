@@ -15,7 +15,7 @@ We'll cover `git log` fully in a later section.
 What I'm telling Git here: show me the history of `--all` branches, `--decorate` it with ASCII characters, put the commit messages on `--oneline` and display it as a `--graph`.
 
 ```git
-$ git log --all --decorate --oneline --graph 
+$ git log --all --decorate --oneline --graph
 
 * bd9afb9 (HEAD -> feature) Add new sentence while on feature branch
 * c79426c (main) Add another line to the README

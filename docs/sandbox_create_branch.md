@@ -30,7 +30,7 @@ Prepare before you rename a branch like `master`, `main`, `trunk` or `mainline`!
 Remember that changing the mainline branch name for a repository is a breaking change!
 Discuss this move with your team before you start!
 
-Read the section on *Changing the master branch name* in the [ProGit2 book](https://git-scm.com/book/en/v2/Git-Branching-Branch-Management) to learn all you need to know.
+Read the section on _Changing the master branch name_ in the [ProGit2 book](https://git-scm.com/book/en/v2/Git-Branching-Branch-Management) to learn all you need to know.
 :::
 
 ## Listing all branches

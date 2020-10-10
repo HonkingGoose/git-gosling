@@ -14,6 +14,7 @@ Let's go take a look!
 Your command line will usually display your current working directory in the prompt.
 
 As an example, the Ubuntu Bash command line prompt looks like this:
+
 ```bash
 computername@username:~/sandbox$
 ```
@@ -33,6 +34,7 @@ If you get lost, and want to return to your sandbox directory:
 $ cd
 $ cd sandbox
 ```
+
 :::
 
 ## Listing the files in the sandbox

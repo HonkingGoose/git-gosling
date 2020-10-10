@@ -32,7 +32,6 @@ If you have a GitHub account: use your GitHub username!
 Read the [GitHub docs on setting your username](https://docs.github.com/en/github/using-git/setting-your-username-in-git)
 :::
 
-
 ### Email
 
 Tell Git your email address:
@@ -67,12 +66,12 @@ If you want to use another text editor, look at the table in the [Advanced Git c
 
 ### Installing the nano text editor
 
-| Operating system | How to install nano |
-| :---: | --- |
-| Ubuntu/Debian | `sudo apt install nano` |
-| Fedora | `sudo dnf install nano` |
-| MacOS with Homebrew | `brew install nano` |
-| Windows | Select `nano` as the default editor when installing Git for Windows |
+|  Operating system   | How to install nano                                                 |
+| :-----------------: | ------------------------------------------------------------------- |
+|    Ubuntu/Debian    | `sudo apt install nano`                                             |
+|       Fedora        | `sudo dnf install nano`                                             |
+| MacOS with Homebrew | `brew install nano`                                                 |
+|       Windows       | Select `nano` as the default editor when installing Git for Windows |
 
 ### Use nano as your default editor with Git
 

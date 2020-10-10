@@ -11,7 +11,6 @@ It should look like this when you're done:
 This is the readme for the sandbox repository.
 
 With the help of this project you can build an awesome sandbox.
-
 ```
 
 Great, we made a change, and saved our work.
@@ -56,6 +55,7 @@ Git is asking us if we want to `stage this hunk`:
 ```git
 (1/1) Stage this hunk [y,n,q,a,d,e,?]?
 ```
+
 A hunk is basically a part of a file that we changed.
 
 Git lists our options: `[y,n,q,a,d,e,?]`.
