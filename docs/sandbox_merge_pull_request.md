@@ -9,7 +9,7 @@ Now we have a pull request, let's learn how to merge it.
 
 Go to your GitHub repository.
 Click on the tab **Pull requests**.
-Click on the Update README.md pull request.
+Click on the _Update README.md_ pull request.
 
 ## About the GitHub pull request interface
 
