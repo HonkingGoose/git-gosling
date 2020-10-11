@@ -44,15 +44,15 @@ Click on the green button **Merge pull request**.
 You can edit the merge commit title and body.
 Leave them as they are and click **Confirm merge**.
 
-## Delete your branch after merging
-
-Your work is now safely on the `main` branch, so there's no need to keep the `Update-README` branch.
-Clean up the branch by clicking on **Delete branch**.
-
 :::tip
 You can also use the rebase or squash merge strategy when merging a pull request.
 Click on the arrow next to the **Merge pull request** button to select a different merge strategy.
 :::
+
+## Delete your branch after merging
+
+Your work is now safely on the `main` branch, so there's no need to keep the `Update-README` branch.
+Clean up the branch by clicking on **Delete branch**.
 
 ## Summary:
 
