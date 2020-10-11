@@ -13,17 +13,15 @@ Click on the _Update README.md_ pull request.
 
 ## About the GitHub pull request interface
 
-There are 4 tabs in the Pull Request interface:
+There are 4 tabs in the Pull Request interface.
+See the table for information on each tab.
 
-- Conversation
-- Commits
-- Checks
-- Files changed
-
-The **Conversation** tab is where all discussion about this pull request lives.
-The **Commits** tab shows you what commits belong to this pull request.
-If the repository has automated tests, you'll find them under the **Checks** tab.
-The **Files changed** tab shows you the changes this pull request makes.
+| Tab name      | What the tab shows                            |
+| ------------- | --------------------------------------------- |
+| Conversation  | Discussion about pull request                 |
+| Commits       | Shows what commits belong to the pull request |
+| Checks        | Contains results from GitHub Actions          |
+| Files changed | Shows the changes the pull request makes      |
 
 ## Check pull request
 
