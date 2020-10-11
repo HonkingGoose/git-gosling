@@ -33,6 +33,7 @@ module.exports = {
         "sandbox_create_first_github_repo",
         "sandbox_edit_file_on_github",
         "sandbox_merge_pull_request",
+        "sandbox_fetch_merge_pull_changes",
       ],
     },
     {
