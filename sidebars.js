@@ -34,6 +34,7 @@ module.exports = {
         "sandbox_edit_file_on_github",
         "sandbox_merge_pull_request",
         "sandbox_fetch_merge_pull_changes",
+        "sandbox_git_log",
       ],
     },
     {
