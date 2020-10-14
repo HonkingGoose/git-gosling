@@ -104,6 +104,5 @@ If you want to follow along with this guide, tell Git for Windows to use the `na
 
 :::tip
 When you're installing Git for Windows tick the _check for updates_ checkbox.
-This will let Git for Windows check for updates.
-It's easy to upgrade Git for Windows, as it will do all the work for you.
+It's easy to upgrade Git for Windows, as the program will do all the work for you.
 :::

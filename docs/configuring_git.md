@@ -80,3 +80,5 @@ Now you have installed nano, tell Git to use it:
 ```git
 $ git config --global core.editor "nano -w"
 ```
+
+The `-w` option tells Nano to wait until you've saved the file and exited.

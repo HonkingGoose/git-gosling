@@ -32,8 +32,7 @@ Prettier can format a lot of languages, and is supported with a lot of editors.
 
 ## Well-known linters
 
-|                 Name                  |                     Supported languages                      |
-| :-----------------------------------: | :----------------------------------------------------------: |
-|   [Prettier](https://prettier.io/)    | JavaScript/TypeScript, HTML/CSS, Vue/Angular, Markdown, YAML |
-|     [ESLint](https://eslint.org/)     |                    JavaScript/TypeScript                     |
-| [StandardJS](https://standardjs.com/) |                          JavaScript                          |
+|               Name               |                     Supported languages                      |
+| :------------------------------: | :----------------------------------------------------------: |
+| [Prettier](https://prettier.io/) | JavaScript/TypeScript, HTML/CSS, Vue/Angular, Markdown, YAML |
+|  [ESLint](https://eslint.org/)   |                    JavaScript/TypeScript                     |

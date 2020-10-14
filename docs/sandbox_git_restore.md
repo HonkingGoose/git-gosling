@@ -63,8 +63,8 @@ As you can see: there's nothing to commit, and our working tree is clean.
 
 You've learned how to use `git restore` to undo bad changes.
 
-:::caution
-Confirm you're undoing the wanted changes with `git restore`.
+## Warnings for `git restore`
 
-You might be able to recover from a bad `git restore` by using the `git reflog` to retrieve your work.
-:::
+When you use `git restore <file>` to discard changes in the working directory, those changes cannot be retrieved.
+
+It's safe to use `git restore <file> --staged`, as that only removes changes from the staging area.
