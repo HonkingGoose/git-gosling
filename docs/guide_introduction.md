@@ -16,8 +16,7 @@ You can find the [Pro Git 2 project on GitHub](https://github.com/progit/progit2
 
 ## What will I learn?
 
-- How to use Git from the command line.
-- How to use the official GitHub command line interface tool.
+You will learn how to use Git from the command line.
 
 ### Git? What's that?
 
