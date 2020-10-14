@@ -52,10 +52,10 @@ Changes to be committed:
 	modified:   README.md
 ```
 
-We're going to commit our changes with `git commit -v`:
+Commit your changes with `git commit --verbose`:
 
 ```git
-$ git commit -v
+$ git commit --verbose
 ```
 
 It's a good idea to review your changes, to make sure you're committing the right things.
