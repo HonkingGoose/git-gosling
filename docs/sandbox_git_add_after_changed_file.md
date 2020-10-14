@@ -16,68 +16,32 @@ With the help of this project you can build an awesome sandbox.
 Great, we made a change, and saved our work.
 Git does not know about this yet.
 
-## Selective staging
+Git has a _staging_ area, this is also sometimes called the _index_.
+The staging area is where you can check what goes into your next commit.
 
-When you use `git add <filename>`, Git will just put all changes in that file into the staging area.
+You can add files to the _staging_ area with `git add`.
 
-Sometimes you want to pick and choose what goes into your commits, so that you can split up your work in logical chunks.
-Git has an option for `git add`, which is `--patch`.
-When you use this option, you enter an interactive mode.
-Git will show you the changes you made, and asks you if you want to keep them or not.
-Let's go experiment with `git add --patch`!
+## Use git add to stage your changes
 
-Use `git add --patch` now:
+Use `git add` to stage the changes you made in the README:
 
 ```git
-$ git add --patch
-
-diff --git a/README.md b/README.md
-index 21652e3..717a22c 100644
---- a/README.md
-+++ b/README.md
-@@ -1 +1,3 @@
- This is the readme for the sandbox repository.
-+
-+With the help of this project you can build an awesome sandbox.
-(1/1) Stage this hunk [y,n,q,a,d,e,?]?
+$ git add README.md
 ```
 
-Let's explain what you're seeing:
+:::tip
+You can use `git add .` as a wildcard to include all changes.
+Beware that this makes it very easy to commit things you don't want to commit.
+:::
 
-- You're changing the `README.md` file.
-- Additions have a plus sign, and are green.
-- Removals have a minus sign, and are red.
-- `(1/1)` tells us this is one change, and that's the only change in the file.
-- Git also asks us what we want to do with this change: `Stage this hunk [y,n,q,a,d,e,?]? `.
+:::tip
+You can also use `git add --patch` to pick and choose what you're going to put in your staging area.
+Read more about this in the [Best practices, Split up your commits](best_practices_split_up_your_commits) part of the guide.
+:::
 
-Git is asking us if we want to `stage this hunk`:
+### Git status
 
-```git
-(1/1) Stage this hunk [y,n,q,a,d,e,?]?
-```
-
-A hunk is basically a part of a file that we changed.
-
-Git lists our options: `[y,n,q,a,d,e,?]`.
-We can ask for help with the `?` character:
-
-```git
-y - stage this hunk
-n - do not stage this hunk
-q - quit; do not stage this hunk or any of the remaining ones
-a - stage this hunk and all later hunks in the file
-d - do not stage this hunk or any of the later hunks in the file
-e - manually edit the current hunk
-? - print help
-```
-
-These letters are the commands that you can use with `git add --patch`.
-
-Enter `y` to stage your changes to the `README.md` file.
-
-## Git status after using `git add --patch`
-
-Now we have staged our changes, `git status` tells us:
+Now you have staged your changes, `git status` tells us:
 
 ```git
 $ git status
@@ -126,6 +90,6 @@ After you've entered the commit message and saved the file, Git will summarize:
  1 file changed, 2 insertions(+)
 ```
 
-Hooray, you've made your second commit, and learned about `git add --patch`!
+Hooray, you've made your second commit!
 
 In the next section we'll cover using `git restore` to reject saved changes before committing.
