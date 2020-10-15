@@ -41,6 +41,7 @@ module.exports = {
       type: "category",
       label: "Best practices",
       items: [
+        "best_practices_use_a_gitignore_file",
         "best_practices_split_up_your_commits",
         "best_practices_write_good_commit_messages",
         `best_practices_linters`,
