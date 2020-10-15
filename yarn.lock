@@ -1095,7 +1095,7 @@
     "@francoischalifour/autocomplete-preset-algolia" "^1.0.0-alpha.28"
     algoliasearch "^4.0.0"
 
-"@docusaurus/core@2.0.0-alpha.65", "@docusaurus/core@^2.0.0-alpha.65":
+"@docusaurus/core@2.0.0-alpha.65":
   version "2.0.0-alpha.65"
   resolved "https://registry.yarnpkg.com/@docusaurus/core/-/core-2.0.0-alpha.65.tgz#e99f19d602c6505febe3de68029fb7ca1225df4d"
   integrity sha512-9kfgPugosRq5byuBC/tz3ZShPFT8xh8t08r5tsx8QujfH2ZpDXSQpLF0x/isbCY1O2NQsRZZCKGXQf5dE6NZfQ==
@@ -1299,7 +1299,7 @@
     fs-extra "^8.1.0"
     sitemap "^3.2.2"
 
-"@docusaurus/preset-classic@^2.0.0-alpha.65":
+"@docusaurus/preset-classic@2.0.0-alpha.65":
   version "2.0.0-alpha.65"
   resolved "https://registry.yarnpkg.com/@docusaurus/preset-classic/-/preset-classic-2.0.0-alpha.65.tgz#6021fce4e0db703961096c577551e6b05e9b6cbc"
   integrity sha512-0wJEB1BvS0Wx0XuWwm+XNfVdVUcZ4Va2nXmK45ZvSYx+DbZ73wL/K4ahIp7R6A5JYv7kPRz6tlm0vusRMmKUVA==
@@ -1506,7 +1506,7 @@
     unist-builder "2.0.3"
     unist-util-visit "2.0.3"
 
-"@mdx-js/react@^1.5.8", "@mdx-js/react@^1.6.18":
+"@mdx-js/react@1.6.18", "@mdx-js/react@^1.5.8":
   version "1.6.18"
   resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.6.18.tgz#f83cbb2355de9cf36a213140ce21647da1e34fa7"
   integrity sha512-aFHsZVu7r9WamlP+WO/lyvHHZAubkQjkcRYlvS7fQElypfJvjKdHevjC3xiqlsQpasx/4KqRMoEIb++wNtd+6w==
@@ -2974,7 +2974,7 @@ clone-response@^1.0.2:
   dependencies:
     mimic-response "^1.0.0"
 
-clsx@^1.1.1:
+clsx@1.1.1, clsx@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
   integrity sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==
@@ -8122,7 +8122,7 @@ react-dev-utils@^10.2.1:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
-react-dom@^16.14.0:
+react-dom@16.14.0:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
   integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
@@ -8241,7 +8241,7 @@ react-toggle@^4.1.1:
   dependencies:
     classnames "^2.2.5"
 
-react@^16.14.0:
+react@16.14.0:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
   integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==

@@ -14,12 +14,12 @@
     "smoketest": "prettier --check . && docusaurus build"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.65",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.65",
-    "@mdx-js/react": "^1.6.18",
-    "clsx": "^1.1.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "@docusaurus/core": "2.0.0-alpha.65",
+    "@docusaurus/preset-classic": "2.0.0-alpha.65",
+    "@mdx-js/react": "1.6.18",
+    "clsx": "1.1.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
   },
   "browserslist": {
     "production": [
