@@ -158,4 +158,4 @@ You can also just do <kbd>CTRL + S</kbd> to save and use <kbd>CTRL + X</kbd> to 
 
 You've learned how to make a commit, and learned how to use Nano to create a commit message.
 
-The next section we will add new lines to the `README.md` file, and save those with Git.
+In the next section we will add new lines to the `README.md` file, and save those with Git.
