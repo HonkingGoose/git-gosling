@@ -32,6 +32,8 @@ $ git add README.md
 :::tip
 You can use `git add .` as a wildcard to include all changes.
 Beware that this makes it very easy to commit things you don't want to commit.
+
+You can use a `.gitignore` file to tell Git what files to ignore.
 :::
 
 :::tip
