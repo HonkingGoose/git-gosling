@@ -91,6 +91,8 @@ index 0000000..21652e3
 +This is the readme for the sandbox repository.
 ```
 
+Well done, you have just made your very first Git commit.
+
 :::caution
 Do not enter/or change the filename of the commit message file!
 This will confuse Git.
@@ -106,7 +108,6 @@ After saving the commit message, Git tells us:
  create mode 100644 README.md
 ```
 
-Well done, you have just made your very first Git commit.
 Because this is the very first commit, it is the `root-commit`.
 Then we get the first 7 characters of the Git hash: `d663c4d`.
 Git tells us that we changed 1 file, and created one new line.
