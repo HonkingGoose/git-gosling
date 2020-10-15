@@ -94,4 +94,45 @@ After you've entered the commit message and saved the file, Git will summarize:
 
 Hooray, you've made your second commit!
 
+## What is a commit?
+
+Now you have made two commits, it's a good time to learn what a commit is.
+
+### Snapshot
+
+When you commit, Git takes a picture/snapshot of your files, and stores a reference to that snapshot.
+A reference _points_ to a previous commit.
+
+Every time you commit, Git creates a hash.
+A hash is basically a unique number to reference just that commit.
+
+Nearly all commits reference at least one previous commit (merge commits reference at least 2 previous commits).
+The root commit cannot point to a previous commit.
+
+### Current repository state
+
+I've made a visual representation of the state of the `sandbox` repository.
+
+```git
+d663c4d Create README <-- c79426c Add another line to the README
+```
+
+Commit `c79426c` points back to the root commit `d663c4d`.
+
+:::note
+Your commit hashes will be different from those in the guide.
+That's okay, you're not doing anything wrong.
+:::
+
+### Recommended reading
+
+Go read [ProGit 2 book, chapter 1.3 Getting Started -What Is Git?](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).
+
+For a visual representation of the way commits point to each other, check _Figure 10. Commits and their parents_ in the [ProGit 2 book, chapter 3.1](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell).
+Ignore the rest of that chapter for now, we'll cover branches later.
+
+## Summary
+
+You've saved changes to a file with Git, and learned that nearly all commits point back to a previous commit.
+
 In the next section we'll cover using `git restore` to reject saved changes before committing.
