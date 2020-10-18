@@ -3,17 +3,9 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: daily
-      time: "08:00"
-      timezone: Europe/Amsterdam
-    versioning-strategy: increase
-
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: daily
+      interval: weekly
       time: "08:00"
       timezone: Europe/Amsterdam
