@@ -53,7 +53,11 @@ module.exports = {
     {
       type: "category",
       label: "Advanced topics",
-      items: ["advanced_git_configuration", "clean_up_your_git_history"],
+      items: [
+        "advanced_git_configuration",
+        "contribute_to_a_project_by_forking",
+        "clean_up_your_git_history",
+      ],
     },
     {
       type: "category",
