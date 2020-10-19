@@ -34,4 +34,4 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Lint files with Prettier
-        run: yarn lint:prettier
+        run: yarn lint
