@@ -11,7 +11,7 @@
     "serve": "docusaurus serve",
     "lint": "prettier --check .",
     "lint-fix": "prettier --write .",
-    "smoketest": "prettier --check . && docusaurus build"
+    "smoketest": "yarn lint && yarn build"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.65",
