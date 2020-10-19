@@ -44,7 +44,7 @@ $ yarn smoketest
 ### Fix Prettier style issues
 
 ```
-$ yarn fix:prettier
+$ yarn lint-fix
 ```
 
 ### Deployment
