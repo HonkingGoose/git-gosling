@@ -3,5 +3,11 @@
   "lockFileMaintenance": {
     "enabled": true
   },
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "packagePatterns": ["^@docusaurus"],
+      "groupName": "docusaurus monorepo"
+    }
+  ]
 }
