@@ -64,3 +64,10 @@ You can read the manual for the `git config` command by doing any of the followi
 
 I recommend that you read the [Pro Git 2 book](https://git-scm.com/book/en/v2) online, it does not cost any money.
 The ProGit2 book covers everything I talk about in this guide in more depth and more detail.
+
+## Use a Git Cheat Sheet
+
+It can be hard to keep track of all the Git commands that you can use, and what they do.
+To help you with learning Git, you can use a cheat sheet.
+
+I recommend this [Git Cheat Sheet made by GitHub](https://training.github.com/downloads/github-git-cheat-sheet.pdf).
