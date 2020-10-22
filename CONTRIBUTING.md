@@ -22,7 +22,7 @@ This will get you banned from this repository.
 
 - Search existing pull requests to see if something similar is already proposed.
 - Run `yarn smoketest`, to ensure you're following the Prettier style and that the build works.
-- Run `yarn fix:prettier` to fix your code.
+- Run `yarn lint-fix` to fix linting problems.
 - Fill in the pull request template.
 - Give your pull request a descriptive title.
 
