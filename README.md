@@ -1,6 +1,7 @@
 ![Node.js CI](https://github.com/RoostingGeese/git-gosling/workflows/Node.js%20CI/badge.svg)
 ![Prettier](https://github.com/RoostingGeese/git-gosling/workflows/Prettier/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b5c74514-690d-49c9-8f0c-ed7317f02cf9/deploy-status)](https://app.netlify.com/sites/git-gosling/deploys)
+[![Renovate Badge](https://img.shields.io/badge/renovate-enabled-brightgreen)](https://github.com/marketplace/renovate)
 
 # Grow from gosling to goose with Git
 
