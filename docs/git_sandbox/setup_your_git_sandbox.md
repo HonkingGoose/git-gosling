@@ -16,8 +16,15 @@ Use the Git for Windows's bash shell emulation when you use Windows.
 You can find the Git Bash shell by going to the Windows Start menu and searching for "git".
 :::
 
-:::warning
-These instructions are for `Bash` shells only.
+:::caution
+The instructions in this guide are for Linux BASH shells only.
+
+The commands listed in this guide will not work for PowerShell terminals, and probably won't work right on Mac terminals.
+
+As an example: the command to list all files (including hidden ones) is `ls --all` on Linux Bash.
+This does not work on a Mac, instead you must use `ls -A` on the Mac Terminal.
+
+Remember to search online if something doesn't work the way you expect it to.
 :::
 
 ### Navigate to the home directory
