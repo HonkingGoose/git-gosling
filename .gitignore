@@ -28,7 +28,7 @@ yarn-error.log*
 
 # This is licensed under the project's license.
 
-# Ignore JetBrains stuff
+# Ignore JetBrains IDE files
 .idea
 
 # ---------------------------------------------------------------------------------- #
@@ -155,14 +155,11 @@ dist
 
 # ---------------------------------------------------------------------------------- #
 
-# Visual Studio Code (VS Code) gitignore from https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
+# Based on Visual Studio Code (VS Code) gitignore from https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
+# Adapted to suit this projects needs.
 # This is licensed under the Creative Commons Zero v1.0 Universal license.
 
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
