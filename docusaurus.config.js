@@ -28,6 +28,19 @@ module.exports = {
         },
       ],
     },
+    algolia: {
+      apiKey: "3df69032480bd9ed420f9c80c2dbfd41",
+      indexName: "git-gosling",
+
+      // Contextual search is useful for versioned Docusaurus sites.
+      // We're not using versioning, so this is turned of.
+      contextualSearch: false,
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      //... other Algolia params
+    },
     footer: {
       style: "dark",
       copyright: `Copyright © ${new Date().getFullYear()} Git Gosling. Built with Docusaurus.`,
