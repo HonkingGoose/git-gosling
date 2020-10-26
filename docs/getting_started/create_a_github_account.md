@@ -58,4 +58,3 @@ You have:
 - Created a personal access token.
 
 That was a lot of work, but you're ready to go now!
-In the next section you will learn how to create a repository on GitHub.

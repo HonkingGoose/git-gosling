@@ -12,11 +12,12 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Getting started with Git",
+      label: "Getting started",
       items: [
-        "getting_started_with_git/installing_git",
-        "getting_started_with_git/configuring_git",
-        "getting_started_with_git/getting_help_with_git",
+        "getting_started/installing_git",
+        "getting_started/create_a_github_account",
+        "getting_started/configuring_git",
+        "getting_started/getting_help_with_git",
       ],
     },
     {
@@ -38,7 +39,6 @@ module.exports = {
         `git_sandbox/create_a_new_branch`,
         "git_sandbox/switching_between_branches",
         "git_sandbox/your_first_merge",
-        "git_sandbox/create_a_github_account",
         "git_sandbox/create_your_first_github_repo",
         "git_sandbox/editing_a_file_on_github",
         "git_sandbox/merge_pull_request",
