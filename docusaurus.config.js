@@ -55,9 +55,10 @@ module.exports = {
           // Please change this to your repo.
           editUrl: "https://github.com/RoostingGeese/git-gosling/edit/main/",
         },
-        theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
+        // Stop loading custom CSS.
+        // theme: {
+        //   customCss: require.resolve("./src/css/custom.css"),
+        // },
       },
     ],
   ],
