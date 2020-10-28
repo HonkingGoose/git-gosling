@@ -21,7 +21,7 @@ Follow these steps:
 1. Enter a name for the repository: `sandbox`.
 1. Skip the description field.
 1. Set the visibility to private.
-1. Skip the **Initialize this repository with** section.
+1. Skip the "Initialize this repository with" section.
 1. Click on the green "Create this repository button"
 
 :::caution
