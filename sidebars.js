@@ -66,6 +66,7 @@ module.exports = {
         "advanced_topics/advanced_git_configuration",
         "advanced_topics/contribute_to_a_project_by_forking",
         "advanced_topics/clean_up_your_git_history",
+        "advanced_topics/use_git_bisect_to_find_bugs",
         "advanced_topics/github_cli",
       ],
     },
