@@ -4,7 +4,7 @@ title: Your first merge
 ---
 
 We've done some work on the `feature` branch, and our work is ready to be merged into the `main` branch.
-You can merge you work into another branch with `git merge`.
+You can merge your work into another branch with `git merge`.
 First, let's recap where we are now.
 
 ## Recap before merge

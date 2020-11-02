@@ -6,16 +6,16 @@ title: Create a new file and track it
 ## Creating a new README
 
 Let's create a README for our repository.
-First we create an empty markdown file:
+Use the `touch` command to create an empty Markdown file:
 
 ```bash
-touch README.md
+$ touch README.md
 ```
 
 Now we edit it with our editor of choice, let's say Visual Studio Code:
 
 ```bash
-code README.md
+$ code README.md
 ```
 
 Enter the following text:
@@ -45,7 +45,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 ```
 
-What Git is telling us:
+Git is telling us:
 
 - There are no commits yet.
 - The README.md file is untracked by Git.
@@ -53,10 +53,8 @@ What Git is telling us:
 
 ## Tracking a new file
 
-When you create a file, you will need to tell Git to track the file.
-Just saving a file in the editor does not mean Git will track it.
-
-Let's track the `README.md` file with `git add`:
+Git does not track newly created files automatically.
+Tell Git to track the new `README.md` file with `git add`:
 
 ```git
 $ git add README.md

@@ -5,7 +5,7 @@ title: Introduction to git status
 
 The most used Git command is `git status`.
 As you might have guessed already, `git status` wil display the status of your repository.
-The output of this command will change depending on what's happening in your repository.
+The output of this command will change based on what's happening in your repository.
 
 Let's see what the Git status of our (nearly empty) sandbox repository is.
 

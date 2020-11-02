@@ -31,7 +31,7 @@ $ git commit --verbose
 
 ## General steps for committing
 
-What follows are the general steps to commit.
+What follows are the general steps to make a commit.
 
 If you use the Nano editor, read the section: [Committing with Nano](#committing-with-nano).
 
@@ -63,9 +63,9 @@ index 0000000..21652e3
 +This is the readme for the sandbox repository.
 ```
 
-### Type in commit message and save
+### Type commit message and save
 
-Type in a nice descriptive commit message: `Create README` and save.
+Type a nice descriptive commit message: `Create README` and save.
 
 ```git title="Text editor with commit message"
 Create README
@@ -152,7 +152,7 @@ Do not enter any `File Name to Write` as this will confuse Git.
 :::
 
 :::tip
-You can also just do <kbd>CTRL + S</kbd> to save and use <kbd>CTRL + X</kbd> to exit.
+You can use <kbd>CTRL + S</kbd> to save and <kbd>CTRL + X</kbd> to exit.
 :::
 
 ## Summary

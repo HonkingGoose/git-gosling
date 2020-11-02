@@ -115,7 +115,7 @@ Search for usages of the old branch name in your code.
 
 ### Push your local repository to GitHub
 
-Now we told Git about our remote, and changed the branch name, we're ready to _push_ our work to GitHub.
+Now we've told Git about our remote, and changed the branch name, we're ready to _push_ our work to GitHub.
 
 Push your repository to GitHub with `git push --set-upstream origin main`.
 The `--set-upstream` part tells Git that we want to track the `origin/main` remote branch.
@@ -140,7 +140,7 @@ Use the PAT instead of your GitHub password whenever you access GitHub via the C
 ### Git output after push
 
 After you've pushed your repository, Git shows a lot of information.
-We'll focus on the import bits at the bottom:
+We'll focus on the important bits at the bottom:
 
 ```git
 To https://github.com/your_username/sandbox.git

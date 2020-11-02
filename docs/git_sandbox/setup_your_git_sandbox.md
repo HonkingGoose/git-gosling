@@ -4,20 +4,22 @@ title: Setup your Git sandbox
 ---
 
 The best way to learn is by doing, so let's dive right in!
-Let's first create a safe place for you to try things out.
+Let's create a safe place for you to try things out.
 
 Follow the steps listed below.
 
 ## Steps to create your sandbox
 
 :::tip
-Use the Git for Windows's bash shell emulation when you use Windows.
+When you're using Windows, use Git for Windows's Bash shell emulation.
+
+Do not use the default `cmd.exe` terminal or PowerShell.
 
 You can find the Git Bash shell by going to the Windows Start menu and searching for "git".
 :::
 
 :::caution
-The instructions in this guide are for Linux BASH shells only.
+The instructions in this guide are for Linux Bash shells only.
 
 The commands listed in this guide will not work for PowerShell terminals, and probably won't work right on Mac terminals.
 
