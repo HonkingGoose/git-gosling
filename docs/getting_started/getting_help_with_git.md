@@ -60,6 +60,37 @@ You can read the manual for the `git config` command by doing any of the followi
 - `$ git config --help`
 - `$ man git config`
 
+## Use the `-h` option to view a short help message
+
+Say you forgot what options the `git add` command takes.
+You can use `git add -h` to view a short help message.
+
+```git
+$ git add -h
+
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+```
+
 ## Read a proper book (ProGit2)
 
 I recommend that you read the [Pro Git 2 book](https://git-scm.com/book/en/v2) online, it does not cost any money.
