@@ -45,7 +45,7 @@ Usually Git will offer some advice to get going again, or tell you how to undo t
 
 Git has a built-in manual, which you can read with any of the following commands:
 
-```
+```git
 $ git help <verb>
 $ git <verb> --help
 $ man git <verb>
