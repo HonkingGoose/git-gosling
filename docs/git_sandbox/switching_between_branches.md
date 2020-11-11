@@ -117,7 +117,7 @@ $ git commit --verbose
 
 Enter `Add new sentence while on feature branch` as the commit message.
 
-## Summary:
+## Summary
 
 You learned: how to switch between branches, and how to make a commit on a branch.
 The next section will cover how to use `git merge` to merge your work on the `feature` branch into the `main` branch.
