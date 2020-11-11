@@ -68,7 +68,7 @@ Click on the green button **Create pull request**.
 Now you have made your first pull request.
 In the next section you'll learn how to merge this pull request.
 
-## Summary:
+## Summary
 
 You've learned:
 

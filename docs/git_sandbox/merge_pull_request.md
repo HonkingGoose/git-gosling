@@ -54,7 +54,7 @@ Click on the arrow next to the **Merge pull request** button to select a differe
 Your work is now safely on the `main` branch, so there's no need to keep the `Update-README` branch.
 Clean up the branch by clicking on **Delete branch**.
 
-## Summary:
+## Summary
 
 You've learned how to merge a pull request.
 The next section covers how to get those changes on the GitHub repository into your local repository.
