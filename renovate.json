@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", ":label(dependencies)"],
+  "extends": ["config:base"],
   "lockFileMaintenance": {
     "enabled": true
   },
