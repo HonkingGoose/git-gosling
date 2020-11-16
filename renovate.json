@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base"],
+  "extends": ["config:base", "github>whitesource/merge-confidence:beta"],
   "lockFileMaintenance": {
     "enabled": true
   },
