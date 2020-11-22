@@ -1,4 +1,4 @@
-# This workflow uses Yarn to install the dependencies, and then lint the files with Prettier.
+# This workflow uses npm to install the dependencies, and then lint the files with Prettier.
 
 # This workflow is adapted from the one that the Prettier project uses.
 # It is licensed under the MIT license.
@@ -30,8 +30,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install dependencies with Yarn
-        run: yarn install --frozen-lockfile
+      - name: Install dependencies with npm
+        run: npm ci
 
       - name: Lint files with Prettier
-        run: yarn lint
+        run: npm lint
