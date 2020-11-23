@@ -44,9 +44,10 @@ Write down or print the recovery codes that GitHub gives you, and keep them some
 
 ### Create a personal access token (PAT)
 
-If you have two-factor authentication enabled, you must create a GitHub personal access token (PAT).
-Follow the steps in the [GitHub documentation, Creating a personal access token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token).
-Use this personal access token instead of your GitHub password when you use the Git CLI.
+To authenticate to GitHub you must use a personal access token, OAuth token, or GitHub App installation token.
+Follow the steps in the [GitHub documentation, Creating a personal access token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token), to create your personal access token.
+
+When Git asks for your password, you enter the personal access token instead.
 
 ## Summary
 
