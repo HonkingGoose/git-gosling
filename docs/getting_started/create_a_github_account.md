@@ -42,7 +42,7 @@ Read and follow the steps in the [GitHub docs, Securing your account with two-fa
 Write down or print the recovery codes that GitHub gives you, and keep them somewhere safe!
 :::
 
-### Create personal access token (PAT)
+### Create a personal access token (PAT)
 
 If you have two-factor authentication enabled, you must create a GitHub personal access token (PAT).
 Follow the steps in the [GitHub documentation, Creating a personal access token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token).
