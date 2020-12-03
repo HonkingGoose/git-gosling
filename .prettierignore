@@ -169,7 +169,3 @@ dist
 .history/
 
 # ---------------------------------------------------------------------------------- #
-
-# Ignore Renovate bot configuration
-
-renovate.json

@@ -3,11 +3,5 @@
   "lockFileMaintenance": {
     "enabled": true
   },
-  "dependencyDashboard": true,
-  "packageRules": [
-    {
-      "packagePatterns": ["^@docusaurus"],
-      "allowedVersions": "/v2.0.0(-alpha.(\d\d)|)"
-    }
-  ]
+  "dependencyDashboard": true
 }
