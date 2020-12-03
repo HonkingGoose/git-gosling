@@ -3,5 +3,11 @@
   "lockFileMaintenance": {
     "enabled": true
   },
-  "dependencyDashboardApproval": true
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "packagePatterns": ["^@docusaurus"],
+      "dependencyDashboardApproval": true
+    }
+  ]
 }
