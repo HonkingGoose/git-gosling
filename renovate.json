@@ -7,7 +7,7 @@
   "packageRules": [
     {
       "packagePatterns": ["^@docusaurus"],
-      "dependencyDashboardApproval": true
+      "allowedVersions": "/^v\\d+\\.\\d+\\.\\d+(-alpha\\.(\\d+))?$/"
     }
   ]
 }
