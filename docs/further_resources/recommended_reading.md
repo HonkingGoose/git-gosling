@@ -34,7 +34,7 @@ This workflow is way different to what you're used to with GitHub or GitLab.
 
 Fortunately there's an excellent hands-on guide that will teach you how to send patches with `git send-email`.
 The guide will tell you how to configure Git so that you can use it with your email.
-Then you'll get hands-on and actually send a patch via e-mail, and deal with feedback.
+Then you'll get hands-on and actually send a patch via email, and deal with feedback.
 You'll also learn handy tips and tricks.
 
 [Git send email lessons at git-send-email.io](https://git-send-email.io/)
