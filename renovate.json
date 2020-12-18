@@ -8,7 +8,7 @@
   "stabilityDays": 3,
   "packageRules": [
     {
-      "description": "Ignore alpha versions of Docusaurus",
+      "description": "Ignore canary releases of Docusaurus",
       "packagePatterns": ["^@docusaurus"],
       "allowedVersions": "/^v\\d+\\.\\d+\\.\\d+(-alpha\\.(\\d+))?$/"
     }
