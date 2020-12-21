@@ -2,12 +2,10 @@
   "extends": ["config:base"],
   "dependencyDashboard": true,
   "lockFileMaintenance": {
-    "description": "Refresh lock file weekly on mondays",
     "enabled": true
   },
   "packageRules": [
     {
-      "description": "Ignore canary releases of Docusaurus",
       "packagePatterns": ["^@docusaurus"],
       "allowedVersions": "/^v\\d+\\.\\d+\\.\\d+(-alpha\\.(\\d+))?$/"
     }
