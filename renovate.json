@@ -5,7 +5,6 @@
     "description": "Refresh lock file weekly on mondays",
     "enabled": true
   },
-  "stabilityDays": 3,
   "packageRules": [
     {
       "description": "Ignore canary releases of Docusaurus",
