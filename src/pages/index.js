@@ -8,9 +8,19 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: "Hands-on",
+    title: "Easy to follow",
     imageUrl: "img/undraw_docusaurus_mountain.svg",
-    description: <>Learn by doing.</>,
+    description: <>Simple English, simple explanations.</>,
+  },
+  {
+    title: "Learn by doing",
+    imageUrl: "img/undraw_docusaurus_mountain.svg",
+    description: <>Get hands-on with Git.</>,
+  },
+  {
+    title: "Get smart with Git",
+    imageUrl: "img/undraw_docusaurus_mountain.svg",
+    description: <>Follow best practices and get handy tips.</>,
   },
 ];
 
@@ -49,7 +59,7 @@ function Home() {
               )}
               to={useBaseUrl("docs/")}
             >
-              Follow the mother goose.
+              Start learning!
             </Link>
           </div>
         </div>

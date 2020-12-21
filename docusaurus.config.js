@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Git Gosling",
+  title: "Taking your first steps with Git?",
   tagline: "Grow from gosling to goose with this Git guide.",
   url: "https://git-gosling.netlify.app/",
   baseUrl: "/",
@@ -42,8 +42,8 @@ module.exports = {
       //... other Algolia params
     },
     footer: {
-      style: "dark",
-      copyright: `Copyright © ${new Date().getFullYear()} Git Gosling. Built with Docusaurus.`,
+      style: "light",
+      copyright: `Copyright © ${new Date().getFullYear()} Git Gosling.`,
     },
   },
   presets: [
