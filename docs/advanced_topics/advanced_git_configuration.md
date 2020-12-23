@@ -49,6 +49,9 @@ $ git config --global pull.rebase "true"
 
 ## Code editor setup
 
+When Git needs your input, it will open the default editor automatically (usually `vi` or `nano`).
+You can use the `git config --global core.editor` command to tell Git what editor you want to use.
+
 See this table for a list of popular editors, and how to configure them for use with Git.
 
 |       Editor       | Configuration                                     |
@@ -59,6 +62,6 @@ See this table for a list of popular editors, and how to configure them for use 
 |        Atom        | `git config --global core.editor "atom --wait"`   |
 
 :::note
-The `--wait` or `-w` option tells Git to wait until you've saved the message and closed the commit message screen.
+The `--wait` or `-w` option tells Git to wait until you've saved the file and closed the editor.
 This option is not available for all editors.
 :::
