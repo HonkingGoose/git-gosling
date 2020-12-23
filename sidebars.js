@@ -55,7 +55,7 @@ module.exports = {
         "best_practices/write_good_commit_messages",
         `best_practices/use_a_linter`,
         "best_practices/dealing_with_merges",
-        "best_practices/dealing_with_dependencies",
+        "best_practices/use_a_dependency_bot",
         "best_practices/testing_and_github_actions",
       ],
     },
