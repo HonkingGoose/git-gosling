@@ -1,6 +1,6 @@
 ---
-id: conventions_used_in_this_guide
-title: Conventions used in this guide
+id: conventions
+title: Conventions
 ---
 
 ## Command line

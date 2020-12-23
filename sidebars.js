@@ -6,13 +6,13 @@ module.exports = {
       items: [
         "about_this_guide/project_license",
         "about_this_guide/guide_introduction",
-        "about_this_guide/conventions_used_in_this_guide",
       ],
     },
     {
       type: "category",
       label: "Getting started",
       items: [
+        "getting_started/conventions",
         "getting_started/list_of_abbreviations",
         "getting_started/installing_git",
         "getting_started/create_a_github_account",
