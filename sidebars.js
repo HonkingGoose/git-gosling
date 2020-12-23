@@ -6,14 +6,14 @@ module.exports = {
       items: [
         "about_this_guide/project_license",
         "about_this_guide/guide_introduction",
-        "about_this_guide/conventions_used_in_this_guide",
-        "about_this_guide/list_of_abbreviations",
       ],
     },
     {
       type: "category",
       label: "Getting started",
       items: [
+        "getting_started/conventions",
+        "getting_started/list_of_abbreviations",
         "getting_started/installing_git",
         "getting_started/create_a_github_account",
         "getting_started/configuring_git",
@@ -55,7 +55,7 @@ module.exports = {
         "best_practices/write_good_commit_messages",
         `best_practices/use_a_linter`,
         "best_practices/dealing_with_merges",
-        "best_practices/dealing_with_dependencies",
+        "best_practices/use_a_dependency_bot",
         "best_practices/testing_and_github_actions",
       ],
     },

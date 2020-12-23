@@ -3,7 +3,7 @@ id: list_of_abbreviations
 title: List of abbreviations
 ---
 
-You'll find the following abbreviations in the guide:
+This guide uses the following abbreviations:
 
 | Abbreviation | Full name                          |
 | :----------: | ---------------------------------- |
