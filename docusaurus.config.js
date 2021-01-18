@@ -4,6 +4,8 @@ module.exports = {
   url: "https://git-gosling.netlify.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
+  onDuplicateRoutes: "throw",
+  onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
   organizationName: "RoostingGeese", // Usually your GitHub org/user name.
   projectName: "git-gosling", // Usually your repo name.
