@@ -8,6 +8,17 @@ module.exports = {
   organizationName: "RoostingGeese", // Usually your GitHub org/user name.
   projectName: "git-gosling", // Usually your repo name.
   themeConfig: {
+    announcementBar: {
+      // Space reservation for announcementBar
+      // See https://v2.docusaurus.io/docs/api/themes/configuration#announcement-bar
+
+      id: "announcement",
+      content:
+        "This site is being worked on, but there's a lot of good content already.",
+      backgroundColor: "#FEF3C7",
+      textColor: "#78350F",
+      isCloseable: true,
+    },
     navbar: {
       title: "Git Gosling",
       logo: {
