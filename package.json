@@ -10,7 +10,7 @@
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
     "lint": "prettier --check .",
-    "lint-fix": "prettier --write .",
+    "prettier-fix": "prettier --write .",
     "smoketest": "npm run lint && npm run build"
   },
   "dependencies": {
