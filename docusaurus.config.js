@@ -28,6 +28,12 @@ module.exports = {
         },
       ],
     },
+    colorMode: {
+      defaultMode: "light",
+
+      // Disable dark mode switch
+      disableSwitch: true,
+    },
     algolia: {
       apiKey: "3df69032480bd9ed420f9c80c2dbfd41",
       indexName: "git-gosling",
