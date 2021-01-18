@@ -34,6 +34,9 @@ module.exports = {
       // Disable dark mode switch
       disableSwitch: true,
     },
+    prism: {
+      theme: require("prism-react-renderer/themes/palenight"),
+    },
     algolia: {
       apiKey: "3df69032480bd9ed420f9c80c2dbfd41",
       indexName: "git-gosling",
