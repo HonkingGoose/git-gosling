@@ -45,5 +45,5 @@ $ npm run smoketest
 ### Fix Prettier style issues
 
 ```
-$ npm run lint-fix
+$ npm run prettier-fix
 ```

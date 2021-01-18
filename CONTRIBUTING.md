@@ -22,7 +22,7 @@ This will get you banned from this repository.
 
 - Search existing pull requests to see if something similar is already proposed.
 - Run `npm run smoketest`, to ensure you're following the Prettier style and that the build works.
-- Run `npm run lint-fix` to fix linting problems.
+- Run `npm run prettier-fix` to fix Prettier linting problems.
 - Fill in the pull request template.
 - Give your pull request a descriptive title.
 
