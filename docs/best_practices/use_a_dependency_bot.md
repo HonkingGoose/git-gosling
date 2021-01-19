@@ -18,8 +18,8 @@ I strongly recommend that you use a bot like _Renovate_ or _Dependabot_ to get a
 | Open pull request for updates           |  **x**   |   **x**    |
 | Get updates on a regular schedule       |  **x**   |   **x**    |
 | Display changelog in PR                 |  **x**   |   **x**    |
+| Display dependency compatibility score  |  **x**   |   **x**    |
 | Group monorepo updates into a single PR |  **x**   |            |
-| Display dependency compatibility score  |  **x**   |            |
 | Fully customizable                      |  **x**   |            |
 | Rules-based auto-merging                |  **x**   |            |
 
