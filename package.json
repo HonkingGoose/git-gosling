@@ -11,7 +11,8 @@
     "serve": "docusaurus serve",
     "lint": "prettier --check .",
     "prettier-fix": "prettier --write .",
-    "smoketest": "npm run lint && npm run build"
+    "smoketest": "npm run lint && npm run build",
+    "after-upgrade": "docusaurus clear"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.70",

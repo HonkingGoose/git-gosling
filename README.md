@@ -47,3 +47,13 @@ $ npm run smoketest
 ```
 $ npm run prettier-fix
 ```
+
+### After upgrading Docusaurus packages
+
+After upgrading any Docusaurus packages `@docusaurus/core` .etc run the following command:
+
+```
+$ npm run after-upgrade
+```
+
+This command runs the `docusaurus clear` command which clears the cache directories.
