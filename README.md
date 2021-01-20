@@ -15,13 +15,13 @@ If you want to contribute, you must clone this repository, and follow the steps 
 
 ### Installation
 
-```
+```bash
 $ npm install
 ```
 
 ### Local Development
 
-```
+```bash
 $ npm run start
 ```
 
@@ -30,7 +30,7 @@ Most changes can be seen live without having to restart the server.
 
 ### Making a build
 
-```
+```bash
 $ npm run build
 ```
 
@@ -38,13 +38,13 @@ This command generates static content into the `build` directory and can be serv
 
 ### Before opening a pull request, run the smoketest
 
-```
+```bash
 $ npm run smoketest
 ```
 
 ### Fix Prettier style issues
 
-```
+```bash
 $ npm run prettier-fix
 ```
 
@@ -52,7 +52,7 @@ $ npm run prettier-fix
 
 After upgrading any Docusaurus packages `@docusaurus/core` .etc run the following command:
 
-```
+```bash
 $ npm run after-upgrade
 ```
 
