@@ -70,7 +70,7 @@ If you want to use another text editor, look at the table in the [Advanced Git c
 | :-----------------: | ------------------------------------------------------------------- |
 |    Ubuntu/Debian    | `sudo apt install nano`                                             |
 |       Fedora        | `sudo dnf install nano`                                             |
-| MacOS with Homebrew | `brew install nano`                                                 |
+| macOS with Homebrew | `brew install nano`                                                 |
 |       Windows       | Select `nano` as the default editor when installing Git for Windows |
 
 ### Use nano as your default editor with Git

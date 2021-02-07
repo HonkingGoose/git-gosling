@@ -69,11 +69,11 @@ $ sudo dnf install git
 
 You can see a list of installation instructions at [git-scm.com/download/linux](https://git-scm.com/download/linux).
 
-## MacOS
+## macOS
 
 ### via the Xcode command line tools
 
-Try to run Git from the MacOS Terminal.
+Try to run Git from the macOS Terminal.
 If you don't have Git installed, you will be prompted to install it.
 
 ```git

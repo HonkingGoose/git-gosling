@@ -45,7 +45,7 @@ Git does not deal with large files properly.
 Use the Git Large File Storage extension to work with large files.
 
 Download Git LFS from [git-lfs.github.com](https://git-lfs.github.com/).
-It's available for Linux, Windows and MacOS.
+It's available for Linux, Windows and macOS.
 
 :::tip
 Read the [GitHub docs, Managing large files](https://docs.github.com/en/free-pro-team@latest/github/managing-large-files).
