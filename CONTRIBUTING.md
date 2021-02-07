@@ -28,31 +28,5 @@ This will get you banned from this repository.
 
 ## How to create a good commit message
 
-Follow this template:
-
-<!-- The commit template is lifted from https://github.com/progit/progit2/blob/master/book/05-distributed-git/sections/contributing.asc -->
-<!-- Thank you Tim Pope and ProGit2 for this template! -->
-
-```
-Capitalized, short (50 chars or less) summary
-
-More detailed explanatory text, if necessary.  Wrap it to about 72
-characters or so.  In some contexts, the first line is treated as the
-subject of an email and the rest of the text as the body.  The blank
-line separating the summary from the body is critical (unless you omit
-the body entirely); tools like rebase will confuse you if you run the
-two together.
-
-Write your commit message in the imperative: "Fix bug" and not "Fixed bug"
-or "Fixes bug."  This convention matches up with commit messages generated
-by commands like git merge and git revert.
-
-Further paragraphs come after blank lines.
-
-- Bullet points are okay, too
-
-- Typically a hyphen or asterisk is used for the bullet, followed by a
-  single space, with blank lines in between, but conventions vary here
-
-- Use a hanging indent
-```
+This repository follows the Conventional Commits style.
+Read the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/).
