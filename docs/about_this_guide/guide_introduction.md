@@ -11,8 +11,9 @@ You will learn how to use Git from the command line.
 ### Git? What's that?
 
 Git is a version control system, it tracks the history of a file/project.
-You can use it to share your work with co-workers or with the world.
-Others can easily get a copy of your work make improvements, and share their improvements with you.
+You can use Git to share your work with co-workers or with the world.
+
+Others can easily get a copy of your work, make improvements, and give those improvements back to you.
 
 ## Acknowledgements
 
