@@ -10,6 +10,10 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+
+  /* Temporary CSS: add bg color gradient and override text color in whole hero */
+  background-image: linear-gradient(#312e81, #4f46e5);
+  color: #fafafa;
 }
 
 @media screen and (max-width: 966px) {
