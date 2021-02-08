@@ -46,6 +46,9 @@ module.exports = {
 
       // Disable dark mode switch
       disableSwitch: true,
+
+      // Ignore user system preference for color scheme
+      respectPrefersColorScheme: false,
     },
     prism: {
       theme: require("prism-react-renderer/themes/palenight"),
