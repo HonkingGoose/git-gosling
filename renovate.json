@@ -9,5 +9,6 @@
       "packagePatterns": ["^@docusaurus"],
       "allowedVersions": "/^\\d+\\.\\d+\\.\\d+(-alpha\\.(\\d+))?$/"
     }
-  ]
+  ],
+  "supportPolicy": ["lts_latest"]
 }
