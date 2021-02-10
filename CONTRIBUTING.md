@@ -2,7 +2,7 @@ Thanks for taking the time to contribute! :+1:
 
 ## Licensing your work to us
 
-By opening a pull request, you agree to provide your work under the [project license](https://github.com/RoostingGeese/git-gosling/blob/main/LICENSE.md).
+By opening a pull request, you agree to provide your work under the [project license](https://github.com/HonkingGoose/git-gosling/blob/main/LICENSE.md).
 
 ## Community and behavioral expectations
 

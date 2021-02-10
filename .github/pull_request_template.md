@@ -3,7 +3,7 @@
 
 <!-- Mark the checkbox [X] if you agree with the item. -->
 
-- [ ] I provide my work under the [project license](https://github.com/RoostingGeese/git-gosling/blob/main/LICENSE.md).
+- [ ] I provide my work under the [project license](https://github.com/HonkingGoose/git-gosling/blob/main/LICENSE.md).
 
 ## Changes
 

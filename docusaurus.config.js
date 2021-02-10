@@ -1,13 +1,13 @@
 module.exports = {
   title: "Git Gosling",
   tagline: "Grow from gosling to goose with this Git guide.",
-  url: "https://git-gosling.netlify.app/",
+  url: "https://git-gosling.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onDuplicateRoutes: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
-  organizationName: "RoostingGeese", // Usually your GitHub org/user name.
+  organizationName: "HonkingGoose", // Usually your GitHub org/user name.
   projectName: "git-gosling", // Usually your repo name.
   themeConfig: {
     announcementBar: {
@@ -35,7 +35,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://github.com/RoostingGeese/git-gosling",
+          href: "https://github.com/HonkingGoose/git-gosling",
           label: "Git Gosling project on GitHub",
           position: "right",
         },
@@ -78,7 +78,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/RoostingGeese/git-gosling/edit/main/",
+          editUrl: "https://github.com/HonkingGoose/git-gosling/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

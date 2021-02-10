@@ -1,6 +1,5 @@
-![Docusaurus build](https://github.com/RoostingGeese/git-gosling/workflows/Docusaurus%20build/badge.svg)
-![Prettier](https://github.com/RoostingGeese/git-gosling/workflows/Prettier/badge.svg)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b5c74514-690d-49c9-8f0c-ed7317f02cf9/deploy-status)](https://app.netlify.com/sites/git-gosling/deploys)
+![Docusaurus build](https://github.com/HonkingGoose/git-gosling/workflows/Docusaurus%20build/badge.svg)
+![Prettier](https://github.com/HonkingGoose/git-gosling/workflows/Prettier/badge.svg)
 
 # Grow from gosling to goose with Git
 
