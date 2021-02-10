@@ -4,7 +4,7 @@
   "private": true,
   "engines": {
     "node": "14.15.5",
-    "npm": "6.14.11"
+    "npm": "7.5.3"
   },
   "scripts": {
     "docusaurus": "docusaurus",
