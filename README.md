@@ -68,3 +68,18 @@ $ npm run after-upgrade
 ```
 
 This command runs the `docusaurus clear` command which clears the Docusaurus cache directories.
+
+## Thanks
+
+### Docusaurus v2
+
+Thank you [Docusaurus v2](https://v2.docusaurus.io/) for making this project possible!
+
+### Algolia DocSearch
+
+Thank you Algolia for providing this project with [DocSearch](https://docsearch.algolia.com/) functionality!
+The search works great, and was very easy to get setup with Docusaurus v2.
+
+### Vercel
+
+Thank you [Vercel](https://vercel.com/) for providing this project with free hosting and a super handy website preview functionality!
