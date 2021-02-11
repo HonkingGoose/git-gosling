@@ -14,7 +14,7 @@ The guide is easy to follow, you'll learn by doing, and you'll get smart with Gi
 If you want to learn Git you're at the right place!
 Go to the [Git Gosling](https://git-gosling.vercel.app/) website to start your journey.
 
-## How to contribute to this project
+## Contributing
 
 Your feedback and pull requests are very welcome!
 
@@ -33,7 +33,7 @@ To build the website locally you'll need:
 - Node 14
 - npm 6 (comes pre-installed with Node 14)
 
-#### Steps to take:
+#### Steps to get started
 
 Follow these steps to setup your local development environment:
 
@@ -59,12 +59,12 @@ Follow these steps to setup your local development environment:
 1. Your pull request will get reviewed, and if the maintainers like it, it will get merged.
 1. After your pull request is merged, you can remove your local branch with `git branch -D branch_name`
 
-### After upgrading Docusaurus packages
+### After Docusaurus package upgrades
 
-After upgrading any Docusaurus packages `@docusaurus/core` .etc run the following command:
+After `@docusaurus/` packages are upgraded you should run the following command:
 
 ```bash
 $ npm run after-upgrade
 ```
 
-This command runs the `docusaurus clear` command which clears the cache directories.
+This command runs the `docusaurus clear` command which clears the Docusaurus cache directories.
