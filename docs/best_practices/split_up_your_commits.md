@@ -56,7 +56,7 @@ A hunk is basically a part of a file that we changed.
 
 To stage this change, enter <kbd>y</kbd> and press <kbd>Enter</kbd>.
 
-:::tip
+:::tip Splitting up hunks
 Sometimes it makes sense to split the hunk with the `s` option.
 If the hunk is still not what you want after splitting, you can manually edit it with the `e` option.
 :::

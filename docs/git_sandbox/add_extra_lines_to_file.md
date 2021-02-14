@@ -29,17 +29,17 @@ Use `git add` to stage the changes you made in the README:
 $ git add README.md
 ```
 
-:::tip
-You can use `git add .` as a wildcard to include all changes.
-Beware that this makes it very easy to commit things you don't want to commit.
+:::tip How to stage all the things?
+You can use `git add .` to include all changes.
+Beware, it's very easy to stage changes you don't intend to commit this way!
 :::
 
-:::tip
+:::tip Ignore stuff you don't want to stage
 Use a `.gitignore` file to tell Git what files to ignore.
 Read more about this in the [Best practices, Use a gitignore file](../best_practices/use_a_gitignore_file.md) part of the guide.
 :::
 
-:::tip
+:::tip Pick and choose your staging area
 You can also use `git add --patch` to pick and choose what you're going to put in your staging area.
 Read more about this in the [Best practices, Split up your commits](../best_practices/split_up_your_commits.md) part of the guide.
 :::
@@ -122,7 +122,7 @@ d663c4d Create README <-- c79426c Add another line to the README
 
 Commit `c79426c` points back to the root commit `d663c4d`.
 
-:::note
+:::info Why are my commit hashes different?
 Your commit hashes will be different from those in the guide.
 That's okay, you're not doing anything wrong.
 :::

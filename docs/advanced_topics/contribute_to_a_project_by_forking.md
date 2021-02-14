@@ -49,11 +49,10 @@ If you open a pull request at the source repository, you're providing your work 
 1. Delete the merged branch on the fork (you can usually do this right from the pull request window).
 1. Delete the feature branch that's on your local workstation, as the changes are now in `main`.
 
-:::warning
-Never put your work on the fork's `main` branch!
-
+:::warning Never commit to the `main` branch
 The only thing you should do on your fork's `main` branch is pulling in the `upstream/main` changes.
-Create a feature branch to do your work in!
+
+Create a new feature branch to do your work in!
 :::
 
 ### Create a fork
@@ -62,9 +61,7 @@ Go to the repository for the project you want to contribute to.
 Click on the _fork_ button.
 GitHub will create the fork under your own namespace.
 
-:::tip
 Read the [GitHub docs on how to fork a repo](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo).
-:::
 
 ### Clone the fork to your local workstation
 
@@ -118,6 +115,8 @@ You can get an overview of the branches that are merged with:
 $ git branch --merged
 ```
 
+Note: this will only work when the repository uses normal merges.
+You won't see branches that are rebased or squash-merged into the upstream mainline branch!
 :::
 
 :::tip

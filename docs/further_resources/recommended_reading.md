@@ -47,11 +47,11 @@ Use the Git Large File Storage extension to work with large files.
 Download Git LFS from [git-lfs.github.com](https://git-lfs.github.com/).
 It's available for Linux, Windows and macOS.
 
-:::tip
+:::tip How to work with LFS
 Read the [GitHub docs, Managing large files](https://docs.github.com/en/free-pro-team@latest/github/managing-large-files).
 :::
 
-:::note
+:::note GitHub enforces filesize limits
 GitHub enforces file/repository size limits when you use Git LFS.
 
 Read more about the limits in the [GitHub docs, About storage and bandwidth usage](https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/about-storage-and-bandwidth-usage).

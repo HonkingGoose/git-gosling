@@ -6,14 +6,13 @@ title: Clean up your Git history
 You can clean much of your Git history before going public with your changes.
 I recommend that you make a practice `sandbox` repository, and learn how this stuff works, before attempting it on production work.
 
-:::warning
-This section is not for newcomers to Git.
+:::warning This section is not meant for Git beginners
 Do not try this on your production work if you don't know how any of this works!
 
 Recovering from bad edits might not be possible or out of your comfort zone.
 :::
 
-:::warning
+:::warning Do not force push without thinking
 Think before you use `git push --force-with-lease` to push your changed history!
 
 Changing the history of public branches is generally a bad idea.
@@ -21,7 +20,7 @@ Changing the history of public branches is generally a bad idea.
 Don't force push to a **main**, **master** or **trunk** branch, as that will mess things up for everybody on the project.
 :::
 
-:::tip
+:::tip Recovering with `git reflog`
 Some bad changes can be recovered from with the use of the `git reflog`, and creating a new branch from the "known good" commits.
 :::
 
@@ -225,8 +224,8 @@ e1fa060 (HEAD -> feature) Create function registerUserName
 
 We can now push our work so that others can look at it, or so that we can open a pull request.
 
-:::tip
-You can use `fixup` instead of `squash` when you don't want to keep the associated message.
+:::tip If you don't need the original commit message
+Use `fixup` instead of `squash` when you don't want to keep the original commit message.
 :::
 
 ## Recovering from a bad squash/fixup with the git reflog

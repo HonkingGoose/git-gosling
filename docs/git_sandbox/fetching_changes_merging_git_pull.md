@@ -8,7 +8,7 @@ You want to keep working based on the changes you just made.
 This section explains how you can update your local repository.
 
 :::tip
-Your GitHub repository is the `origin/main` remote on your local workstation.
+Your GitHub repository is the `origin` remote on your local workstation.
 
 Use `git remote --verbose` to verify your remotes.
 :::
@@ -141,9 +141,9 @@ Luckily because this is something you do all the time, there's a command to do b
 
 The `git pull` command checks for updates with `git fetch`, and then does a merge/rebase.
 
-:::tip
-If Git complains about a `pull.rebase` variable not being set, read
-[Advanced Git configuration, git pull rebase/merge strategy](advanced_topics/advanced_git_configuration.md#git-pull-rebase-or-merge-strategy)
+:::tip Git complains about `pull.rebase` variable
+If Git complains about the `pull.rebase` variable not being set, read
+[Advanced Git configuration, git pull rebase/merge strategy](advanced_topics/advanced_git_configuration.md#git-pull-rebase-or-merge-strategy) chapter.
 :::
 
 ## Summary

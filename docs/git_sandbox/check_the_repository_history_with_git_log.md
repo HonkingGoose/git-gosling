@@ -35,8 +35,8 @@ Usually you don't need this much information.
 Let's take a look at some options we can use to trim it down.
 You can stack `git log` options until you get the result you want.
 
-:::tip
-If you don't want to see merge commits use the `--no-merges` option.
+:::tip Don't show merge commits
+If you don't want to see merge commits use the `--no-merges` option when you're using `git log`.
 :::
 
 ## See a graph with all history

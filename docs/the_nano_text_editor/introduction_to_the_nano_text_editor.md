@@ -49,8 +49,8 @@ By default, Nano lists the commands you can use at the bottom of the editor wind
 - `^` is the <kbd>Ctrl</kbd> key.
 - `M-` is the <kbd>ALT</kbd> key.
 
-:::tip
-If you turned off help mode by mistake, and want it back use the <kbd>ALT + X</kbd> keys.
+:::tip Toggle help mode back on
+If you disabled _help mode_ by mistake, and want it back use the <kbd>ALT + X</kbd> keys.
 :::
 
 ## Get help inside Nano

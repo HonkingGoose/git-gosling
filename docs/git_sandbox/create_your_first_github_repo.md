@@ -24,7 +24,7 @@ Follow these steps:
 1. Skip the "Initialize this repository with" section.
 1. Click on the green "Create this repository button"
 
-:::caution
+:::caution Be aware of repository visibility
 Select the right visibility level when you create a repository.
 
 Public means that anybody can see what's in your repository.
@@ -32,7 +32,7 @@ Public means that anybody can see what's in your repository.
 Private means only you (and people you invite) can view the repository.
 :::
 
-:::tip
+:::tip GitHub docs, creating a new repository
 If you get stuck, read the [GitHub docs on Creating a new repository](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-new-repository).
 :::
 
@@ -73,7 +73,7 @@ I will cover remotes fully in another section of the guide.
 For now, it's enough to know that a remote is a repository that is _elsewhere_.
 For the purposes of this guide, the `origin` remote refers to the repository on GitHub.
 
-:::note
+:::note About `main` and `origin/main`
 Remember: `main` is your local branch, `origin/main` is the branch on the GitHub repository.
 
 You can update your local and remote branches by pushing and/or pulling.
@@ -129,8 +129,8 @@ Username for 'https://github.com': enter_your_username
 Password for 'https://your_username@github.com': enter_your_password_or_PAT
 ```
 
-:::tip
-If you have two-factor authentication (2FA) enabled, you must create a personal access token (PAT).
+:::tip 2FA and authentication to GitHub via Git CLI
+If you have enabled two-factor authentication (2FA), you must create a personal access token (PAT).
 Your GitHub password will not work.
 
 Follow the steps in the [GitHub documentation, Creating a personal access token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token).

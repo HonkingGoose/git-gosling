@@ -15,16 +15,16 @@ I've changed the default branch name from `master` to `main` for my examples.
 
 If you have a `master` branch, just substitute `main` in our examples with `master`.
 
-:::tip
+:::tip Setting the default branch for new repos
 Starting from Git 2.28 you can set the default branch name for new repositories.
-Read this section of my guide: [Advanced Git configuration](advanced_topics/advanced_git_configuration.md) to learn how to do this.
+Read the chapter [Advanced Git configuration](advanced_topics/advanced_git_configuration.md) to learn how to do this.
 :::
 
 ### Can I rename a branch?
 
 Yes you can, for more on this, read the section **Changing a branch name** in the [ProGit2 book](https://git-scm.com/book/en/v2/Git-Branching-Branch-Management)
 
-:::warning
+:::warning Be careful when renaming the mainline branch
 Prepare before you rename a branch like `master`, `main`, `trunk` or `mainline`!
 
 Remember that changing the mainline branch name for a repository is a breaking change!

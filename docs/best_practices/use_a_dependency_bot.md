@@ -37,7 +37,7 @@ Both Dependabot and Renovate support:
 - Dockerfiles
 - GitHub Action runners
 
-:::tip
+:::tip Check the docs before installing
 Check the official documentation for _Renovate_ and _Dependabot_ to verify that the bot will work with your programming language/ecosystem.
 :::
 
@@ -62,7 +62,7 @@ The basic process is:
 1. _Optional:_ Customize the Renovate configuration on the onboarding PR branch.
 1. After you merge the onboarding PR, Renovate will start creating real PRs.
 
-:::tip
+:::tip Need help configuring Renovate?
 If you get stuck or confused, and need help, go to the `renovatebot/renovate` repository's [discussions forum](https://github.com/renovatebot/renovate/discussions) to get help from the Renovate bot team.
 :::
 

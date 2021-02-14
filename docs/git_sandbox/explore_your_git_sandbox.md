@@ -26,9 +26,9 @@ $ pwd
 /home/username/sandbox
 ```
 
-:::tip
+:::tip How to get back to the sandbox directory
 
-If you get lost, and want to return to your sandbox directory:
+If you get lost, and want to get back to your sandbox directory, do the following:
 
 ```bash
 $ cd
@@ -74,9 +74,10 @@ The key point is: Git needs the `.git` directory to do its work.
 
 ## Do not touch the `.git` directory!
 
-:::warning
-You do not need to create/edit/remove any files in this directory.
+:::warning Stay away from the `.git` directory
 Git will do what it needs to do in this directory all by itself.
+
+Do not create/edit/remove any files in this directory, as you will mess things up.
 
 Do not remove the `.git` directory!
 This will throw away all your Git configuration and history.

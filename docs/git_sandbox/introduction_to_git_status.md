@@ -12,7 +12,7 @@ Let's see what the Git status of our (nearly empty) sandbox repository is.
 Remember: the `.git` folder is for Git's use only.
 You will not see this folder in the `git status` output.
 
-:::tip
+:::tip Stuck? Use `git status`!
 Use `git status` whenever you're stuck or not sure on what to do next.
 Git will try to help you!
 :::
