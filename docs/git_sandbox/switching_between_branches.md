@@ -31,7 +31,7 @@ Switched to branch 'feature'
 
 Git tells us: `Switched to branch 'feature'`, so we know where we are.
 
-:::tip
+:::tip I don't have `git switch`, what now?
 If you're using a version of Git older than 2.23, use `git checkout` instead of `git switch`.
 
 Git checkout is the old way to switch between branches.

@@ -9,7 +9,7 @@ If you use an older version of Git you will not have the `git restore` and `git 
 
 ## Checking the Git version
 
-If you've already got Git on your system, use the `git --version` command to check your version.
+If you've already installed Git on your system, use the `git --version` command to check your version.
 
 ```git
 $ git --version
@@ -37,25 +37,24 @@ $ sudo apt update
 $ sudo apt install git
 ```
 
-:::tip
-If you're on Ubuntu 20.04, you can use the official repositories, and still follow the guide.
-You don't need to use the `git-core/ppa`.
-:::
-
 #### Use an unofficial ppa to get an up-to-date version of Git
 
 Ubuntu 18.04/16.04 and Debian Stable will provide an outdated version of Git via their official package repositories.
-You will not be able to follow the guide unless you use the `git-core/ppa` or build Git from the source files yourself.
+You will not be able to follow the guide unless you use the `git-core/ppa` or build Git from the source files.
 
-:::warning
-When you use a `ppa` you're trusting somebody other than the official Ubuntu/Debian package maintainers!
-:::
+Keep in mind, that when you use a `git-core/ppa` you're trusting somebody other than the official Ubuntu/Debian package maintainers.
+
+To setup a ppa, follow these steps:
 
 ```
 $ sudo add-apt-repository ppa:git-core/ppa
 $ sudo apt update
 $ sudo apt install git
 ```
+
+:::tip Ubuntu 20.04 users
+If you're on Ubuntu 20.04, you can skip setting up the `git-code/ppa` as the version of Git that comes with Ubuntu 20.04 is recent enough to follow the guide.
+:::
 
 ### Fedora
 
@@ -67,7 +66,7 @@ $ sudo dnf install git
 
 ### Other distributions
 
-You can see a list of installation instructions at [git-scm.com/download/linux](https://git-scm.com/download/linux).
+See the list of installation instructions at [git-scm.com/download/linux](https://git-scm.com/download/linux).
 
 ## macOS
 
@@ -98,11 +97,11 @@ Go to https://git-scm.com/download/mac to download a binary installer.
 
 Go to https://git-scm.com/download/win to download **Git for Windows**.
 
-:::tip
+:::tip Setup nano
 If you want to follow along with this guide, tell Git for Windows to use the `nano` text editor.
 :::
 
-:::tip
+:::tip Check for updates automatically
 When you're installing Git for Windows tick the _check for updates_ checkbox.
-It's easy to upgrade Git for Windows, as the program will do all the work for you.
+It's easy to update Git for Windows, as the program does all the work for you.
 :::

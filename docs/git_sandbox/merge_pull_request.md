@@ -44,9 +44,11 @@ Click on the green button **Merge pull request**.
 You can edit the merge commit title and body.
 Leave them as they are and click **Confirm merge**.
 
-:::tip
-You can also use the rebase or squash merge strategy when merging a pull request.
+:::tip Alternatives to merge
+You can also use the "rebase" or "squash merge" strategy when merging a pull request.
 Click on the arrow next to the **Merge pull request** button to select a different merge strategy.
+
+The main benefit of using a "rebase" or "squash merge" is that the final repository history will be cleaner and easier to understand.
 :::
 
 ## Delete your branch after merging

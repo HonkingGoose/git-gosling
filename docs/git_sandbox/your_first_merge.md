@@ -73,7 +73,7 @@ Fast-forward
  1 file changed, 2 insertions(+)
 ```
 
-:::tip
+:::caution Be sure you're on the right branch!
 Make sure you're on the target branch with `git status` or `git branch` before entering a shorthand `git merge` command!
 :::
 
@@ -126,7 +126,7 @@ $ git branch
 
 You have learned how to merge your work with `git merge`.
 
-:::note
+:::note What about merge conflicts?
 If Git cannot do a clean merge, you will get a _merge conflict_.
 This means you have to tell Git what changes to keep, and what changes to reject.
 

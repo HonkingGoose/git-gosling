@@ -45,10 +45,11 @@ Replace the default branch name `Username-patch-1` with `Update-README`.
 
 Click on the green button **Propose changes**
 
-:::tip
+:::tip Remember to change the branch name!
 By default GitHub will create a `Username-patch-x` branch.
+
 This branch name tells us nothing about the changes you're making.
-Change the branch name to something meaningful.
+So change the branch name to something meaningful.
 :::
 
 ## Opening a pull request

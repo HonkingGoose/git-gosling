@@ -6,7 +6,7 @@ title: Testing and GitHub Actions
 ## Write tests
 
 Developers avoid merges/updates, because they are afraid of breaking things.
-If this is you, go write some proper tests!
+If this is you, go write some tests!
 
 At the very least write a _smoke test_, to ensure that you can actually make a build.
 

@@ -14,9 +14,7 @@ Example of an Ubuntu prompt, the last character is a `$` sign:
 computername@username:~/$
 ```
 
-:::caution
 Do not copy the `$` or `#` sign when entering a Git command.
-:::
 
 ### Example of command line input
 
@@ -54,11 +52,12 @@ Let's compare that with using the full options instead:
 git commit --all --message="Create a commit"
 ```
 
-A new reader can see:
+Anybody can see that:
 
 - Git commit does something with `--all`, probably all files.
 - Git commit creates some kind of message `"Create a commit"`.
 
-:::tip
-If you're sharing Git code/tips with others, use the long form options.
+:::tip Sharing Git scripts/code?
+When you're sharing Git scripts or code with others, use the long form options.
+This makes it easier to understand what the Git code is doing.
 :::

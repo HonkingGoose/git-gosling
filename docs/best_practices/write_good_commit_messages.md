@@ -36,7 +36,7 @@ Further paragraphs come after blank lines.
 - Use a hanging indent
 ```
 
-:::note
+:::note About this template
 This commit template is copied from the [ProGit2 book, section on contributing](https://github.com/progit/progit2/blob/master/book/05-distributed-git/sections/contributing.asc).
 
 Thank you, Tim Pope for making the original template!

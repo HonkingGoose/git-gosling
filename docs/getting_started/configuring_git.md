@@ -12,44 +12,41 @@ Every time you save your work with a commit, Git puts your username and email in
 
 We'll use the `--global` option, that way Git uses this username and email for everything you do on this system.
 
-If you want to override the global name or email address for a specific project, you can run the command without the `--global` option when you’re in that project.
+If you want to override the global name or email address for a specific project, you can run the command without the `--global` option when you’re in the root directory for that project.
 
 ### Username
 
-Tell Git your username:
+:::warning Username is visible to anybody
+The username you set here can be seen by anybody with read rights to any repository you work on.
+:::
+
+I recommend using your GitHub username as the `user.name`.
+This makes sure that the commits you create locally have the same username as commits you create via the GitHub web interface.
+
+To set your Git username:
 
 ```git
 $ git config --global user.name "Name Lastname"
 ```
 
-:::warning
-This username will be seen by anybody who has read rights to your repositories.
-:::
-
-:::tip
-If you have a GitHub account: use your GitHub username!
-
-Read the [GitHub docs on setting your username](https://docs.github.com/en/github/using-git/setting-your-username-in-git)
-:::
-
 ### Email
 
-Tell Git your email address:
+:::warning Email adress is visible to anybody
+The email adress you set here can be seen by anybody with read rights to any repository you work on.
+:::
+
+The `user.email` you set here does not have to be your real "private" email adress!
+In fact, I recommend you use the GitHub provided `no-reply` email adress instead of an alias or your real email adress.
+
+If you have a GitHub account: use the `no-reply` email address that GitHub gives you.
+Please read the [GitHub docs: setting your email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) and follow the steps.
+I also recommend that you tell GitHub to stop commits which expose your real email adress by ticking the **Keep my email address private** checkbox in the GitHub email settings tab.
+
+Tell Git to use your GitHub provided `no-reply` email address:
 
 ```git
-$ git config --global user.email johndoe@example.com
+$ git config --global user.email 1234567+GitHubusername@users.noreply.github.com
 ```
-
-:::warning
-This email address will be seen by anybody who has read rights to your repositories.
-:::
-
-:::tip
-If you have a GitHub account: use the `no-reply` email address that GitHub gives you.
-For more on this read the [GitHub docs: setting your email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address).
-
-Alternatively you can use an email alias.
-:::
 
 ## Telling Git what editor to use
 

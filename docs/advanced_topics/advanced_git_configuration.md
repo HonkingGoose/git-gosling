@@ -61,7 +61,7 @@ See this table for a list of popular editors, and how to configure them for use 
 |      VSCodium      | `git config --global core.editor "codium --wait"` |
 |        Atom        | `git config --global core.editor "atom --wait"`   |
 
-:::note
+:::note Use the wait option
 The `--wait` or `-w` option tells Git to wait until you've saved the file and closed the editor.
 This option is not available for all editors.
 :::
