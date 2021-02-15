@@ -1,6 +1,7 @@
 ---
 id: create_your_first_github_repo
 title: Create your first GitHub repo
+description: Create your first GitHub repo
 ---
 
 Let's go create your first GitHub repository!

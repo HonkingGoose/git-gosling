@@ -1,6 +1,7 @@
 ---
 id: add_extra_lines_to_file
 title: Add extra lines to file
+description: How to use git add to stage changes
 ---
 
 Let's add another sentence to the readme.

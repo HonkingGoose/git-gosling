@@ -1,6 +1,7 @@
 ---
 id: conventions
 title: Conventions
+description: Description of the conventions used in this guide
 ---
 
 ## Command line

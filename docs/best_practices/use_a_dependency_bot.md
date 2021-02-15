@@ -1,6 +1,7 @@
 ---
 id: use_a_dependency_bot
-title: Use a dependency  bot
+title: Use a dependency bot
+description: Learn about Dependabot and Renovate bot
 ---
 
 ## Introduction

@@ -1,6 +1,7 @@
 ---
 id: setup_your_git_sandbox
 title: Setup your Git sandbox
+description: Setup your Git sandbox
 ---
 
 The best way to learn is by doing, so let's dive right in!

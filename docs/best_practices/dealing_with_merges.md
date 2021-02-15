@@ -1,6 +1,7 @@
 ---
 id: dealing_with_merges
 title: Dealing with merges
+description: How to deal with merges
 ---
 
 ## Preventing merge conflicts

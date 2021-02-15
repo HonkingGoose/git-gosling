@@ -1,6 +1,7 @@
 ---
 id: your_first_merge
 title: Your first merge
+description: Your first merge
 ---
 
 We've done some work on the `feature` branch, and our work is ready to be merged into the `main` branch.

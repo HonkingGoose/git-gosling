@@ -1,6 +1,7 @@
 ---
 id: merge_pull_request
 title: Merge pull request
+description: Merging a pull request from the GitHub interface
 ---
 
 Now we have a pull request, let's learn how to merge it.

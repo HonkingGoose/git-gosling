@@ -1,6 +1,7 @@
 ---
 id: advanced_git_configuration
 title: Advanced Git configuration
+description: Learn about advanced Git configuration
 ---
 
 ## List all Git settings

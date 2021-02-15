@@ -1,6 +1,7 @@
 ---
 id: making_your_first_commit
 title: Making your first commit
+description: Making your first commit with Git
 ---
 
 ## Git status

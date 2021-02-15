@@ -1,6 +1,7 @@
 ---
 id: contribute_to_a_project_by_forking
 title: Contribute to a project by forking
+description: Learn how to fork a project and contribute
 ---
 
 If you want to contribute to a project, but don't have the necessary write rights, you can _fork_ the project.

@@ -1,6 +1,7 @@
 ---
 id: split_up_your_commits
 title: Split up your commits
+description: Learn to split up your work into smaller parts
 ---
 
 Most of the time, it's a good idea to keep your commits small.

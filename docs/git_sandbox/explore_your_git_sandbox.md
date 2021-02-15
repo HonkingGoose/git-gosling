@@ -1,6 +1,7 @@
 ---
 id: explore_your_git_sandbox
 title: Explore your Git sandbox
+description: Explore your Git sandbox
 ---
 
 You've just created your very first Git repository.

@@ -1,6 +1,7 @@
 ---
 id: installing_git
 title: Installing Git
+description: How to install Git on different operating systems
 ---
 
 ## Use Git 2.25 or newer

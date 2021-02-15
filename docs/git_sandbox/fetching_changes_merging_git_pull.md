@@ -1,6 +1,7 @@
 ---
 id: fetching_changes_merging_git_pull
 title: Fetching changes, merging, git pull
+description: How to fetch changes, merge and pull with Git
 ---
 
 The changes you made are on your GitHub repository only.

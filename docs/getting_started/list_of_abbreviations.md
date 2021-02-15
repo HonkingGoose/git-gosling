@@ -1,6 +1,7 @@
 ---
 id: list_of_abbreviations
 title: List of abbreviations
+description: List of abbreviations this guide uses
 ---
 
 This guide uses the following abbreviations:
