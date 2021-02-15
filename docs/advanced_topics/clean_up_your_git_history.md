@@ -1,6 +1,7 @@
 ---
 id: clean_up_your_git_history
 title: Clean up your Git history
+description: Learn how to clean up your Git history
 ---
 
 You can clean much of your Git history before going public with your changes.

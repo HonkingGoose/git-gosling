@@ -1,6 +1,7 @@
 ---
 id: guide_introduction
 title: Guide introduction
+description: Introduction to the Git Gosling guide
 slug: /
 ---
 

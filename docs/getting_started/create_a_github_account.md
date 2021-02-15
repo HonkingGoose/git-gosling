@@ -1,6 +1,7 @@
 ---
 id: create_a_github_account
 title: Create a GitHub account
+description: Learn how to create a GitHub account
 ---
 
 ## Create a GitHub account

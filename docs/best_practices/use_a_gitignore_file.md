@@ -1,6 +1,7 @@
 ---
 id: use_a_gitignore_file
 title: Use a gitignore file
+description: How to tell Git to ignore things
 ---
 
 It's a good idea to tell Git to ignore certain files/directories.

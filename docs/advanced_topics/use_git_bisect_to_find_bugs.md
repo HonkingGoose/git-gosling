@@ -1,6 +1,7 @@
 ---
 id: use_git_bisect_to_find_bugs
 title: Use git bisect to find bugs
+description: How to use Git bisect to find bugs
 ---
 
 ## What is Git bisect?

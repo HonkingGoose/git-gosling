@@ -1,6 +1,7 @@
 ---
 id: write_good_commit_messages
 title: Write good commit messages
+description: Learn to write a good commit message
 ---
 
 ## What's a good commit message?

@@ -1,6 +1,7 @@
 ---
 id: switching_between_branches
 title: Switching between branches
+description: How to switch between Git branches
 ---
 
 Now we have a `feature` branch, let's explain how you can switch between branches.

@@ -1,6 +1,7 @@
 ---
 id: introduction_to_the_nano_text_editor
 title: Introduction to the Nano text editor
+description: Introduction to the Nano text editor
 ---
 
 Nano is a simple and easy to use text editor.

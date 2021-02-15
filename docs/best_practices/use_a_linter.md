@@ -1,6 +1,7 @@
 ---
 id: use_a_linter
 title: Use a linter
+description: Why you should use a linter
 ---
 
 ## About linters

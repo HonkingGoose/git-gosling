@@ -1,6 +1,7 @@
 ---
 id: editing_a_file_on_github
 title: Editing a file on GitHub
+description: How to edit a file on GitHub
 ---
 
 We have pushed our repo to GitHub.

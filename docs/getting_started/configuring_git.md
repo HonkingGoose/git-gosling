@@ -1,6 +1,7 @@
 ---
 id: configuring_git
 title: Configuring Git
+description: Learn to configure Git
 ---
 
 Before you can use Git, you must configure it.

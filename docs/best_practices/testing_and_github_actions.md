@@ -1,6 +1,7 @@
 ---
 id: testing_and_github_actions
 title: Testing and GitHub Actions
+description: Learn about tests and GitHub Actions
 ---
 
 ## Write tests

@@ -1,6 +1,7 @@
 ---
 id: create_a_new_branch
 title: Create a new branch
+description: How to create a new branch
 ---
 
 It's time to learn about branches.

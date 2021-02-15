@@ -1,6 +1,7 @@
 ---
 id: check_the_repository_history_with_git_log
 title: Check the repository history with git log
+description: How to view the repository history with git log
 ---
 
 Let's go take a look at your repository's history.

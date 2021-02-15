@@ -1,6 +1,7 @@
 ---
 id: introduction_to_git_status
 title: Introduction to git status
+description: Introduction to git status command
 ---
 
 The most used Git command is `git status`.
