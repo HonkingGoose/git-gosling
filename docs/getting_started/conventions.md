@@ -4,7 +4,7 @@ title: Conventions
 description: Description of the conventions used in this guide
 ---
 
-## Command line
+## Command line interface
 
 The prompt for a Linux terminal is usually a `$` sign, this tells you that you're logged in as a user with normal rights.
 If you're logged in as a root user, the terminal prompt will be a `#` sign.
