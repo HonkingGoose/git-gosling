@@ -19,8 +19,8 @@
     "after-upgrade": "docusaurus clear"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.175d9c3c8",
-    "@docusaurus/preset-classic": "2.0.0-alpha.175d9c3c8",
+    "@docusaurus/core": "2.0.0-alpha.f13448d5e",
+    "@docusaurus/preset-classic": "2.0.0-alpha.f13448d5e",
     "@mdx-js/react": "1.6.22",
     "clsx": "1.1.1",
     "react": "17.0.1",
