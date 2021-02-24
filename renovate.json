@@ -6,7 +6,7 @@
   },
   "packageRules": [
     {
-      "packagePatterns": ["^@docusaurus"],
+      "matchPackagePatterns": ["^@docusaurus"],
       "allowedVersions": "/^\\d+\\.\\d+\\.\\d+(-alpha\\.(\\d+))?$/"
     }
   ],
