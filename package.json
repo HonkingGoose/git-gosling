@@ -27,7 +27,14 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "husky": "^5.1.1",
+    "prettier": "2.2.1",
+    "pretty-quick": "^3.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   },
   "browserslist": {
     "production": [
