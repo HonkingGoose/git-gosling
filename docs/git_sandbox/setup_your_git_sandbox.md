@@ -12,12 +12,11 @@ Follow the steps listed below.
 :::caution This guide uses Linux Bash shell commands
 The instructions in this guide are for Linux Bash shells only.
 
-The commands listed in this guide will not work for PowerShell terminals, and probably won't work right on Mac terminals.
+The commands listed in this guide don't work with PowerShell terminals.
 
-Example: the command to list all files (including hidden files) is `ls --all` on Linux Bash.
-This does not work in the Mac Terminal, where you should use `ls -A` to get the same result.
+The commands listed in this guide also don't work with the macOS Terminal (which defaults to the Z shell `zsh`).
 
-Search online if something doesn't work the way you expect it to.
+If you're copy/pasting a Bash shell command and it doesn't work with your terminal, search online for the proper command.
 :::
 
 :::tip Git for Windows, use Bash shell

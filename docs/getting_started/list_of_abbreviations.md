@@ -8,8 +8,9 @@ This guide uses the following abbreviations:
 
 | Abbreviation | Full name                          |
 | :----------: | ---------------------------------- |
+|     2FA      | Two-factor authentication          |
+|     Bash     | Bourne Again SHell                 |
 |     CLI      | Command Line Interface             |
 |     IDE      | Integrated Development Environment |
-|     Bash     | Bourne Again SHell                 |
 |     PAT      | Personal Access Token              |
-|     2FA      | Two-factor authentication          |
+|     zsh      | Z shell                            |
