@@ -2,13 +2,18 @@
   "extends": ["config:base"],
   "dependencyDashboard": true,
   "lockFileMaintenance": {
-    "enabled": true
+    "enabled": true,
+    "timezone": "Europe/Amsterdam",
+    "schedule": ["before 8am on Monday"]
   },
   "packageRules": [
     {
+      "description": "Allow mainline @docusaurus releases, ignore canary releases",
       "matchPackagePatterns": ["^@docusaurus"],
       "allowedVersions": "/^\\d+\\.\\d+\\.\\d+(-alpha\\.(\\d+))?$/"
     }
   ],
-  "supportPolicy": ["lts_latest"]
+  "node": {
+    "supportPolicy": ["lts_latest"]
+  }
 }
