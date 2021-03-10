@@ -1,6 +1,8 @@
 {
   "extends": ["config:base"],
   "dependencyDashboard": true,
+  "stabilityDays": 3,
+  "prCreation": "not-pending",
   "lockFileMaintenance": {
     "enabled": true,
     "timezone": "Europe/Amsterdam",
