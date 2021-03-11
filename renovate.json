@@ -1,7 +1,6 @@
 {
   "extends": ["config:base"],
   "dependencyDashboard": true,
-  "stabilityDays": 3,
   "prCreation": "not-pending",
   "lockFileMaintenance": {
     "enabled": true,
@@ -13,6 +12,11 @@
       "description": "Allow mainline @docusaurus releases, ignore canary releases",
       "matchPackagePatterns": ["^@docusaurus"],
       "allowedVersions": "/^\\d+\\.\\d+\\.\\d+(-alpha\\.(\\d+))?$/"
+    },
+    {
+      "description": "Wait 3 days before creating a npm update PR",
+      "matchDatasources": ["npm"],
+      "stabilityDays": 3
     }
   ],
   "node": {
