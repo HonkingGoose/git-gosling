@@ -42,7 +42,7 @@ That's why I use the long form options, instead of the shorthand options.
 Take a look at this `git commit` example:
 
 ```git
-git commit -am "Create a commit"
+$ git commit -am "Create a commit"
 ```
 
 This example forces the reader to figure out what `-am` means.
@@ -50,7 +50,7 @@ It's not immediately clear what's going on.
 Let's compare that with using the full options instead:
 
 ```git
-git commit --all --message="Create a commit"
+$ git commit --all --message="Create a commit"
 ```
 
 Anybody can see that:
