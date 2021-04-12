@@ -12,7 +12,7 @@ module.exports = {
   themeConfig: {
     announcementBar: {
       // Space reservation for announcementBar
-      // See https://v2.docusaurus.io/docs/api/themes/configuration#announcement-bar
+      // See https://docusaurus.io/docs/api/themes/configuration#announcement-bar
 
       id: "announcement",
       content:
