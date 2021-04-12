@@ -27,7 +27,7 @@ For larger edits we recommend that you setup a development environment, so that 
 
 #### What you'll need before starting
 
-We use [Docusaurus 2](https://v2.docusaurus.io/) to build the website.
+We use [Docusaurus 2](https://docusaurus.io/) to build the website.
 To build the website locally you'll need:
 
 - Node 14
@@ -73,7 +73,7 @@ This command runs the `docusaurus clear` command which clears the Docusaurus cac
 
 ### Docusaurus v2
 
-Thank you [Docusaurus v2](https://v2.docusaurus.io/) for making this project possible!
+Thank you [Docusaurus v2](https://docusaurus.io/) for making this project possible!
 
 ### Algolia DocSearch
 
