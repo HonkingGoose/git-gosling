@@ -24,7 +24,7 @@ The [git-rebase.io](https://git-rebase.io/) website will get you plenty of hands
 
 Martin Fowler made a great guide covering all kinds of Git workflows, it's called **Patterns for Managing Source Code Branches**.
 
-[Patterns for Managing Source Code Branches at martinfowler.com](https://martinfowler.com/articles/branching-patterns.html#integration-frequency)
+[Patterns for Managing Source Code Branches at martinfowler.com](https://martinfowler.com/articles/branching-patterns.html)
 
 I highly recommend that you read the chapter on [Integration Frequency at martinfowler.com](https://martinfowler.com/articles/branching-patterns.html#integration-frequency).
 
