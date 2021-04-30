@@ -5,7 +5,8 @@
   "lockFileMaintenance": {
     "enabled": true,
     "timezone": "Europe/Amsterdam",
-    "schedule": ["before 8am on Monday"]
+    "schedule": ["before 8am on Monday"],
+    "automerge": true
   },
   "packageRules": [
     {
