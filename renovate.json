@@ -12,7 +12,7 @@
     {
       "description": "Allow mainline @docusaurus releases, ignore canary releases",
       "matchPackagePatterns": ["^@docusaurus"],
-      "allowedVersions": "/^\\d+\\.\\d+\\.\\d+(-alpha\\.(\\d+))?$/"
+      "allowedVersions": "/^\\d+\\.\\d+\\.\\d+(-beta\\.(\\d+))?$/"
     },
     {
       "description": "Wait 3 days before creating a npm update PR",
