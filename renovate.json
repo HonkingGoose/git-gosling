@@ -2,6 +2,7 @@
   "extends": ["config:base"],
   "dependencyDashboard": true,
   "prCreation": "not-pending",
+  "internalChecksFilter": "strict",
   "lockFileMaintenance": {
     "enabled": true,
     "timezone": "Europe/Amsterdam",
