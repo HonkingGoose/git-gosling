@@ -80,7 +80,7 @@ If you don't have Git installed, you will be prompted to install it.
 $ git --version
 ```
 
-### via homebrew
+### via Homebrew
 
 If you have Homebrew installed, do:
 
