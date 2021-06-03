@@ -11,13 +11,13 @@ Go to [GitHub.com](https://github.com/) and create your account.
 
 :::tip Need help with GitHub account creation?
 
-Follow the [GitHub Getting Started documentation](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-github).
+Follow the [signing up for GitHub](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-github) documentation.
 :::
 
 ### Verify your email address with GitHub
 
 After you have created your account, you must verify your email address.
-Read the docs and follow the steps: [Verify your email address](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/verifying-your-email-address).
+Read the docs and follow the steps: [Verifying your email address](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-github/verifying-your-email-address).
 
 :::caution Verify your email adress
 If you do not verify your email address, GitHub will be _useless_.
@@ -36,7 +36,7 @@ You can choose from these authentication methods:
 - A security key like a Yubikey, in addition to the authenticator app.
 - Receiving SMS text messages on your mobile phone.
 
-Read and follow the steps in the [GitHub docs, Securing your account with two-factor authentication](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa).
+Read and follow the steps in the [GitHub docs, Securing your account with two-factor authentication](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa).
 
 :::warning Write down/print 2FA recovery codes
 Write down or print the recovery codes that GitHub gives you, and keep them somewhere safe!
@@ -45,7 +45,7 @@ Write down or print the recovery codes that GitHub gives you, and keep them some
 ### Create a personal access token (PAT)
 
 To authenticate to GitHub you must use a personal access token, OAuth token, or GitHub App installation token.
-Follow the steps in the [GitHub documentation, Creating a personal access token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token), to create your personal access token.
+Follow the steps in the [GitHub documentation, Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token), to create your personal access token.
 
 When Git asks for your password, you enter the personal access token instead.
 
