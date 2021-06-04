@@ -74,8 +74,8 @@ You can use it for free on public and private repositories.
 
 ### Dependabot documentation
 
-Read the [GitHub docs, Keeping your dependencies updated automatically](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/keeping-your-dependencies-updated-automatically).
+Read the [GitHub docs, Keeping your dependencies updated automatically](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically).
 
 ### Enabling Dependabot
 
-Follow the steps in the [GitHub docs, Enabling and disabling version updates](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/enabling-and-disabling-version-updates) documentation.
+Follow the steps in the [GitHub docs, Enabling and disabling version updates](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/enabling-and-disabling-version-updates).

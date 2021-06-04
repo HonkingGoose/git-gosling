@@ -34,7 +34,7 @@ Private means only you (and people you invite) can view the repository.
 :::
 
 :::tip GitHub docs, creating a new repository
-If you get stuck, read the [GitHub docs on Creating a new repository](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-new-repository).
+If you get stuck, read the [GitHub docs, Creating a new repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-new-repository).
 :::
 
 ### After creating your repository
@@ -134,7 +134,7 @@ Password for 'https://your_username@github.com': enter_your_password_or_PAT
 If you have enabled two-factor authentication (2FA), you must create a personal access token (PAT).
 Your GitHub password will not work.
 
-Follow the steps in the [GitHub documentation, Creating a personal access token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token).
+Follow the steps in the [GitHub docs, Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 Use the PAT instead of your GitHub password whenever you access GitHub via the CLI.
 :::
 
