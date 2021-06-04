@@ -62,7 +62,7 @@ Go to the repository for the project you want to contribute to.
 Click on the _fork_ button.
 GitHub will create the fork under your own namespace.
 
-Read the [GitHub docs on how to fork a repo](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo).
+Read the [GitHub docs, Fork a repo](https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo).
 
 ### Clone the fork to your local workstation
 
@@ -104,7 +104,7 @@ You should see an `origin` remote (your fork), and a `upstream` remote (upstream
 You must manually synchronise your fork with the upstream project.
 
 :::tip
-Read the [GitHub documentation on syncing a fork](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/syncing-a-fork).
+Read the [GitHub docs, Syncing a fork](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/syncing-a-fork).
 :::
 
 :::tip

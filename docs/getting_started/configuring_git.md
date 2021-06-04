@@ -40,7 +40,7 @@ The `user.email` you set here does not have to be your real "private" email adre
 In fact, I recommend you use the GitHub provided `no-reply` email adress instead of an alias or your real email adress.
 
 If you have a GitHub account: use the `no-reply` email address that GitHub gives you.
-Please read the [GitHub docs: setting your email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) and follow the steps.
+Please read the [GitHub docs, Setting your commit email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) and follow the steps.
 I also recommend that you tell GitHub to stop commits which expose your real email adress by ticking the **Keep my email address private** checkbox in the GitHub email settings tab.
 
 Tell Git to use your GitHub provided `no-reply` email address:
