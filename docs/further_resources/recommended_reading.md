@@ -34,7 +34,7 @@ Projects like Git and the Linux kernel use an e-mail based workflow instead of a
 I don't cover the e-mail workflow in this guide, as I want to focus on the Git CLI and the GitHub interface.
 
 The `git-send-email` site has a lot of good information on sending patches via e-mail.
-Go to the [git-send-email.io](https://git-send-email.io/) website to get started.
+Go to [git-send-email.io](https://git-send-email.io/) to get started.
 
 ## Git Large File Storage (Git LFS)
 
