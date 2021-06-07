@@ -7,7 +7,7 @@ slug: /
 
 ## What will I learn?
 
-You will learn how to use Git from the command line.
+You'll be able to use Git from the command line interface, and know the basics of working with GitHub.
 
 ### Git? What's that?
 
