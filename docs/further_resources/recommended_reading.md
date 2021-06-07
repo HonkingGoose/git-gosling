@@ -30,20 +30,16 @@ I highly recommend that you read the chapter on [Integration Frequency at martin
 
 ## How to use `git send-email`
 
-Projects such as Git and the Linux kernel use an email based workflow.
-This workflow is way different to what you're used to with GitHub or GitLab.
+Projects like Git and the Linux kernel use an email based workflow instead of a pull request based workflow.
+I don't cover the e-mail workflow in this guide, as I want to focus on the Git CLI and the GitHub interface.
 
-Fortunately there's an excellent hands-on guide that will teach you how to send patches with `git send-email`.
-The guide will tell you how to configure Git so that you can use it with your email.
-Then you'll get hands-on and actually send a patch via email, and deal with feedback.
-You'll also learn handy tips and tricks.
-
-[Git send email lessons at git-send-email.io](https://git-send-email.io/)
+The `git-send-email` site has a lot of good information on sending patches via e-mail.
+Go to the [git-send-email.io](https://git-send-email.io/) website to get started.
 
 ## Git Large File Storage (Git LFS)
 
-Git does not deal with large files properly.
-Use the Git Large File Storage extension to work with large files.
+Git does not work with large files out-of-the-box.
+You need the Git Large File Storage extension to work with large files.
 
 Download Git LFS from [git-lfs.github.com](https://git-lfs.github.com/).
 It's available for Linux, Windows and macOS.
