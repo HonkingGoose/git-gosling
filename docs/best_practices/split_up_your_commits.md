@@ -41,10 +41,10 @@ index 21652e3..717a22c 100644
 Let's explain what this means:
 
 - You're changing the `README.md` file.
-- Additions have a plus sign, and are green.
-- Removals have a minus sign, and are red.
+- Additions have a plus sign (`+`), and are colored green.
+- Removals have a minus sign (`-`), and are colored red.
 - `(1/1)` tells us this is one change, and that's the only change in the file.
-- Git also asks us what we want to do with this change: `Stage this hunk [y,n,q,a,d,e,?]? `.
+- Git also asks us what we want to do with this change: `Stage this hunk [y,n,q,a,d,e,?]?`.
 
 ### Add a change to the staging area
 
@@ -59,7 +59,7 @@ To stage this change, enter <kbd>y</kbd> and press <kbd>Enter</kbd>.
 
 :::tip Splitting up hunks
 Sometimes it makes sense to split the hunk with the `s` option.
-If the hunk is still not what you want after splitting, you can manually edit it with the `e` option.
+If the hunk is still not what you want after splitting, use the `e` option to edit it manually.
 :::
 
 ### Get a list of valid commands
