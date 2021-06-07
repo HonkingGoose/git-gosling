@@ -30,7 +30,7 @@ I highly recommend that you read the chapter on [Integration Frequency at martin
 
 ## How to use `git send-email`
 
-Projects like Git and the Linux kernel use an email based workflow instead of a pull request based workflow.
+Projects like Git and the Linux kernel use an e-mail based workflow instead of a pull request based workflow.
 I don't cover the e-mail workflow in this guide, as I want to focus on the Git CLI and the GitHub interface.
 
 The `git-send-email` site has a lot of good information on sending patches via e-mail.
