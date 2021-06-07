@@ -4,8 +4,7 @@ title: Check the repository history with git log
 description: How to view the repository history with git log
 ---
 
-Let's go take a look at your repository's history.
-The command we'll use for this is `git log`.
+Let's take a look at your repository's history with the `git log` command.
 
 ## Basic git log usage
 
@@ -33,7 +32,7 @@ Git log shows us:
 - The full commit message.
 
 Usually you don't need this much information.
-Let's take a look at some options we can use to trim it down.
+Let's take a look at some options we can use to filter the result.
 You can stack `git log` options until you get the result you want.
 
 :::tip Don't show merge commits
@@ -79,10 +78,9 @@ You can use a relative time, or specify a date.
 | `git log --since=3.weeks`    | Shows changes since 3 weeks ago.        |
 | `git log --since=1.10`       | Shows changes since 1th of October.     |
 
-## See what changes you made
+## See your own changes
 
-If you're only interested in changes you made, use `git log --author=yourusername` to find only commits that you made.
-This is a regular expression, it is case-sensitive.
-You only need to enter enough to get a unique match.
+If you're only interested in changes you made, use `git log --author=yourusername` to find your commits.
+This is a case-sensitive regular expression, you only need to enter enough characters to get a unique match.
 
 For example, if your username is _SnargleBarf_, you can find your commits with: `git log --author=SnargleBarf`.
