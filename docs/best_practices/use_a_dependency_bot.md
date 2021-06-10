@@ -16,13 +16,13 @@ I recommend you use a bot like _Renovate_ or _Dependabot_ keep your dependencies
 
 | Feature                                 | Renovate | Dependabot |
 | --------------------------------------- | :------: | :--------: |
-| Open pull request for updates           |  **x**   |   **x**    |
-| Get updates on a regular schedule       |  **x**   |   **x**    |
-| Display changelog in pull request       |  **x**   |   **x**    |
-| Display dependency compatibility score  |  **x**   |   **x**    |
-| Group monorepo updates into a single PR |  **x**   |            |
-| Fully customizable                      |  **x**   |            |
-| Rules-based auto-merging                |  **x**   |            |
+| Open pull request for updates           |  ✔️      |     ✔️     |
+| Get updates on a regular schedule       |  ✔️      |     ✔️     |
+| Display changelog in pull request       |  ✔️      |     ✔️     |
+| Display dependency compatibility score  |  ✔️      |     ✔️     |
+| Group monorepo updates into a single PR |  ✔️      |            |
+| Fully customizable                      |  ✔️      |            |
+| Rules-based auto-merging                |  ✔️      |            |
 
 ## Supported ecosystems
 
