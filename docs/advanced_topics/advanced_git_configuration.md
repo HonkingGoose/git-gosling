@@ -6,8 +6,8 @@ description: Learn about advanced Git configuration
 
 ## List all Git settings
 
-You can get a list of all your settings with `git config --list --show-origin`.
-This shows you the current settings, and what file is providing these settings.
+Get a list of all your settings with `git config --list --show-origin`.
+The output shows you the current settings, and what file is providing these settings.
 
 ```git
 $ git config --list --show-origin
@@ -18,7 +18,7 @@ For more on this read [First-Time Git Setup, ProGit2 book](https://git-scm.com/b
 ## Default branch for new repositories
 
 Starting with Git 2.28 you can set the default branch name.
-I recommend you use `main` as this is what GitHub will use by default later this year.
+I recommend you use `main` as this is what GitHub uses by default.
 
 To set the default branch name for new repositories do:
 
@@ -28,8 +28,8 @@ $ git config --global init.defaultBranch main
 
 ## git pull rebase or merge strategy
 
-Git 2.27 and newer will complain at you, every time you pull, until you set the `pull.rebase` variable.
-Set the `pull.rebase` variable to tell Git what merge strategy to use: merge or rebase.
+Git version 2.27 and newer complains at you, every time you pull, until you set the `pull.rebase` variable.
+Use the `pull.rebase` variable to tell Git what merge strategy to use: merge or rebase.
 
 ### Use merge strategy when pulling
 
@@ -50,19 +50,17 @@ $ git config --global pull.rebase "true"
 
 ## Code editor setup
 
-When Git needs your input, it will open the default editor automatically (usually `vi` or `nano`).
-You can use the `git config --global core.editor` command to tell Git what editor you want to use.
+When Git needs your input, it opens the default editor automatically (usually `vi` or `nano`).
+Use the `git config --global core.editor` command to tell Git what editor you want to use.
 
-See this table for a list of popular editors, and how to configure them for use with Git.
-
-|       Editor       | Configuration                                     |
+|       Editor       | Git configuration command                         |
 | :----------------: | ------------------------------------------------- |
 |        Nano        | `git config --global core.editor "nano -w"`       |
 | Visual Studio Code | `git config --global core.editor "code --wait"`   |
 |      VSCodium      | `git config --global core.editor "codium --wait"` |
 |        Atom        | `git config --global core.editor "atom --wait"`   |
 
-:::note Use the wait option
+:::note Use the wait option when possible
 The `--wait` or `-w` option tells Git to wait until you've saved the file and closed the editor.
 This option is not available for all editors.
 :::
