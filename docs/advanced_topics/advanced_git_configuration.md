@@ -28,7 +28,7 @@ $ git config --global init.defaultBranch main
 
 ## git pull rebase or merge strategy
 
-Git version 2.27 and newer complains at you, every time you pull, until you set the `pull.rebase` variable.
+Git version 2.27 (and newer) complains at you, every time you pull, until you set the `pull.rebase` variable.
 Use the `pull.rebase` variable to tell Git what merge strategy to use: merge or rebase.
 
 ### Use merge strategy when pulling
