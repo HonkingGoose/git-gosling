@@ -6,23 +6,23 @@ description: Learn about Dependabot and Renovate bot
 
 ## Introduction
 
-It's easy to forget to update your dependencies on a regular basis.
+It's easy to forget to update your dependencies.
 This is bad for the security and functionality of your software.
 Newer versions of dependencies can fix security issues, improve existing features, or add new features.
 
-I strongly recommend that you use a bot like _Renovate_ or _Dependabot_ to get and keep up-to-date with your dependencies.
+I recommend you use a bot like _Renovate_ or _Dependabot_ keep your dependencies up-to-date.
 
 ## Bot comparison
 
 | Feature                                 | Renovate | Dependabot |
 | --------------------------------------- | :------: | :--------: |
-| Open pull request for updates           |  **x**   |   **x**    |
-| Get updates on a regular schedule       |  **x**   |   **x**    |
-| Display changelog in PR                 |  **x**   |   **x**    |
-| Display dependency compatibility score  |  **x**   |   **x**    |
-| Group monorepo updates into a single PR |  **x**   |            |
-| Fully customizable                      |  **x**   |            |
-| Rules-based auto-merging                |  **x**   |            |
+| Open pull request for updates           |    ✔️    |     ✔️     |
+| Get updates on a regular schedule       |    ✔️    |     ✔️     |
+| Display changelog in pull request       |    ✔️    |     ✔️     |
+| Display dependency compatibility score  |    ✔️    |     ✔️     |
+| Group monorepo updates into a single PR |    ✔️    |            |
+| Fully customizable                      |    ✔️    |            |
+| Rules-based auto-merging                |    ✔️    |            |
 
 ## Supported ecosystems
 
@@ -39,16 +39,16 @@ Both Dependabot and Renovate support:
 - GitHub Action runners
 
 :::tip Check the docs before installing
-Check the official documentation for _Renovate_ and _Dependabot_ to verify that the bot will work with your programming language/ecosystem.
+Read the official documentation for _Renovate_ or _Dependabot_ to confirm if the bot supports your programming language/ecosystem.
 :::
 
 ## Renovate
 
-The Renovate bot is free to use for public and private repositories.
+Renovate bot is free to use on public and private repositories.
 
 ### Renovate documentation
 
-Read the [Renovate Docs](https://docs.renovatebot.com/) to learn more about the Renovate bot.
+Read the [Renovate Docs](https://docs.renovatebot.com/) to learn more about Renovate bot.
 
 ### Enabling Renovate
 
@@ -70,7 +70,7 @@ If you get stuck or confused, and need help, go to the `renovatebot/renovate` re
 ## Dependabot
 
 Dependabot is the "built-in" dependency management bot for GitHub, this means you can use it without installing an app.
-You can use it for free on public and private repositories.
+Dependabot is free to use on public and private repositories.
 
 ### Dependabot documentation
 
