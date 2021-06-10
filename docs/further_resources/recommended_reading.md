@@ -15,10 +15,9 @@ Read the [ProGit2 book at git-scm.com](https://git-scm.com/book/en/v2).
 
 ## How to change your Git history
 
-You can clean up messy work, with `git rebase`, before showing it to the world or your co-workers.
+You can clean up messy work with `git rebase` before showing it to the world or your co-workers.
 Using `git rebase` without knowing what you're doing is a recipe for disaster.
-
-The [git-rebase.io](https://git-rebase.io/) website will get you plenty of hands-on `git rebase` exercise.
+Go to the [git-rebase.io](https://git-rebase.io/) website to get plenty of hands-on exercise with `git rebase`.
 
 ## Learn more Git workflows
 
@@ -26,15 +25,14 @@ Martin Fowler made a great guide covering all kinds of Git workflows, it's calle
 
 [Patterns for Managing Source Code Branches at martinfowler.com](https://martinfowler.com/articles/branching-patterns.html)
 
-I highly recommend that you read the chapter on [Integration Frequency at martinfowler.com](https://martinfowler.com/articles/branching-patterns.html#integration-frequency).
+I recommend that you read the chapter on [Integration Frequency at martinfowler.com](https://martinfowler.com/articles/branching-patterns.html#integration-frequency).
 
 ## How to use `git send-email`
 
 Projects like Git and the Linux kernel use an e-mail based workflow instead of a pull request based workflow.
-I don't cover the e-mail workflow in this guide, as I want to focus on the Git CLI and the GitHub interface.
+I don't cover the e-mail workflow at all, as I want to focus on the Git CLI and the GitHub interface.
 
-The `git-send-email` site has a lot of good information on sending patches via e-mail.
-Go to [git-send-email.io](https://git-send-email.io/) to get started.
+The [git-send-email.io](https://git-send-email.io/) site contains good information and exercises on sending patches via e-mail.
 
 ## Git Large File Storage (Git LFS)
 
