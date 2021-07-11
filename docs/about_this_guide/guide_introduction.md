@@ -7,14 +7,14 @@ slug: /
 
 ## What will I learn?
 
-You'll be able to use Git from the command line interface, and know the basics of working with GitHub.
+After reading this guide, you know how to use Git from the command line interface.
+You'll also know how to work with GitHub in a basic way.
 
-### Git? What's that?
+### Should I learn Git?
 
-Git is a version control system, it tracks the history of a file/project.
-You can use Git to share your work with co-workers or with the world.
+If you're a programmer you need to learn Git.
 
-Others can easily get a copy of your work, make improvements, and give those improvements back to you.
+If you're a writer working with plain text formats like Markdown, AsciiDoctor, you'll benefit from using Git.
 
 ## Acknowledgements
 

@@ -33,21 +33,3 @@ Projects like Git and the Linux kernel use an e-mail based workflow instead of a
 I don't cover the e-mail workflow at all, as I want to focus on the Git CLI and the GitHub interface.
 
 The [git-send-email.io](https://git-send-email.io/) site contains good information and exercises on sending patches via e-mail.
-
-## Git Large File Storage (Git LFS)
-
-Git does not work with large files out-of-the-box.
-You need the Git Large File Storage extension to work with large files.
-
-Download Git LFS from [git-lfs.github.com](https://git-lfs.github.com/).
-It's available for Linux, Windows and macOS.
-
-:::tip How to work with LFS
-Read the [GitHub docs, Managing large files](https://docs.github.com/en/github/managing-large-files).
-:::
-
-:::note GitHub enforces filesize limits
-GitHub enforces file/repository size limits when you use Git LFS.
-
-Read more about the limits in the [GitHub docs, About storage and bandwidth usage](https://docs.github.com/en/github/managing-large-files/versioning-large-files/about-storage-and-bandwidth-usage).
-:::

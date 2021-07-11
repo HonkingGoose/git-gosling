@@ -10,6 +10,11 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Git basics",
+      items: ["git_basics/introduction_to_git"],
+    },
+    {
+      type: "category",
       label: "Getting started",
       items: [
         "getting_started/conventions",
@@ -63,6 +68,7 @@ module.exports = {
       type: "category",
       label: "Advanced topics",
       items: [
+        "advanced_topics/working_with_large_files",
         "advanced_topics/advanced_git_configuration",
         "advanced_topics/contribute_to_a_project_by_forking",
         "advanced_topics/clean_up_your_git_history",
