@@ -23,8 +23,7 @@ git version 2.25
 The easiest way to install Git is via the package manager that comes with your distribution.
 Some distributions provide up-to-date versions, others do not.
 
-Ubuntu and Debian will provide a badly outdated version of Git.
-
+Ubuntu and Debian provide a badly outdated version of Git.
 Fedora, OpenSuse and Arch provide more up-to-date versions of Git.
 
 ### Ubuntu/Debian
@@ -56,6 +55,11 @@ $ sudo apt install git
 :::tip Ubuntu 20.04 users
 If you're on Ubuntu 20.04, you can skip setting up the `git-code/ppa` as the version of Git that comes with Ubuntu 20.04 is recent enough to follow the guide.
 :::
+
+#### Debian
+
+Debian users can use the backports repository to get a newer version of Git.
+Visit the [Debian backports website](https://backports.debian.org/) to learn more.
 
 ### Fedora
 
