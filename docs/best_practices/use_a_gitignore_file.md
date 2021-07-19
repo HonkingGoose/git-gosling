@@ -18,20 +18,20 @@ In general, it's a good idea to ignore the following kinds of files and director
 - Files produced by your build system
 - Log files
 
-## Good gitignore starters
+## Getting a basic gitignore template
 
-### Use the framework gitignore
+### Framework gitignore
 
 Most frameworks create a basic `.gitignore` file for you when you start a new project.
 
 ### Use GitHub gitignore templates
 
-If you're not using a framework, grab a `.gitignore` from [GitHub's gitignore templates](https://github.com/github/gitignore).
-When you create a repository on GitHub, you can add a `.gitignore` template right away.
+If you're not using a framework, grab a `.gitignore` from [GitHub's gitignore templates repository](https://github.com/github/gitignore).
+When you create a repository via the GitHub web interface, you can add a `.gitignore` template right away.
 
 ## Gitignore basics
 
-### Gitignore filename and location
+### Filename and location
 
 The file must be called `.gitignore` and it must be in the repository's root directory.
 
@@ -40,7 +40,10 @@ It's possible to put `.gitignore` files into subdirectories of your project.
 I won't talk about this, as this is an advanced use-case.
 :::
 
-### Gitignore syntax
+### Syntax
+
+Gitignore files have their own syntax to specify what you want to ignore.
+I'm not going to cover this in depth, and will just point you to the resources you can use to learn more.
 
 You can find a list of valid `.gitignore` syntax in the gitignore help files:
 
