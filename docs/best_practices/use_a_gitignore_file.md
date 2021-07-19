@@ -24,7 +24,7 @@ In general, it's a good idea to ignore the following kinds of files and director
 
 Most frameworks create a basic `.gitignore` file for you when you start a new project.
 
-### Use GitHub gitignore templates
+### GitHub gitignore templates
 
 If you're not using a framework, grab a `.gitignore` from [GitHub's gitignore templates repository](https://github.com/github/gitignore).
 When you create a repository via the GitHub web interface, you can add a `.gitignore` template right away.
