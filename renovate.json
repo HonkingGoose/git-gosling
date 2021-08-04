@@ -14,12 +14,6 @@
       "stabilityDays": 3
     },
     {
-      "description": "Automerge mainline @docusaurus releases, ignore canary releases",
-      "matchPackagePatterns": ["^@docusaurus"],
-      "allowedVersions": "/^\\d+\\.\\d+\\.\\d+(-beta\\.(\\d+))?$/",
-      "automerge": true
-    },
-    {
       "description": "Automerge Prettier updates",
       "matchDepTypes": ["devDependencies"],
       "matchPackagePatterns": ["prettier"],
