@@ -57,7 +57,7 @@ You can use the Git Credential Manager Core (GCM Core) program to cache your cre
 Read the [GitHub docs, caching your GitHub credentials in Git](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git) to learn more.
 
 :::tip
-Git for Windows comes with GCM Core, so you don't need to install this program yourself.
+Git for Windows comes with GCM Core.
 :::
 
 ## Telling Git what editor to use
