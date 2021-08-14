@@ -49,6 +49,10 @@ Tell Git to use your GitHub provided `no-reply` email address:
 $ git config --global user.email 1234567+GitHubusername@users.noreply.github.com
 ```
 
+## Caching Git Credentials
+
+If you will be using HTTPS remote url of your repositories then each time you do a push or pull request Git will ask you for credentials. To avoid typing password/token again and again you can cache your git credentials after setting some credential store. Credential Store is nothing but a Cache Management System. Setup [GCM](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git) to cache your credentials.
+
 ## Telling Git what editor to use
 
 When you create a commit with `git commit`, Git will open the CLI text editor to let you enter a commit message.
