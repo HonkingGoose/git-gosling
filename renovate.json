@@ -26,8 +26,5 @@
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     }
-  ],
-  "node": {
-    "supportPolicy": ["lts_latest"]
-  }
+  ]
 }
