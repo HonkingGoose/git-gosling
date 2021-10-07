@@ -56,7 +56,7 @@ Follow the [Renovate GitHub app installation](https://docs.renovatebot.com/insta
 
 The basic process is:
 
-1. Install Renovate from the [GitHub marketplace for Renovate](https://github.com/marketplace/renovate).
+1. Install Renovate from the [GitHub Marketplace for Renovate](https://github.com/marketplace/renovate).
 1. Choose whether you want to run Renovate on all repositories or only on repositories you select.
 1. Renovate bot creates a onboarding pull request with a basic configuration on each enabled repository.
 1. The onboarding PR shows a preview of what Renovate will do once you merge the config.
