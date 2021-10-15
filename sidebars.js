@@ -35,6 +35,7 @@ module.exports = {
       label: "Git sandbox",
       items: [
         "git_sandbox/setup_your_git_sandbox",
+        "git_sandbox/shell_expansion",
         "git_sandbox/explore_your_git_sandbox",
         "git_sandbox/introduction_to_git_status",
         "git_sandbox/create_a_new_file_and_track_it",
@@ -58,6 +59,7 @@ module.exports = {
         "best_practices/use_a_gitignore_file",
         "best_practices/split_up_your_commits",
         "best_practices/write_good_commit_messages",
+        "best_practices/git_aliases",
         `best_practices/use_a_linter`,
         "best_practices/dealing_with_merges",
         "best_practices/use_a_dependency_bot",
