@@ -10,10 +10,6 @@ module.exports = {
   organizationName: "HonkingGoose", // Usually your GitHub org/user name.
   projectName: "git-gosling", // Usually your repo name.
   themeConfig: {
-    announcementBar: {
-      // Space reservation for announcementBar
-      // See https://docusaurus.io/docs/api/themes/configuration#announcement-bar
-    },
     navbar: {
       title: "Git Gosling",
       logo: {
@@ -51,7 +47,7 @@ module.exports = {
       indexName: "git-gosling",
 
       // Contextual search is useful for versioned Docusaurus sites.
-      // We're not using versioning, so this is turned of.
+      // We're not using versioning, so this is turned off.
       contextualSearch: false,
 
       // Optional: Algolia search parameters
@@ -70,7 +66,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           editUrl: "https://github.com/HonkingGoose/git-gosling/edit/main/",
         },
         theme: {
