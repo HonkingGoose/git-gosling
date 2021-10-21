@@ -52,7 +52,7 @@ Read the [Renovate Docs](https://docs.renovatebot.com/) to learn more about Reno
 
 ### Enabling Renovate
 
-Follow the [Renovate GitHub app installation](https://docs.renovatebot.com/install-github-app/) documentation.
+Read the [Installing and onboarding Renovate into repositories](https://docs.renovatebot.com/getting-started/installing-onboarding/) documentation for more information.
 
 The basic process is:
 
