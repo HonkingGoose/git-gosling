@@ -10,6 +10,7 @@ module.exports = {
   organizationName: "HonkingGoose", // Usually your GitHub org/user name.
   projectName: "git-gosling", // Usually your repo name.
   themeConfig: {
+    hideableSidebar: true,
     navbar: {
       title: "Git Gosling",
       logo: {
