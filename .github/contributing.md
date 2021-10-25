@@ -2,22 +2,39 @@
 
 Your feedback and pull requests are very welcome!
 
+We use [Docusaurus 2](https://docusaurus.io/) to build the website.
+
 If you find a typo or other small textual error on a published page, click on the "Edit this page" link at the bottom of the affected page.
 This link will take you to the right file on GitHub to make the edit and open a pull request.
 
-For larger edits we recommend that you setup a development environment, so that you can preview your work.
+For larger edits we recommend that you create a development environment, so that you can preview your work.
 
 ## Creating a development environment
 
-### What you'll need before starting
+You have two options to get a development environment going.
+I _strongly recommend_ you use Gitpod.
 
-We use [Docusaurus 2](https://docusaurus.io/) to build the website.
-To build the website locally you'll need:
+### Gitpod
+
+The easiest and fastest way to set up a development environment is via Gitpod:
+
+1. Sign in with your GitHub account to Gitpod
+1. Check your Git credentials in Gitpod and adjust them if necessary
+1. Create a fork of `honkinggoose/git-gosling` by clicking on the "Fork" button in the GitHub interface
+1. Ensure Gitpod can access your forked repository, and has `write` level rights to the repository
+1. Open your forked repository with Gitpod
+1. Create a new Git branch to start your work on
+1. Once you are done, make a new commit, and push your changes
+1. You can now close the Gitpod workspace
+
+Whenever you start work on a new bug/feature, sync you fork to be up-to-date with upstream, and then start a new Gitpod workspace from your fork to do your work in.
+
+### Local workstation
+
+To build the site locally on your workstation you'll need:
 
 - Node 14
 - npm 6 (comes pre-installed with Node 14)
-
-### Steps to get started
 
 Follow these steps to setup your local development environment:
 
@@ -43,7 +60,7 @@ Follow these steps to setup your local development environment:
 1. Your pull request will get reviewed, and if the maintainers like it, it will get merged.
 1. After your pull request is merged, you can remove your local branch with `git branch -D branch_name`
 
-## After Docusaurus package upgrades
+#### After Docusaurus package upgrades
 
 After `@docusaurus/` packages are upgraded you should run the following command:
 
