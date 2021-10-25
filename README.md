@@ -23,8 +23,8 @@ Feedback and pull requests are very welcome!
 If you find a typo or a simple textual error on a published page, click on the "Edit this page" link at the bottom of the affected page.
 This link will take you to the right file on GitHub to make the edit and open a pull request.
 
-For larger edits we recommend that you setup a development environment, so that you can preview your work.
-Read the [guide on contributing](.github/contributing.md) to learn how to setup your development environment.
+For larger edits, we recommend that you set up a development environment, so that you can preview your work.
+Read the [guide on contributing](.github/contributing.md) to learn how to set up your development environment.
 
 ## Thanks
 
