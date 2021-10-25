@@ -11,8 +11,12 @@ For larger edits we recommend that you create a development environment, so that
 
 ## Creating a development environment
 
-You have two options to get a development environment going.
-I _strongly recommend_ you use Gitpod.
+You have two options to get a development environment going:
+
+- Use Gitpod
+- Setup local workstation
+
+We _strongly recommend_ you use Gitpod.
 
 ### Gitpod
 
@@ -27,7 +31,7 @@ The easiest and fastest way to set up a development environment is via Gitpod:
 1. Once you are done, make a new commit, and push your changes
 1. You can now close the Gitpod workspace
 
-Whenever you start work on a new bug/feature, sync you fork to be up-to-date with upstream, and then start a new Gitpod workspace from your fork to do your work in.
+Whenever you start work on a new bug/feature, sync you fork so you're up-to-date with upstream, and then start a new Gitpod workspace from your fork to do your work in.
 
 ### Local workstation
 
