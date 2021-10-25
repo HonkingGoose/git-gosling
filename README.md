@@ -1,7 +1,7 @@
 ![Docusaurus build](https://github.com/HonkingGoose/git-gosling/workflows/Docusaurus%20build/badge.svg)
 ![Prettier](https://github.com/HonkingGoose/git-gosling/workflows/Prettier/badge.svg)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/HonkingGoose/git-gosling)
 
 # Git Gosling
 
