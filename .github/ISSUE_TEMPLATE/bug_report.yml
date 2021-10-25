@@ -1,18 +1,17 @@
 name: Bug Report
 description: Report a bug
-title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thank you for taking the time to fill out this bug report!
 
   - type: textarea
     id: describe-the-bug
     attributes:
       label: Describe the bug
-      placeholder: Tell us what's going wrong.
+      description: Tell us what's going wrong.
     validations:
       required: true
 
@@ -20,7 +19,7 @@ body:
     id: give-the-steps-to-reproduce
     attributes:
       label: Give the steps needed to reproduce the behavior.
-      placeholder: Provide a ordered list with steps to reproduce.
+      description: Provide a ordered list with steps to reproduce.
       value: |
         1.
         2.
@@ -33,7 +32,7 @@ body:
     id: expected-behavior
     attributes:
       label: What did you expect to happen?
-      placeholder: A clear and concise description of what you expected to happen.
+      description: A clear and concise description of what you expected to happen.
     validations:
       required: true
 
@@ -51,7 +50,7 @@ body:
     id: possible-solution-suggestion
     attributes:
       label: If you have thought of a solution, please tell us about it!
-      placeholder: Explain the possible solution.
+      description: Explain the possible solution.
 
   - type: dropdown
     id: do-you-want-to-help-fix-the-bug
@@ -68,5 +67,3 @@ body:
     id: is-there-anything-else-we-need-to-know
     attributes:
       label: Is there anything else we need to know?
-    validations:
-      required: true
