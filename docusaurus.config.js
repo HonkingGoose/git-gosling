@@ -44,7 +44,8 @@ module.exports = {
       theme: require("prism-react-renderer/themes/palenight"),
     },
     algolia: {
-      apiKey: "3df69032480bd9ed420f9c80c2dbfd41",
+      appId: 'OJ1F1A18XG',
+      apiKey: "e4cdbe86b3ee18467d318358eae13a4b",
       indexName: "git-gosling",
 
       // Contextual search is useful for versioned Docusaurus sites.
