@@ -44,7 +44,7 @@ module.exports = {
       theme: require("prism-react-renderer/themes/palenight"),
     },
     algolia: {
-      appId: 'OJ1F1A18XG',
+      appId: "OJ1F1A18XG",
       apiKey: "e4cdbe86b3ee18467d318358eae13a4b",
       indexName: "git-gosling",
 
