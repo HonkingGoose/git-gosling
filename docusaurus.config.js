@@ -45,7 +45,7 @@ module.exports = {
     },
     algolia: {
       appId: "OJ1F1A18XG",
-      apiKey: "e4cdbe86b3ee18467d318358eae13a4b",
+      apiKey: "c1012c1160088baf2b8c7bbae017c737",
       indexName: "git-gosling",
 
       // Contextual search is useful for versioned Docusaurus sites.
