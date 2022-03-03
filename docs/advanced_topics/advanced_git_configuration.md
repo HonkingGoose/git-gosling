@@ -1,7 +1,5 @@
 ---
-id: advanced_git_configuration
 title: Advanced Git configuration
-description: Learn about advanced Git configuration
 ---
 
 ## List all Git settings
@@ -60,7 +58,7 @@ Use the `git config --global core.editor` command to tell Git what editor you wa
 |      VSCodium      | `git config --global core.editor "codium --wait"` |
 |        Atom        | `git config --global core.editor "atom --wait"`   |
 
-:::note Use the wait option when possible
-The `--wait` or `-w` option tells Git to wait until you've saved the file and closed the editor.
-This option is not available for all editors.
-:::
+<!-- prettier-ignore -->
+!!! note "Use the wait option when possible"
+    The `--wait` or `-w` option tells Git to wait until you've saved the file and closed the editor.
+    This option is not available for all editors.

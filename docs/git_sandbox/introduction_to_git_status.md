@@ -1,22 +1,22 @@
 ---
-id: introduction_to_git_status
 title: Introduction to git status
-description: Introduction to git status command
 ---
 
 The most used Git command is `git status`.
-As you might have guessed already, `git status` wil display the status of your repository.
-The output of this command will change based on what's happening in your repository.
+As you might have guessed already, `git status` displays the status of your repository.
+The output of this command changes based on what's happening in your repository.
 
 Let's see what the Git status of our (nearly empty) sandbox repository is.
 
-Remember: the `.git` folder is for Git's use only.
-You will not see this folder in the `git status` output.
+<!-- prettier-ignore -->
+!!! note
+    The `.git` folder is for Git's use only.
+    You will not see this folder in the `git status` output.
 
-:::tip Stuck? Use `git status`!
+## If you're stuck, use `git status`
+
 Use `git status` whenever you're stuck or not sure on what to do next.
 Git will try to help you!
-:::
 
 ## Git status command
 

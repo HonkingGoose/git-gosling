@@ -1,7 +1,5 @@
 ---
-id: github_cli
 title: GitHub CLI
-description: Work with GitHub from the CLI
 ---
 
 If you want to do all your work from within the command line interface, you might want to take a look at the GitHub CLI program called `gh`.

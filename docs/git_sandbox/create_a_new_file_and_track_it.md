@@ -1,7 +1,5 @@
 ---
-id: create_a_new_file_and_track_it
 title: Create a new file and track it
-description: How to create a new file and track it with Git
 ---
 
 ## Creating a new README

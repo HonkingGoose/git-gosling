@@ -1,7 +1,5 @@
 ---
-id: use_a_dependency_bot
 title: Use a dependency bot
-description: Learn about Dependabot and Renovate bot
 ---
 
 ## Introduction
@@ -10,7 +8,7 @@ It's easy to forget to update your dependencies.
 This is bad for the security and functionality of your software.
 Newer versions of dependencies can fix security issues, improve existing features, or add new features.
 
-I recommend you use a bot like _Renovate_ or _Dependabot_ keep your dependencies up-to-date.
+I recommend you use a bot like Renovate or Dependabot keep your dependencies up-to-date.
 
 ## Bot comparison
 
@@ -26,7 +24,7 @@ I recommend you use a bot like _Renovate_ or _Dependabot_ keep your dependencies
 
 ## Supported ecosystems
 
-Both Dependabot and Renovate support:
+Both Renovate and Dependabot support:
 
 - JavaScript
 - PHP
@@ -38,9 +36,7 @@ Both Dependabot and Renovate support:
 - Dockerfiles
 - GitHub Action runners
 
-:::tip Check the docs before installing
-Read the official documentation for _Renovate_ or _Dependabot_ to confirm if the bot supports your programming language/ecosystem.
-:::
+Read the documentation for Renovate or Dependabot to confirm that the bot supports your programming language/ecosystem.
 
 ## Renovate
 
@@ -63,9 +59,9 @@ The basic process is:
 1. _Optional:_ Customize the Renovate configuration on the onboarding PR branch.
 1. After you merge the onboarding PR, Renovate will start creating real PRs.
 
-:::tip Need help configuring Renovate?
-If you get stuck or confused, and need help, go to the `renovatebot/renovate` repository's [discussions forum](https://github.com/renovatebot/renovate/discussions) to get help from the Renovate bot team.
-:::
+<!-- prettier-ignore -->
+!!! tip "Need help configuring Renovate?"
+    If you get stuck or confused, and need help, go to the `renovatebot/renovate` repository's [discussions forum](https://github.com/renovatebot/renovate/discussions) to get help from the Renovate bot team.
 
 ## Dependabot
 

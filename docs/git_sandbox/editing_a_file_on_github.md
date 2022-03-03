@@ -1,7 +1,5 @@
 ---
-id: editing_a_file_on_github
 title: Editing a file on GitHub
-description: How to edit a file on GitHub
 ---
 
 We have pushed our repo to GitHub.
@@ -46,12 +44,12 @@ Replace the default branch name `Username-patch-1` with `Update-README`.
 
 Click on the green button **Propose changes**
 
-:::tip Remember to change the branch name!
-By default GitHub will create a `Username-patch-x` branch.
+<!-- prettier-ignore -->
+!!! tip "Remember to change the branch name!"
+    By default GitHub will create a `Username-patch-x` branch.
 
-This branch name tells us nothing about the changes you're making.
-So change the branch name to something meaningful.
-:::
+    This branch name tells us nothing about the changes you're making.
+    So change the branch name to something meaningful.
 
 ## Opening a pull request
 

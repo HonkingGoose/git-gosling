@@ -1,7 +1,5 @@
 ---
-id: split_up_your_commits
 title: Split up your commits
-description: Learn to split up your work into smaller parts
 ---
 
 Most of the time, it's a good idea to keep your commits small.
@@ -57,10 +55,10 @@ A hunk is basically a part of a file that we changed.
 
 To stage this change, enter <kbd>y</kbd> and press <kbd>Enter</kbd>.
 
-:::tip Splitting up hunks
-Sometimes it makes sense to split the hunk with the `s` option.
-If the hunk is still not what you want after splitting, use the `e` option to edit it manually.
-:::
+<!-- prettier-ignore -->
+!!! tip "Splitting up hunks"
+    Sometimes it makes sense to split the hunk with the `s` option.
+    If the hunk is still not what you want after splitting, use the `e` option to edit it manually.
 
 ### Get a list of valid commands
 

@@ -17,13 +17,6 @@
       "matchDepTypes": ["devDependencies"],
       "matchPackagePatterns": ["prettier"],
       "automerge": true
-    },
-    {
-      "description": "Automerge minor/patch React monorepo updates",
-      "extends": "monorepo:react",
-      "groupName": "react monorepo",
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true
     }
   ]
 }

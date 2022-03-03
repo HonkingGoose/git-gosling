@@ -1,7 +1,5 @@
 ---
-id: create_a_new_branch
 title: Create a new branch
-description: How to create a new branch
 ---
 
 It's time to learn about branches.
@@ -16,23 +14,22 @@ I've changed the default branch name from `master` to `main` for my examples.
 
 If you have a `master` branch, just substitute `main` in our examples with `master`.
 
-:::tip Setting the default branch for new repos
+### How can I set the default branch name for new repos?
+
 Starting from Git 2.28 you can set the default branch name for new repositories.
-Read the chapter [Advanced Git configuration](advanced_topics/advanced_git_configuration.md) to learn how to do this.
-:::
+Read the chapter [Advanced Git configuration](../advanced_topics/advanced_git_configuration.md) to learn how to do this.
 
 ### Can I rename a branch?
 
 Yes you can, for more on this, read the section **Changing a branch name** in the [ProGit2 book](https://git-scm.com/book/en/v2/Git-Branching-Branch-Management)
 
-:::warning Be careful when renaming the mainline branch
+Be careful when renaming the mainline branch!
 Prepare before you rename a branch like `master`, `main`, `trunk` or `mainline`!
 
 Remember that changing the mainline branch name for a repository is a breaking change!
 Discuss this move with your team before you start!
 
 Read the section on _Changing the master branch name_ in the [ProGit2 book](https://git-scm.com/book/en/v2/Git-Branching-Branch-Management) to learn all you need to know.
-:::
 
 ## Listing all branches
 

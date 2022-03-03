@@ -1,7 +1,5 @@
 ---
-id: create_a_github_account
 title: Create a GitHub account
-description: Learn how to create a GitHub account
 ---
 
 ## Create a GitHub account
@@ -9,20 +7,16 @@ description: Learn how to create a GitHub account
 You need a GitHub account to follow this guide.
 Go to [GitHub.com](https://github.com/) and create your account.
 
-:::tip Need help with GitHub account creation?
-
+Need help with GitHub account creation?
 Follow the steps in the [GitHub docs, Signing up for GitHub](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-github).
-:::
 
 ### Verify your email address with GitHub
 
 After you have created your account, you must verify your email address.
 Follow the steps in the [GitHub docs, Verifying your email address](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-github/verifying-your-email-address).
 
-:::caution Verify your email adress
 If you do not verify your email address, GitHub will be _useless_.
 You will not be able to create or fork a repository.
-:::
 
 ### Secure your account with two-factor authentication
 
@@ -38,9 +32,7 @@ You can choose from these authentication methods:
 
 Follow the steps in the [GitHub docs, Securing your account with two-factor authentication](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa).
 
-:::warning Write down/print 2FA recovery codes
 Write down or print the recovery codes that GitHub gives you, and keep them somewhere safe!
-:::
 
 ### Create a personal access token (PAT)
 

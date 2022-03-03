@@ -1,7 +1,5 @@
 ---
-id: introduction_to_git
-title: Introduction to Git
-description: Introduction to Git
+title: Short introduction to Git
 ---
 
 ### Git? What's that?

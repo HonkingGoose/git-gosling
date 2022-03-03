@@ -1,7 +1,5 @@
 ---
-id: add_extra_lines_to_file
 title: Add extra lines to file
-description: How to use git add to stage changes
 ---
 
 Let's add another sentence to the readme.
@@ -30,20 +28,22 @@ Use `git add` to stage the changes you made in the README:
 $ git add README.md
 ```
 
-:::tip How to stage all the things?
-You can use `git add .` to include all changes.
-Beware, it's very easy to stage changes you don't intend to commit this way!
-:::
+### Frequently asked questions
 
-:::tip Ignore stuff you don't want to stage
+#### How can I stage all my changes?
+
+You can use `git add .` to include all changes.
+Be careful as it's very easy to stage changes you don't intend to commit this way!
+
+#### How do I tell Git to ignore files/directories?
+
 Use a `.gitignore` file to tell Git what files to ignore.
 Read more about this in the [Best practices, Use a gitignore file](../best_practices/use_a_gitignore_file.md) part of the guide.
-:::
 
-:::tip Pick and choose your staging area
+#### How can I pick which files to stage?
+
 You can also use `git add --patch` to pick and choose what you're going to put in your staging area.
 Read more about this in the [Best practices, Split up your commits](../best_practices/split_up_your_commits.md) part of the guide.
-:::
 
 ### Git status
 
@@ -123,10 +123,8 @@ d663c4d Create README <-- c79426c Add another line to the README
 
 Commit `c79426c` points back to the root commit `d663c4d`.
 
-:::info Why are my commit hashes different?
-Your commit hashes will be different from those in the guide.
-That's okay, you're not doing anything wrong.
-:::
+If you're following along, you will see that your commit hashes are different from those in the guide.
+This is okay, you're not doing anything wrong.
 
 ### Recommended reading
 

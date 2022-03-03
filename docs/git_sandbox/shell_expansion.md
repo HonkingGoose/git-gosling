@@ -1,7 +1,5 @@
 ---
-id: shell_expansion
 title: Shell expansion
-description: Learn about shell expansion
 ---
 
 A handy feature of the Bash shell - and most other shells - is that it comes with shell expansion.
@@ -9,9 +7,7 @@ A handy feature of the Bash shell - and most other shells - is that it comes wit
 You can type a partial Git command name, and Bash will try to expand it to the full command whenever you press <kbd>tab</kbd>.
 Shell expansion will also suggest the correct filenames/locations when you use commands like `ls` or `cd`.
 
-:::tip
 If the partial command does not uniquely match a command, add some extra letters to make the match unique and press <kbd>tab</kbd> again.
-:::
 
 ## Shell expansion with Git
 

@@ -1,7 +1,5 @@
 ---
-id: switching_between_branches
 title: Switching between branches
-description: How to switch between Git branches
 ---
 
 Now we have a `feature` branch, let's explain how you can switch between branches.
@@ -22,7 +20,7 @@ We're on the main branch now.
 
 ## Switch to the feature branch
 
-Let's use `git switch` to move to the feature branch:
+Use `git switch` to move to the feature branch:
 
 ```git
 $ git switch feature
@@ -30,19 +28,13 @@ $ git switch feature
 Switched to branch 'feature'
 ```
 
+If you're using a version of Git older than 2.23 then enter `git checkout feature`.
+Git checkout is the old way to switch to another branch.
+
 Git tells us: `Switched to branch 'feature'`, so we know where we are.
 
-:::tip I don't have `git switch`, what now?
-If you're using a version of Git older than 2.23, use `git checkout` instead of `git switch`.
-
-Git checkout is the old way to switch between branches.
-:::
-
-:::note
-For some things you must still use the old `git checkout` command.
-
-Try `git switch` first and use `git checkout` if Git complains at you.
-:::
+**Note:** for some things you must still use the old `git checkout` command.
+Try `git switch` first and use `git checkout` if Git complains.
 
 ## Switch to main branch
 

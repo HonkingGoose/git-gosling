@@ -1,7 +1,5 @@
 ---
-id: introduction_to_the_nano_text_editor
-title: Introduction to the Nano text editor
-description: Introduction to the Nano text editor
+title: Introduction to the nano text editor
 ---
 
 Nano is a simple and easy to use text editor.
@@ -50,9 +48,7 @@ By default, Nano lists the commands you can use at the bottom of the editor wind
 - `^` is the <kbd>Ctrl</kbd> key.
 - `M-` is the <kbd>ALT</kbd> key.
 
-:::tip Toggle help mode back on
-If you disabled _help mode_ by mistake, and want it back use the <kbd>ALT + X</kbd> keys.
-:::
+If you disabled _help mode_ by mistake, and want it back then use the <kbd>ALT + X</kbd> shortcut.
 
 ## Get help inside Nano
 

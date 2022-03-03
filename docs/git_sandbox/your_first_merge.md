@@ -1,7 +1,5 @@
 ---
-id: your_first_merge
 title: Your first merge
-description: Your first merge
 ---
 
 We've done some work on the `feature` branch, and our work is ready to be merged into the `main` branch.
@@ -56,8 +54,9 @@ If the `main` branch was ahead of our feature branch, Git would create a merge c
 
 ### Git merge shorthand
 
-When you're on the target branch you don't need to tell Git what branch to merge into.
+When you're on the target branch, you don't need to tell Git what branch to merge into.
 Git will assume you want to merge into the current branch.
+
 The shorthand form is: `git merge origin_branch`.
 
 ```git
@@ -74,9 +73,9 @@ Fast-forward
  1 file changed, 2 insertions(+)
 ```
 
-:::caution Be sure you're on the right branch!
-Make sure you're on the target branch with `git status` or `git branch` before entering a shorthand `git merge` command!
-:::
+<!-- prettier-ignore -->
+!!! caution "Be sure you're on the right branch!"
+    Make sure you're on the target branch with `git status` or `git branch` before entering a shorthand `git merge` command!
 
 ## Recap after our merge
 
@@ -127,9 +126,9 @@ $ git branch
 
 You have learned how to merge your work with `git merge`.
 
-:::note What about merge conflicts?
-If Git cannot do a clean merge, you will get a _merge conflict_.
-This means you have to tell Git what changes to keep, and what changes to reject.
+<!-- prettier-ignore -->
+!!! note "What about merge conflicts?"
+    If Git cannot do a clean merge, you will get a _merge conflict_.
+    This means you have to tell Git what changes to keep, and what changes to reject.
 
-Read the [best practices](best_practices/dealing_with_merges.md) part of the guide for advice on preventing merge conflicts.
-:::
+    Read the [best practices](../best_practices/dealing_with_merges.md) part of the guide for advice on preventing merge conflicts.

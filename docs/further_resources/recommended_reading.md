@@ -1,7 +1,5 @@
 ---
-id: recommended_reading
 title: Recommended reading
-description: Recommended reading
 ---
 
 Here are some excellent and free resources to learn more.

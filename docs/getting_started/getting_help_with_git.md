@@ -1,7 +1,5 @@
 ---
-id: getting_help_with_git
 title: Getting help with Git
-description: Learn to help yourself with Git
 ---
 
 ## Listen to what Git tells you
