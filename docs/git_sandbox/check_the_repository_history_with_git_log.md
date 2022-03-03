@@ -1,7 +1,5 @@
 ---
-id: check_the_repository_history_with_git_log
 title: Check the repository history with git log
-description: How to view the repository history with git log
 ---
 
 Let's take a look at your repository's history with the `git log` command.
@@ -35,9 +33,7 @@ Usually you don't need this much information.
 Let's take a look at some options we can use to filter the result.
 You can stack `git log` options until you get the result you want.
 
-:::tip Don't show merge commits
 If you don't want to see merge commits use the `--no-merges` option when you're using `git log`.
-:::
 
 ## See a graph with all history
 

@@ -1,6 +1,3 @@
-![Docusaurus build](https://github.com/HonkingGoose/git-gosling/workflows/Docusaurus%20build/badge.svg)
-![Prettier](https://github.com/HonkingGoose/git-gosling/workflows/Prettier/badge.svg)
-
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/HonkingGoose/git-gosling)
 
 # Git Gosling
@@ -27,15 +24,6 @@ For larger edits, we recommend that you set up a development environment, so tha
 Read the [guide on contributing](.github/contributing.md) to learn how to set up your development environment.
 
 ## Thanks
-
-### Docusaurus v2
-
-Thank you [Docusaurus v2](https://docusaurus.io/) for making this project possible!
-
-### Algolia DocSearch
-
-Thank you Algolia for providing this project with [DocSearch](https://docsearch.algolia.com/) functionality!
-The search works great, and was very easy to get setup with Docusaurus v2.
 
 ### Vercel
 

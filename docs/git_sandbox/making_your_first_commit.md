@@ -1,7 +1,5 @@
 ---
-id: making_your_first_commit
 title: Making your first commit
-description: Making your first commit with Git
 ---
 
 ## Git status
@@ -94,10 +92,10 @@ index 0000000..21652e3
 
 Well done, you have just made your very first Git commit.
 
-:::caution
-Do not enter/or change the filename of the commit message file!
-This will confuse Git.
-:::
+<!-- prettier-ignore -->
+!!! caution
+    Do not enter/or change the filename of the commit message file!
+    This will confuse Git.
 
 ### After saving the commit message
 
@@ -145,16 +143,9 @@ N No        ^C Cancel
 
 Use <kbd>Y</kbd> to save your work.
 
-Nano then asks about the `File Name to Write`, leave this blank, and just hit <kbd>ENTER</kbd>.
-This saves the commit message.
+Nano asks you for a `File Name to Write`, leave this blank, and press <kbd>ENTER</kbd> to save the commit message.
 
-:::caution
-Do not enter any `File Name to Write` as this will confuse Git.
-:::
-
-:::tip
-You can use <kbd>CTRL + S</kbd> to save and <kbd>CTRL + X</kbd> to exit.
-:::
+Use <kbd>CTRL + S</kbd> to save and <kbd>CTRL + X</kbd> to exit.
 
 ## Summary
 

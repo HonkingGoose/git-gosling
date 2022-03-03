@@ -1,7 +1,5 @@
 ---
-id: create_your_first_github_repo
-title: Create your first GitHub repo
-description: Create your first GitHub repo
+title: Create your first GitHub repository
 ---
 
 Let's go create your first GitHub repository!
@@ -25,27 +23,27 @@ Follow these steps:
 1. Skip the "Initialize this repository with" section.
 1. Click on the green "Create this repository button"
 
-:::caution Be aware of repository visibility
-Select the right visibility level when you create a repository.
+<!-- prettier-ignore -->
+!!! caution "Be aware of repository visibility"
+    Select the right visibility level when you create a repository.
 
-Public means that anybody can see what's in your repository.
+    **Public** means that anybody can see what's in your repository.
 
-Private means only you (and people you invite) can view the repository.
-:::
+    **Private** means only you (and people you invite) can view the repository.
 
-:::tip GitHub docs, creating a new repository
-If you get stuck, read the [GitHub docs, Creating a new repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-new-repository).
-:::
+<!-- prettier-ignore -->
+!!! tip "GitHub docs, creating a new repository"
+    If you get stuck, read the [GitHub docs, Creating a new repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-new-repository).
 
 ### After creating your repository
 
 GitHub will help you with the next steps by listing the steps you can take.
 We'll follow these steps together and learn what they do.
 
-:::note
-If you've done this before already, you can just use the commands that GitHub tells you to use.
-This sandbox explains the **...or push an existing repository from the command line** commands that GitHub gives you.
-:::
+<!-- prettier-ignore -->
+!!! note
+    If you've done this before already, you can just use the commands that GitHub tells you to use.
+    This sandbox explains the **...or push an existing repository from the command line** commands that GitHub gives you.
 
 ## Navigate to your sandbox directory
 
@@ -74,14 +72,14 @@ I will cover remotes fully in another section of the guide.
 For now, it's enough to know that a remote is a repository that is _elsewhere_.
 For the purposes of this guide, the `origin` remote refers to the repository on GitHub.
 
-:::note About `main` and `origin/main`
-Remember: `main` is your local branch, `origin/main` is the branch on the GitHub repository.
+<!-- prettier-ignore -->
+!!! note "About `main` and `origin/main`"
+    Remember: `main` is your local branch, `origin/main` is the branch on the GitHub repository.
 
-You can update your local and remote branches by pushing and/or pulling.
-Learn more about this by following the guide.
+    You can update your local and remote branches by pushing and/or pulling.
+    Learn more about this by following the guide.
 
-For now, know that you pull to get changes from others and push to make your changes available to others.
-:::
+    For now, know that you pull to get changes from others and push to make your changes available to others.
 
 ### Check current branch name
 
@@ -108,11 +106,11 @@ Use `git branch --move` to replace the `master` branch with a `main` branch:
 $ git branch --move master main
 ```
 
-:::warning
-Changing the default branch name for your repository on GitHub is a breaking change.
-Do not change the name of a branch like `master`, `main`, `mainline` or `trunk` without discussing it with your team first!
-Search for usages of the old branch name in your code.
-:::
+<!-- prettier-ignore -->
+!!! warning
+    Changing the default branch name for your repository on GitHub is a breaking change.
+    Do not change the name of a branch like `master`, `main`, `mainline` or `trunk` without discussing it with your team first!
+    Search for usages of the old branch name in your code.
 
 ### Push your local repository to GitHub
 
@@ -130,13 +128,13 @@ Username for 'https://github.com': enter_your_username
 Password for 'https://your_username@github.com': enter_your_password_or_PAT
 ```
 
-:::tip 2FA and authentication to GitHub via Git CLI
-If you have enabled two-factor authentication (2FA), you must create a personal access token (PAT).
-Your GitHub password will not work.
+<!-- prettier-ignore -->
+!!! tip "2FA and authentication to GitHub via Git CLI"
+    If you enabled two-factor authentication (2FA) then you must create a personal access token (PAT).
+    Your GitHub password will not work.
 
-Follow the steps in the [GitHub docs, Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token).
-Use the PAT instead of your GitHub password whenever you access GitHub via the CLI.
-:::
+    Follow the steps in the [GitHub docs, Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+    Use the PAT instead of your GitHub password whenever you access GitHub via the CLI.
 
 ### Git output after push
 

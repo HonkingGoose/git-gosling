@@ -1,34 +1,36 @@
 ---
-id: clean_up_your_git_history
 title: Clean up your Git history
-description: Learn how to clean up your Git history
 ---
 
 You can clean much of your Git history before going public with your changes.
 I recommend that you make a practice `sandbox` repository, and learn how this stuff works, before attempting it on production work.
 
-:::warning This section is not meant for Git beginners
+## Warnings
+
+### This page is not for Git beginners
+
 Do not try this on your production work if you don't know how any of this works!
-
 Recovering from bad edits might not be possible or out of your comfort zone.
-:::
 
-:::warning Do not force push without thinking
+### Do not force push without thinking
+
 Think before you use `git push --force-with-lease` to push your changed history!
-
 Changing the history of public branches is generally a bad idea.
 
 Don't force push to a **main**, **master** or **trunk** branch, as that will mess things up for everybody on the project.
-:::
 
-:::tip Recovering with `git reflog`
+### Use `git reflog` to recover
+
 Some bad changes can be recovered from with the use of the `git reflog`, and creating a new branch from the "known good" commits.
-:::
 
-### Re-do the last commit
+## Re-do the last commit
 
 You can re-do the last commit with the `git commit --amend` command.
 This is handy for fixing small stuff like spelling errors, or adding a change that should be in the commit.
+
+<!-- prettier-ignore -->
+!!! warning
+    Do not amend commits that you have pushed somewhere public.
 
 Let's go through an example:
 
@@ -68,10 +70,6 @@ $ git log --oneline
 
 As you can see, we've _replaced_ commit `d476184` with commit `4e1a197`.
 If you need the old commit, you can retrieve it from the `git reflog`.
-
-:::warning
-Do not amend commits that you have pushed somewhere public.
-:::
 
 ## Squash multiple commits into one
 
@@ -123,8 +121,6 @@ $ git log --oneline
 All this messy work is not really of value to your collaborators.
 Let's clean it up!
 
-#### Start of clean up
-
 Because you made a branch before starting your work, you can now do:
 
 ```git
@@ -166,10 +162,10 @@ pick 8e285fd Bugfix: validate input better
 # Note that empty commits are commented out
 ```
 
-:::tip
-This file tells you what the commands are and what they do.
-Be sure to read the comments!
-:::
+<!-- prettier-ignore -->
+!!! tip
+    This file tells you what the commands are and what they do.
+    Be sure to read the comments!
 
 We edit the file to look like this, and save:
 
@@ -225,9 +221,9 @@ e1fa060 (HEAD -> feature) Create function registerUserName
 
 We can now push our work so that others can look at it, or so that we can open a pull request.
 
-:::tip If you don't need the original commit message
-Use `fixup` instead of `squash` when you don't want to keep the original commit message.
-:::
+<!-- prettier-ignore -->
+!!! tip "If you don't need the original commit message"
+    Use `fixup` instead of `squash` when you don't want to keep the original commit message.
 
 ## Recovering from a bad squash/fixup with the git reflog
 

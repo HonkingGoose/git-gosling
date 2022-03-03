@@ -1,7 +1,5 @@
 ---
-id: use_git_restore_to_undo_things
 title: Use git restore to undo things
-description: How to undo things with git restore
 ---
 
 ## Make a silly edit

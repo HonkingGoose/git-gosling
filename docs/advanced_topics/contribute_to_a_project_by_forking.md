@@ -1,7 +1,5 @@
 ---
-id: contribute_to_a_project_by_forking
 title: Contribute to a project by forking
-description: Learn how to fork a project and contribute
 ---
 
 If you want to contribute to a project, but don't have the necessary write rights, you can _fork_ the project.
@@ -50,11 +48,11 @@ If you open a pull request at the source repository, you're providing your work 
 1. Delete the merged branch on the fork (you can usually do this right from the pull request window).
 1. Delete the feature branch that's on your local workstation, as the changes are now in `main`.
 
-:::warning Never commit to the `main` branch
-The only thing you should do on your fork's `main` branch is pulling in the `upstream/main` changes.
+<!-- prettier-ignore -->
+!!! warning "Never commit to the `main` branch"
+    The only thing you should do on your fork's `main` branch is pulling in the `upstream/main` changes.
 
-Create a new feature branch to do your work in!
-:::
+    Create a new feature branch to do your work in!
 
 ### Create a fork
 
@@ -103,12 +101,9 @@ You should see an `origin` remote (your fork), and a `upstream` remote (upstream
 
 You must manually synchronise your fork with the upstream project.
 
-:::tip
 Read the [GitHub docs, Syncing a fork](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/syncing-a-fork).
-:::
 
-:::tip
-Remember to delete merged branches on your local workstation as well.
+#### Overview of branches you can safely delete
 
 You can get an overview of the branches that are merged with:
 
@@ -118,25 +113,20 @@ $ git branch --merged
 
 Note: this will only work when the repository uses normal merges.
 You won't see branches that are rebased or squash-merged into the upstream mainline branch!
-:::
 
-:::tip
-You can delete a branch that is merged by doing:
+#### Deleting a branch after merging it
+
+Delete a branch after merging it
 
 ```git
 $ git branch -d <name_of_branch_to_delete>
 ```
 
-:::
-
-:::tip
-If you want to force the deletion of a branch, do:
+If you really need, you can force delete a branch by using the `-D` flag:
 
 ```git
 $ git branch -D <name_of_branch_to_delete>
 ```
-
-:::
 
 ### Git fetch and forks
 

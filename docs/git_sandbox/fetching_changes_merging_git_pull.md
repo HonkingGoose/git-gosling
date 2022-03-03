@@ -1,18 +1,16 @@
 ---
-id: fetching_changes_merging_git_pull
-title: Fetching changes, merging, git pull
-description: How to fetch changes, merge and pull with Git
+title: Fetching, merging, pulling
 ---
 
 The changes you made are on your GitHub repository only.
 You want to keep working based on the changes you just made.
 This section explains how you can update your local repository.
 
-:::tip
-Your GitHub repository is the `origin` remote on your local workstation.
+<!-- prettier-ignore -->
+!!! tip
+    Your GitHub repository is the `origin` remote on your local workstation.
 
-Use `git remote --verbose` to verify your remotes.
-:::
+    Use `git remote --verbose` to verify your remotes.
 
 ## Git status must be manually updated
 
@@ -142,10 +140,8 @@ Luckily because this is something you do all the time, there's a command to do b
 
 The `git pull` command checks for updates with `git fetch`, and then does a merge/rebase.
 
-:::tip Git complains about `pull.rebase` variable
 If Git complains about the `pull.rebase` variable not being set, read
-[Advanced Git configuration, git pull rebase/merge strategy](advanced_topics/advanced_git_configuration.md#git-pull-rebase-or-merge-strategy) chapter.
-:::
+[Advanced Git configuration, git pull rebase/merge strategy](../advanced_topics/advanced_git_configuration.md#git-pull-rebase-or-merge-strategy) chapter.
 
 ## Summary
 

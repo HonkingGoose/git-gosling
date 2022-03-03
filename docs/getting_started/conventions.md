@@ -1,7 +1,5 @@
 ---
-id: conventions
 title: Conventions
-description: Description of the conventions used in this guide
 ---
 
 ## Command line interface
@@ -58,7 +56,5 @@ Anybody can see that:
 - Git commit does something with `--all`, probably all files.
 - Git commit creates some kind of message `"Create a commit"`.
 
-:::tip Sharing Git scripts/code?
 When you're sharing Git scripts or code with others, use the long form options.
 This makes it easier to understand what the Git code is doing.
-:::

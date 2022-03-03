@@ -1,19 +1,13 @@
 ---
-id: git_aliases
 title: Git aliases
-description: Learn about Git aliases
 ---
 
 You'll use commands like `git status`, `git log`, `git commit` and `git push` often.
 Normally you have to type out Git commands in full before you can use them.
 
 You can save some typing by setting up Git aliases, think of them as "shortcuts" to the full command.
-
-:::tip
 Aliases do not replace the original Git commands.
-
 The full length Git commands are _always_ available.
-:::
 
 ## Local vs global aliases
 

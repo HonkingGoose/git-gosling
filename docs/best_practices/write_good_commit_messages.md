@@ -1,7 +1,5 @@
 ---
-id: write_good_commit_messages
 title: Write good commit messages
-description: Learn to write a good commit message
 ---
 
 ## What's a good commit message?
@@ -37,12 +35,10 @@ Further paragraphs come after blank lines.
 - Use a hanging indent
 ```
 
-:::note About this template
 This commit template is copied from the [ProGit2 book, section on contributing](https://github.com/progit/progit2/blob/master/book/05-distributed-git/sections/contributing.asc).
 
 Thank you, Tim Pope for making the original template!
 You can find the original at [Tim Pope's blog post, A note about Git commit messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
-:::
 
 ## Conventional Commits (CC)
 

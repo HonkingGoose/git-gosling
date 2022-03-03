@@ -1,7 +1,5 @@
 ---
-id: installing_git
 title: Installing Git
-description: How to install Git on different operating systems
 ---
 
 ## Use Git 2.25 or newer
@@ -52,9 +50,8 @@ $ sudo apt update
 $ sudo apt install git
 ```
 
-:::tip Ubuntu 20.04 users
-If you're on Ubuntu 20.04, you can skip setting up the `git-code/ppa` as the version of Git that comes with Ubuntu 20.04 is recent enough to follow the guide.
-:::
+If you're on Ubuntu 20.04, you can skip setting up the `git-code/ppa`.
+The version of Git that comes with Ubuntu 20.04 is recent enough to follow the guide.
 
 #### Debian
 
@@ -102,11 +99,7 @@ Go to https://git-scm.com/download/mac to download a binary installer.
 
 Go to https://git-scm.com/download/win to download **Git for Windows**.
 
-:::tip Setup nano
-If you want to follow along with this guide, tell Git for Windows to use the `nano` text editor.
-:::
-
-:::tip Check for updates automatically
 When you're installing Git for Windows tick the _check for updates_ checkbox.
 It's easy to update Git for Windows, as the program does all the work for you.
-:::
+
+If you want to follow along with this guide, tell Git for Windows to use the `nano` text editor.

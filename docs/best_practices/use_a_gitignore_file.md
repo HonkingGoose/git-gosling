@@ -1,7 +1,5 @@
 ---
-id: use_a_gitignore_file
-title: Use a gitignore file
-description: How to tell Git to ignore things
+title: Use a .gitignore file
 ---
 
 It's a good idea to tell Git to ignore certain files/directories.
@@ -35,10 +33,8 @@ When you create a repository via the GitHub web interface, you can add a `.gitig
 
 The file must be called `.gitignore` and it must be in the repository's root directory.
 
-:::note
 It's possible to put `.gitignore` files into subdirectories of your project.
 I won't talk about this, as this is an advanced use-case.
-:::
 
 ### Syntax
 

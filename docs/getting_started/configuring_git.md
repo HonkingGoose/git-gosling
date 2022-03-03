@@ -1,7 +1,5 @@
 ---
-id: configuring_git
 title: Configuring Git
-description: Learn to configure Git
 ---
 
 Before you can use Git, you must configure it.
@@ -17,9 +15,7 @@ If you want to override the global name or email address for a specific project,
 
 ### Username
 
-:::warning Username is visible to anybody
 The username you set here can be seen by anybody with read rights to any repository you work on.
-:::
 
 I recommend using your GitHub username as the `user.name`.
 This makes sure that the commits you create locally have the same username as commits you create via the GitHub web interface.
@@ -32,9 +28,7 @@ $ git config --global user.name "Name Lastname"
 
 ### Email
 
-:::warning Email adress is visible to anybody
 The email adress you set here can be seen by anybody with read rights to any repository you work on.
-:::
 
 The `user.email` you set here does not have to be your real "private" email adress!
 In fact, I recommend you use the GitHub provided `no-reply` email adress instead of an alias or your real email adress.
@@ -56,9 +50,9 @@ You can use the Git Credential Manager Core (GCM Core) program to cache your cre
 
 Read the [GitHub docs, caching your GitHub credentials in Git](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git) to learn more.
 
-:::tip
-Git for Windows comes with GCM Core.
-:::
+<!-- prettier-ignore -->
+!!! tip
+    Git for Windows comes with GCM Core.
 
 ## Telling Git what editor to use
 
@@ -69,9 +63,7 @@ You can tell Git what text editor you want to use.
 If you want to follow along with the Git sandbox I recommend that you install and use the `nano` editor.
 You can use another text editor if you want, but you might run into problems when you want to save your commit message.
 
-:::note
 If you want to use another text editor, look at the table in the [Advanced Git configuration, code editor setup](../advanced_topics/advanced_git_configuration.md#Code-editor-setup) part of this guide.
-:::
 
 ### Installing the nano text editor
 
