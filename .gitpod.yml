@@ -4,8 +4,12 @@ image:
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - name: Install dependencies, start dev server
-    init: make install prepare
-    command: make serve
+    init: |
+      npm ci
+      pip install -r requirements.txt
+      npm run prepare
+
+    command: mkdocs serve
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
