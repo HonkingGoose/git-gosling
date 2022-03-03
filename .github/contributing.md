@@ -55,7 +55,7 @@ Follow these steps to setup your local development environment:
 1. Create a new branch to do your work on with `git switch -c descriptive_name_for_branch`
 1. Run `npm ci` to download and install all the dependencies for this project with npm
 1. Run `make smoketest` to ensure everything works before you start your work
-1. You can get a live preview with `npm run start`, this starts a local development server and opens a browser window, most changes can be seen live without having to restart the server
+1. You can get a live preview with `make serve`, this starts a local development server and opens a browser window, most changes can be seen live without having to restart the server
 1. Make your changes
 1. When you're done, run the Prettier formatter with `npm run prettier-fix`
 1. Use the `git add` command to stage your work and commit with `git commit -v`
