@@ -1,3 +1,5 @@
+[![Prettier](https://github.com/HonkingGoose/git-gosling/actions/workflows/prettier.yml/badge.svg)](https://github.com/HonkingGoose/git-gosling/actions/workflows/prettier.yml)
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/HonkingGoose/git-gosling)
 
 # Git Gosling
