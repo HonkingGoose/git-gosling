@@ -24,9 +24,6 @@ markdown_extensions:
 
 nav:
   - Home: "index.md"
-  - About this guide:
-      - "about_this_guide/project_license.md"
-      - "about_this_guide/guide_introduction.md"
   - Git Basics:
       - "git_basics/short_introduction_to_git.md"
   - Getting Started:
@@ -73,3 +70,4 @@ nav:
       - "advanced_topics/github_cli.md"
   - Further Resources:
       - "further_resources/recommended_reading.md"
+  - License: "license.md"
