@@ -17,6 +17,12 @@
       "matchDepTypes": ["devDependencies"],
       "matchPackagePatterns": ["prettier"],
       "automerge": true
+    },
+    {
+      "description": "Automerge patch level mkdocs and mkdocs-material updates",
+      "matchPackageNames": ["mkdocs-material", "mkdocs"],
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
     }
   ]
 }
