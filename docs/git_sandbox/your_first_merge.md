@@ -131,4 +131,4 @@ You have learned how to merge your work with `git merge`.
     If Git cannot do a clean merge, you will get a _merge conflict_.
     This means you have to tell Git what changes to keep, and what changes to reject.
 
-    Read the [best practices](../best_practices/dealing_with_merges.md) part of the guide for advice on preventing merge conflicts.
+    Read the page about [dealing with merges](../recommendations/dealing_with_merges.md) to learn more.
