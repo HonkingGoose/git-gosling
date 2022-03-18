@@ -28,24 +28,22 @@ Use `git add` to stage the changes you made in the README:
 $ git add README.md
 ```
 
-### Frequently asked questions
-
-#### How can I stage all my changes?
+### How can I stage all my changes?
 
 You can use `git add .` to include all changes.
 Be careful as it's very easy to stage changes you don't intend to commit this way!
 
-#### How do I tell Git to ignore files/directories?
+### How do I tell Git to ignore files/directories?
 
 Use a `.gitignore` file to tell Git what files to ignore.
-Read more about this in the [Best practices, Use a gitignore file](../best_practices/use_a_gitignore_file.md) part of the guide.
+Read more about this on the [Use a gitignore file](../recommendations/use_a_gitignore_file.md) page.
 
-#### How can I pick which files to stage?
+### How can I pick which files to stage?
 
 You can also use `git add --patch` to pick and choose what you're going to put in your staging area.
-Read more about this in the [Best practices, Split up your commits](../best_practices/split_up_your_commits.md) part of the guide.
+Read more about this on the [Split up your commits](../recommendations/split_up_your_commits.md) page.
 
-### Git status
+## Git status
 
 Now you have staged your changes, `git status` tells us:
 
