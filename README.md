@@ -19,8 +19,16 @@ Go to the [Git Gosling](https://git-gosling.vercel.app/) website to start your j
 
 Feedback and pull requests are very welcome!
 
-If you find a typo or a simple textual error on a published page, click on the "Edit this page" link at the bottom of the affected page.
-This link will take you to the right file on GitHub to make the edit and open a pull request.
+### Fixing a typo
+
+It's easy to fix a typo:
+
+1. Go to the page that has the typo.
+1. Scroll to the top of the page, find the pencil icon ✏️ and click on it.
+1. Fix the typo in the file on GitHub.
+1. Open a pull request.
+
+### Larger edits
 
 For larger edits, we recommend that you set up a development environment, so that you can preview your work.
 Read the [guide on contributing](.github/contributing.md) to learn how to set up your development environment.
