@@ -37,14 +37,14 @@ Whenever you start work on a new bug/feature, sync you fork so you're up-to-date
 
 To build the site locally on your workstation you'll need:
 
-- Node 14
-- npm 6 (comes pre-installed with Node 14)
+- Node 16
+- npm 8 (comes pre-installed with Node 16)
 - Python 3.8
 
 Follow these steps to setup your local development environment:
 
 1. Install the latest version of Python 3.8
-1. Install Node 14 (npm 6 is bundled with Node 14)
+1. Install Node 16 (npm 8 is bundled with Node 16)
 1. Install Git, if you haven't already
 1. Make a fork of this repository via GitHub (click on the "Fork" button)
 1. Clone your fork repository with `git clone link_to_fork`
