@@ -4,7 +4,7 @@
   "private": true,
   "engines": {
     "node": "16.15.1",
-    "npm": "8.12.1"
+    "npm": "8.12.2"
   },
   "scripts": {
     "prettier": "prettier --check .",
