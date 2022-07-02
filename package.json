@@ -7,8 +7,8 @@
     "npm": "8.13.1"
   },
   "scripts": {
-    "prettier": "prettier --check .",
-    "prettier-fix": "prettier --write .",
+    "prettier": "prettier --cache --check .",
+    "prettier-fix": "prettier --cache --write .",
     "prepare": "husky install"
   },
   "devDependencies": {
