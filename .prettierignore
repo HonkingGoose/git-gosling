@@ -1,2 +1,5 @@
 /site
 /node_modules
+
+# Ignore the abbreviations file, as Prettier messes up the formatting.
+/includes/abbreviations.md
