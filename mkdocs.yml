@@ -38,6 +38,10 @@ markdown_extensions:
   - admonition
   - pymdownx.superfences
   - pymdownx.highlight
+  - abbr
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
 
 nav:
   - Home: "index.md"
@@ -45,7 +49,6 @@ nav:
       - "git_basics/short_introduction_to_git.md"
   - Getting Started:
       - "getting_started/conventions.md"
-      - "getting_started/list_of_abbreviations.md"
       - "getting_started/installing_git.md"
       - "getting_started/create_a_github_account.md"
       - "getting_started/configuring_git.md"
