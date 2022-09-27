@@ -15,7 +15,10 @@ theme:
     repo: fontawesome/brands/github
 
   features:
+    - navigation.top
     - navigation.instant
+    - toc.integrate
+    - toc.follow
 
   palette:
     - media: "(prefers-color-scheme: light)"
