@@ -62,9 +62,9 @@ index 0000000..21652e3
 +This is the readme for the sandbox repository.
 ```
 
-### Type commit message and save
+### Enter commit message and save
 
-Type a nice descriptive commit message: `Create README` and save.
+Enter a nice descriptive commit message: `Create README` and save.
 
 ```git title="Text editor with commit message"
 Create README
@@ -128,7 +128,7 @@ nothing to commit, working tree clean
 
 After you've entered `git commit --verbose`, Nano will open.
 
-Type your commit message, and exit Nano with <kbd>CTRL + X</kbd>.
+Enter your commit message, and exit Nano with <kbd>CTRL + X</kbd>.
 
 Nano asks if you want to save your work:
 

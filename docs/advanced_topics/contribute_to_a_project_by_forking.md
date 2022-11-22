@@ -57,7 +57,7 @@ If you open a pull request at the source repository, you're providing your work 
 ### Create a fork
 
 Go to the repository for the project you want to contribute to.
-Click on the _fork_ button.
+Select the _fork_ button.
 GitHub will create the fork under your own namespace.
 
 Read the [GitHub docs, Fork a repo](https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo).

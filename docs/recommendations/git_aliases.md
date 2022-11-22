@@ -3,7 +3,7 @@ title: Git aliases
 ---
 
 You'll use commands like `git status`, `git log`, `git commit` and `git push` often.
-Normally you have to type out Git commands in full before you can use them.
+Normally you have to enter Git commands in full before you can use them.
 
 You can save some typing by setting up Git aliases, think of them as "shortcuts" to the full command.
 Aliases do not replace the original Git commands.
@@ -24,7 +24,7 @@ Use `git config` to set a local alias:
 $ git config alias.ci commit
 ```
 
-Now you can choose whether you want to type `git commit` or `git ci` when making a new commit in the repository where you set the alias.
+Now you can choose whether you want to enter `git commit` or `git ci` when making a new commit in the repository where you set the alias.
 
 ### Setting a global Git alias
 
@@ -34,7 +34,7 @@ Use `git config --global` to set a global alias:
 $ git config --global alias.ci commit
 ```
 
-Now you can choose whether you want to type `git commit` or `git ci` when making a new commit in any repository on your workstation.
+Now you can choose whether you want to enter `git commit` or `git ci` when making a new commit in any repository on your workstation.
 
 ## Listing current aliases
 

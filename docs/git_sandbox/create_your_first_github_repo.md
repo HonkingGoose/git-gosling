@@ -11,7 +11,7 @@ From now on, all actions in this guide assume you're logged into GitHub.
 
 When you're logged in, you will see a black navigation bar.
 You will also see your GitHub profile icon.
-Click on the + sign next to your profile icon, and select New repository from the drop-down menu.
+Select the + sign next to your profile icon, and select New repository from the drop-down menu.
 
 Now you are at the **Create a new repository** page.
 
@@ -21,7 +21,7 @@ Follow these steps:
 1. Skip the description field.
 1. Set the visibility to private.
 1. Skip the "Initialize this repository with" section.
-1. Click on the green "Create this repository button"
+1. Select the green "Create this repository button"
 
 <!-- prettier-ignore -->
 !!! caution "Be aware of repository visibility"
@@ -156,7 +156,7 @@ Git is telling us that we:
 ### Check your repository on GitHub
 
 Go to [GitHub.com](https://github.com/) while logged in, you will see a list of repositories.
-Click on your `sandbox` repository, and go explore.
+Select your `sandbox` repository, and go explore.
 Do not edit the file in the GitHub repository, we'll do that together in the next section.
 
 ## Summary

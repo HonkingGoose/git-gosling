@@ -27,4 +27,4 @@ Examples of things you can do with GitHub Actions:
 - Run a linter like Prettier/ESLint.
 - Make a release of your program.
 
-To create a new GitHub Action, go to your repository, and click on the _Actions_ tab.
+To create a new GitHub Action, go to your repository, and select the _Actions_ tab.

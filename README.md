@@ -24,7 +24,7 @@ Feedback and pull requests are very welcome!
 It's easy to fix a typo:
 
 1. Go to the page that has the typo.
-1. Scroll to the top of the page, find the pencil icon ✏️ and click on it.
+1. Scroll to the top of the page, find the pencil icon ✏️ and select it.
 1. Fix the typo in the file on GitHub.
 1. Open a pull request.
 

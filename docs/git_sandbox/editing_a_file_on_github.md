@@ -8,9 +8,9 @@ Let's make a small edit to our `README.md` file from within the GitHub interface
 ## Navigate to the README on your GitHub repository
 
 Go to your `sandbox` repository on GitHub.
-Click on the `README.md` file.
+Select the `README.md` file.
 A new window opens, now you can see the contents of the file.
-Click on the pencil icon to go the online editor for the file.
+Select the pencil icon to go the online editor for the file.
 
 ## Edit the README on GitHub
 
@@ -42,7 +42,7 @@ Select "Create a **new branch** for this commit and start a pull request.".
 
 Replace the default branch name `Username-patch-1` with `Update-README`.
 
-Click on the green button **Propose changes**
+Select the green button **Propose changes**
 
 <!-- prettier-ignore -->
 !!! tip "Remember to change the branch name!"
@@ -53,7 +53,7 @@ Click on the green button **Propose changes**
 
 ## Opening a pull request
 
-After you've clicked on the button **Propose changes** a new screen opens.
+After you've selected the button **Propose changes** a new screen opens.
 This is the **Open a pull request** interface.
 
 The commit message title is also the Pull Request title.
@@ -63,7 +63,7 @@ Let's leave a comment:
 This is a pull request from within the GitHub interface.
 ```
 
-Click on the green button **Create pull request**.
+Select the green button **Create pull request**.
 
 Now you have made your first pull request.
 In the next section you'll learn how to merge this pull request.
