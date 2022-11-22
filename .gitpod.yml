@@ -2,8 +2,8 @@
 tasks:
   - name: Install dependencies, start dev server
     init: >
-      nvm install 16 &&
-      nvm use 16 &&
+      nvm install 18 &&
+      nvm use 18 &&
       make
 
     command: mkdocs serve
