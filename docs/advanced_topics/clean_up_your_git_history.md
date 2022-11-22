@@ -41,7 +41,7 @@ $ git commit -m "Fix issue with snorgleborf"
  1 file changed, 1 insertion(+)
 ```
 
-Dang it, I meant to type `snarglebarf`!
+Dang it, I meant to enter `snarglebarf`!
 Let's check the log to confirm what the commit message is:
 
 ```git
