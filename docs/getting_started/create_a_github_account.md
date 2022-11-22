@@ -8,36 +8,28 @@ You need a GitHub account to follow this guide.
 Go to [GitHub.com](https://github.com/) and create your account.
 
 Need help with GitHub account creation?
-Follow the steps in the [GitHub docs, Signing up for GitHub](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-github).
+Follow the steps in the [GitHub docs, Signing up for GitHub](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
 
 ### Verify your email address with GitHub
 
-After you have created your account, you must verify your email address.
-Follow the steps in the [GitHub docs, Verifying your email address](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-github/verifying-your-email-address).
-
-If you do not verify your email address, GitHub will be _useless_.
-You will not be able to create or fork a repository.
+You must verify your email address.
+Follow the steps in the [GitHub docs, Verifying your email address](https://docs.github.com/en/get-started/signing-up-for-github/verifying-your-email-address).
 
 ### Secure your account with two-factor authentication
 
-GitHub strongly recommends you enable two-factor authentication (2FA).
-When you enable 2FA, you log in with something you know (password) plus something you have (app, security key, SMS text message).
+GitHub requires you to use 2FA by the end of 2023.
+
+When you enable 2FA, you log in with something you know (password) plus something you have (app, physical security key, GitHub Mobile app).
 Using 2FA makes it harder for somebody to access your account.
 
-You can choose from these authentication methods:
-
-- An authenticator app on your mobile phone like Authy, Google Authenticator or LastPass authenticator.
-- A security key like a Yubikey, in addition to the authenticator app.
-- Receiving SMS text messages on your mobile phone.
-
-Follow the steps in the [GitHub docs, Securing your account with two-factor authentication](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa).
+Follow the steps in the [GitHub docs, Configuring two-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication).
 
 Write down or print the recovery codes that GitHub gives you, and keep them somewhere safe!
 
 ### Create a personal access token (PAT)
 
 To authenticate to GitHub you must use a personal access token, OAuth token, or GitHub App installation token.
-Follow the steps in the [GitHub docs, Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token), to create your personal access token.
+Follow the steps in the [GitHub docs, Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token), to create your personal access token.
 
 When Git asks for your password, you enter the personal access token instead.
 
