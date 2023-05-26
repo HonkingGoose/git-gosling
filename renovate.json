@@ -1,29 +1,11 @@
 {
   "extends": ["config:base", "helpers:pinGitHubActionDigests"],
-  "prCreation": "not-pending",
-  "internalChecksFilter": "strict",
   "configMigration": true,
-  "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true
-  },
   "packageRules": [
     {
       "description": "Wait 3 days before creating a npm update PR",
       "matchDatasources": ["npm"],
       "minimumReleaseAge": "3 days"
-    },
-    {
-      "description": "Automerge Prettier updates",
-      "matchDepTypes": ["devDependencies"],
-      "matchPackagePatterns": ["prettier"],
-      "automerge": true
-    },
-    {
-      "description": "Automerge patch level mkdocs and mkdocs-material updates",
-      "matchPackageNames": ["mkdocs-material", "mkdocs"],
-      "matchUpdateTypes": ["patch"],
-      "automerge": true
     }
   ]
 }
