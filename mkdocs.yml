@@ -20,7 +20,6 @@ theme:
     - toc.integrate
     - toc.follow
     - content.action.edit
-    - content.action.view
     - navigation.footer
 
   palette:
