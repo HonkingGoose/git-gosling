@@ -40,11 +40,11 @@ Read the documentation for Renovate or Dependabot to confirm that the bot suppor
 
 ## Renovate
 
-Renovate bot is free to use on public and private repositories.
+Renovate is free to use on public and private repositories.
 
 ### Renovate documentation
 
-Read the [Renovate Docs](https://docs.renovatebot.com/) to learn more about Renovate bot.
+Read the [Renovate Docs](https://docs.renovatebot.com/) to learn more about Renovate.
 
 ### Enabling Renovate
 
@@ -54,14 +54,14 @@ The basic process is:
 
 1. Install Renovate from the [GitHub Marketplace for Renovate](https://github.com/marketplace/renovate).
 1. Choose whether you want to run Renovate on all repositories or only on repositories you select.
-1. Renovate bot creates a onboarding pull request with a basic configuration on each enabled repository.
+1. Renovate creates a onboarding pull request with a basic configuration on each enabled repository.
 1. The onboarding PR shows a preview of what Renovate will do once you merge the config.
 1. _Optional:_ Customize the Renovate configuration on the onboarding PR branch.
 1. After you merge the onboarding PR, Renovate will start creating real PRs.
 
 <!-- prettier-ignore -->
 !!! tip "Need help configuring Renovate?"
-    If you get stuck or confused, and need help, go to the `renovatebot/renovate` repository's [discussions forum](https://github.com/renovatebot/renovate/discussions) to get help from the Renovate bot team.
+    If you get stuck or confused, and need help, go to the `renovatebot/renovate` repository's [discussions forum](https://github.com/renovatebot/renovate/discussions) to get help from the Renovate maintainers.
 
 ## Dependabot
 
@@ -70,8 +70,8 @@ Dependabot is free to use on public and private repositories.
 
 ### Dependabot documentation
 
-Read the [GitHub docs, Keeping your dependencies updated automatically](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically).
+Read the [GitHub Docs, Keeping your dependencies updated automatically](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically).
 
 ### Enabling Dependabot
 
-Follow the steps in the [GitHub docs, Enabling and disabling version updates](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/enabling-and-disabling-version-updates).
+Follow the steps in the [GitHub Docs, Configuring Dependabot version updates](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates).
