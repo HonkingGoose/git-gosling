@@ -21,7 +21,6 @@ theme:
     - toc.follow
     - content.action.edit
     - navigation.footer
-    - navigation.prune # not compatible with `navigation.expand`
 
   palette:
     - media: "(prefers-color-scheme: light)"
