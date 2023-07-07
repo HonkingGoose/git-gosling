@@ -1,6 +1,5 @@
 {
   "extends": ["config:best-practices"],
-  "configMigration": true,
   "packageRules": [
     {
       "description": "Wait 3 days before creating a npm update PR",
