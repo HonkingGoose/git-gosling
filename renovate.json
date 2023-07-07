@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", "helpers:pinGitHubActionDigests"],
+  "extends": ["config:best-practices"],
   "configMigration": true,
   "packageRules": [
     {
