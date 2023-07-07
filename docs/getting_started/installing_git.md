@@ -4,7 +4,8 @@ title: Installing Git
 
 ## Use Git 2.25 or newer
 
-If you use an older version of Git you will not have the `git restore` and `git switch` commands that I use in this guide.
+You must use Git 2.25 or newer to follow this guide.
+If you don't, you won't be able to use the `git restore` and `git switch` commands that I use in this guide.
 
 ## Checking the Git version
 
@@ -19,10 +20,10 @@ git version 2.25
 ## Linux
 
 The easiest way to install Git is via the package manager that comes with your distribution.
-Some distributions provide up-to-date versions, others do not.
+Some distributions give you up-to-date versions, others do not.
 
-Ubuntu and Debian provide a badly outdated version of Git.
-Fedora, OpenSuse and Arch provide more up-to-date versions of Git.
+Ubuntu and Debian usually have old versions of Git.
+Fedora, OpenSuse and Arch usually have newer versions of Git.
 
 ### Ubuntu/Debian
 
@@ -37,10 +38,10 @@ $ sudo apt install git
 
 #### Use an unofficial ppa to get an up-to-date version of Git
 
-Ubuntu 18.04/16.04 and Debian Stable will provide an outdated version of Git via their official package repositories.
-You will not be able to follow the guide unless you use the `git-core/ppa` or build Git from the source files.
+Ubuntu usually has an older version of Git in their official package repositories.
+If you want to get the latest version of Git, you can use the `git-core/ppa`.
 
-Keep in mind, that when you use a `git-core/ppa` you're trusting somebody other than the official Ubuntu/Debian package maintainers.
+When you use the `git-core/ppa` you're trusting somebody other than the official Ubuntu/Debian package maintainers.
 
 To setup a ppa, follow these steps:
 
@@ -50,9 +51,6 @@ $ sudo apt update
 $ sudo apt install git
 ```
 
-If you're on Ubuntu 20.04, you can skip setting up the `git-code/ppa`.
-The version of Git that comes with Ubuntu 20.04 is recent enough to follow the guide.
-
 #### Debian
 
 Debian users can use the backports repository to get a newer version of Git.
@@ -60,7 +58,7 @@ Visit the [Debian backports website](https://backports.debian.org/) to learn mor
 
 ### Fedora
 
-Install Git with the `dnf` package management system:
+Install Git with the `dnf` package manager.
 
 ```
 $ sudo dnf install git
@@ -83,7 +81,7 @@ $ git --version
 
 ### via Homebrew
 
-If you have Homebrew installed, do:
+If you have Homebrew installed, run:
 
 ```
 $ brew install git
@@ -91,7 +89,7 @@ $ brew install git
 
 ### via a binary installer
 
-Go to https://git-scm.com/download/mac to download a binary installer.
+Go to [the git-scm site](https://git-scm.com/download/mac) to download a binary installer.
 
 ## Windows
 
@@ -99,7 +97,7 @@ Go to https://git-scm.com/download/mac to download a binary installer.
 
 Go to https://git-scm.com/download/win to download **Git for Windows**.
 
-When you're installing Git for Windows tick the _check for updates_ checkbox.
-It's easy to update Git for Windows, as the program does all the work for you.
+When you're installing Git for Windows select the _check for updates_ checkbox.
+Git for Windows will then regulary update Git.
 
 If you want to follow along with this guide, tell Git for Windows to use the `nano` text editor.
