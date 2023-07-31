@@ -5,9 +5,9 @@ site_name: Git Gosling
 strict: true
 
 validation:
-  nav:
-    omitted_files: warn
-    absolute_links: warn
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
 
 repo_name: HonkingGoose/git-gosling
 repo_url: https://github.com/HonkingGoose/git-gosling
