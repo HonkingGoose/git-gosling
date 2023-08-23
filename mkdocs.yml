@@ -26,6 +26,7 @@ theme:
     - toc.follow
     - content.action.edit
     - navigation.footer
+    - navigation.prune
 
   palette:
     - media: "(prefers-color-scheme: light)"
