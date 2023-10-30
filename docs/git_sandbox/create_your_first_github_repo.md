@@ -2,7 +2,7 @@
 title: Create your first GitHub repository
 ---
 
-Let's go create your first GitHub repository!
+Let's create your first GitHub repository!
 
 Make sure you're logged in to GitHub.
 From now on, all actions in this guide assume you're logged into GitHub.
@@ -94,11 +94,11 @@ On branch main
 nothing to commit, working tree clean
 ```
 
-If git status returns `On branch master`, we'll need to change the branch name.
+If `git status` returns `On branch master`, we'll need to change the branch name.
 
 ### Change branch name from `master` to `main`
 
-If Git status shows you have a `main` branch, skip this step.
+If `git status` shows you have a `main` branch, skip this step.
 
 Use `git branch --move` to replace the `master` branch with a `main` branch:
 
@@ -157,7 +157,7 @@ Git is telling us that we:
 
 Go to [GitHub.com](https://github.com/) while logged in, you will see a list of repositories.
 Select your `sandbox` repository, and go explore.
-Do not edit the file in the GitHub repository, we'll do that together in the next section.
+Don't edit the file in the GitHub repository, we'll do that together in the next section.
 
 ## Summary
 
