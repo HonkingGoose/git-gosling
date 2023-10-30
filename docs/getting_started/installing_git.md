@@ -36,14 +36,14 @@ $ sudo apt update
 $ sudo apt install git
 ```
 
-#### Use an unofficial ppa to get an up-to-date version of Git
+#### Use an unofficial PPA to get an up-to-date version of Git
 
 Ubuntu usually has an older version of Git in their official package repositories.
 If you want to get the latest version of Git, you can use the `git-core/ppa`.
 
 When you use the `git-core/ppa` you're trusting somebody other than the official Ubuntu/Debian package maintainers.
 
-To setup a ppa, follow these steps:
+To setup a PPA, follow these steps:
 
 ```
 $ sudo add-apt-repository ppa:git-core/ppa
