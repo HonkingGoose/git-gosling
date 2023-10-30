@@ -7,4 +7,5 @@
 *[CLI]: Command-line Interface
 *[IDE]: Integrated Development Environment
 *[PAT]: Personal Access Token
+*[PPA]: Personal Package Archive
 *[zsh]: Z shell
