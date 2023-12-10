@@ -33,6 +33,11 @@ theme:
     - navigation.prune
 
   palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
@@ -47,7 +52,7 @@ theme:
       accent: light blue
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
+        name: Switch to system preference
 
 markdown_extensions:
   - admonition
