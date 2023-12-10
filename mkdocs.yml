@@ -13,6 +13,10 @@ repo_name: HonkingGoose/git-gosling
 repo_url: https://github.com/HonkingGoose/git-gosling
 edit_uri: edit/main/docs/
 
+# Watch the includes directory, so the server preview updates after editing the abbrevations.md file.
+watch:
+  - includes
+
 theme:
   name: material
 
