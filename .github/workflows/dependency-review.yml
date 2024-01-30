@@ -1,6 +1,10 @@
 name: "Dependency Review"
 on: [pull_request]
 
+# Do not install Husky in GitHub Actions environment.
+env:
+  HUSKY: 0
+
 permissions:
   contents: read
 
