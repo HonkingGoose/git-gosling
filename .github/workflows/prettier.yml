@@ -13,6 +13,10 @@ on:
   pull_request:
     branches: [main]
 
+# Do not install Husky in GitHub Actions environment.
+env:
+  HUSKY: 0
+
 permissions:
   contents: read
 
