@@ -8,7 +8,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "husky": "9.0.10",
+    "husky": "9.0.11",
     "prettier": "3.2.5"
   }
 }
