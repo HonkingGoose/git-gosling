@@ -18,4 +18,3 @@ Feedback and pull requests are very welcome!
 
 Set up a development environment so that you can preview your work.
 Read the [guide on contributing](.github/contributing.md) to learn how to set up your development environment.
-
