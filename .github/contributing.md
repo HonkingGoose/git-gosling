@@ -13,25 +13,7 @@ For larger edits we recommend that you create a development environment, so that
 
 You have two options to get a development environment going:
 
-- Use Gitpod
 - Setup local workstation
-
-We _strongly recommend_ you use Gitpod.
-
-### Gitpod
-
-The easiest and fastest way to set up a development environment is via Gitpod:
-
-1. Sign in with your GitHub account to Gitpod
-1. Check your Git credentials in Gitpod and adjust them if necessary
-1. Create a fork of `honkinggoose/git-gosling` by selecting the "Fork" button in the GitHub interface
-1. Ensure Gitpod can access your forked repository, and has `write` level rights to the repository
-1. Open your forked repository with Gitpod
-1. Create a new Git branch to start your work on
-1. Once you are done, make a new commit, and push your changes
-1. You can now close the Gitpod workspace
-
-Whenever you start work on a new bug/feature, sync you fork so you're up-to-date with upstream, and then start a new Gitpod workspace from your fork to do your work in.
 
 ### Local workstation
 
