@@ -8,6 +8,7 @@ validation:
   omitted_files: warn
   absolute_links: warn
   unrecognized_links: warn
+  anchors: warn
 
 repo_name: HonkingGoose/git-gosling
 repo_url: https://github.com/HonkingGoose/git-gosling

@@ -63,7 +63,7 @@ You can tell Git what text editor you want to use.
 If you want to follow along with the Git sandbox I recommend that you install and use the `nano` editor.
 You can use another text editor if you want, but you might run into problems when you want to save your commit message.
 
-If you want to use another text editor, look at the table in the [Advanced Git configuration, code editor setup](../advanced_topics/advanced_git_configuration.md#Code-editor-setup) part of this guide.
+If you want to use another text editor, look at the table in the [Advanced Git configuration, code editor setup](../advanced_topics/advanced_git_configuration.md#code-editor-setup) part of this guide.
 
 ### Installing the nano text editor
 
