@@ -19,14 +19,14 @@ You have two options to get a development environment going:
 
 To build the site locally on your workstation you'll need:
 
-- Node 20
-- npm 9 (comes pre-installed with Node 20)
-- Python 3.8
+- Node 24
+- npm 11 (comes pre-installed with Node 24)
+- Python 3.12.1
 
 Follow these steps to setup your local development environment:
 
 1. Install the latest version of Python 3.8
-1. Install Node 20 (npm 9 is bundled with Node 20)
+1. Install Node 24 (npm 11 is bundled with Node 24)
 1. Install Git, if you haven't already
 1. Make a fork of this repository via GitHub (select the "Fork" button)
 1. Clone your fork repository with `git clone link_to_fork`
