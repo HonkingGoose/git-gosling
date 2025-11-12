@@ -8,11 +8,11 @@ prepare:
 	npm run prepare
 
 build:
-	mkdocs build --strict
+	zensical build --strict
 
 serve:
-	mkdocs serve
+	zensical serve
 
 smoketest:
-	mkdocs build --strict
+	zensical build --strict
 	npm run prettier

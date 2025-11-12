@@ -39,25 +39,24 @@ theme:
     - navigation.prune
 
   palette:
+    # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/brightness-auto
+        icon: lucide/sun-moon
         name: Switch to light mode
 
+    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
       toggle:
-        icon: material/weather-night
+        icon: lucide/sun
         name: Switch to dark mode
 
+    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: light blue
-      accent: light blue
       toggle:
-        icon: material/weather-sunny
+        icon: lucide/moon
         name: Switch to system preference
 
 markdown_extensions:
