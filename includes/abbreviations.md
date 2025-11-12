@@ -1,5 +1,5 @@
 <!-- This file lists all abbreviations in the guide. -->
-<!-- https://squidfunk.github.io/mkdocs-material/reference/tooltips/?h=abbre#adding-abbreviations -->
+<!-- https://zensical.org/docs/setup/extensions/python-markdown/#abbreviations -->
 <!-- Keep this list sorted from A-Z. -->
 
 *[2FA]: Two-factor authentication
