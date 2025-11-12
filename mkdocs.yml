@@ -30,6 +30,7 @@ theme:
   features:
     - navigation.top
     - navigation.instant
+    - navigation.path
     - toc.integrate
     - toc.follow
     - content.action.edit
