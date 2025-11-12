@@ -30,6 +30,7 @@ theme:
   features:
     - navigation.top
     - navigation.instant
+    - navigation.instant.prefetch
     - navigation.path
     - toc.integrate
     - toc.follow
